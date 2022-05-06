@@ -8,7 +8,7 @@ body {
 h1 {
     background-color: #f6eeee;
     color:#2c746e;
-    font-family: Permanent Marker, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Permanent Marker, impact, sans-serif; 
     font-weight: 200;
     border: #9ed6db solid 5px;
     padding: 1px 7px 3px 5px;
