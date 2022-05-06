@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
-    background-color: #eadbea;
+    background-color: #f2e6e6;
     color: #8c5a2e;
 }
 
 h1 {
-    background-color: #eadbea;
+    background-color: #f6eeee;
     color:#2c746e;
-    font-family: Courier Prime, sans-serif;
-    font-weight: 100;
-    border: #a68f8a solid 2px;
-    padding: 7px;
+    font-family: Permanent Marker;
+    font-weight: 200;
+    border: #a68f8a solid 5px;
+    padding: 3px 10px 5px 7px;
     border-radius: 5px;
     display: inline;
 }
