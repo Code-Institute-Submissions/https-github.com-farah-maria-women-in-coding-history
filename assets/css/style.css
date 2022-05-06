@@ -1,14 +1,17 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 body {
-    background-color: #d9b4bb;
+    background-color: #eadbea;
     color: #8c5a2e;
 }
 
 h1 {
-    background-color: #d9b4bb;
-    color: #2d5a27;
-    font-family: 'Work Sans', sans-serif;
-    text-decoration:none;
+    background-color: #eadbea;
+    color:#2c746e;
+    font-family: Courier Prime, sans-serif;
+    font-weight: 100;
+    border: #a68f8a solid 2px;
+    padding: 7px;
+    border-radius: 5px;
+    display: inline;
 }
