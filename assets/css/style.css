@@ -1,19 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background-color: #f2e6e6;
-    color: #3f000f;
+    color: #2c746e;
     font-family: Open Sans, sans-serif;
 }
 
+/* main heading and logo */
+
+h1, h2 {
+    font-family: Permanent Marker, impact, sans-serif;
+    color: #2c746e;
+}
+
 h1 {
+
     background-color: #f6eeee;
-    color:#2c746e;
-    font-family: Permanent Marker, impact, sans-serif; 
-    font-weight: 200;
+    font-weight: 230%;
     border: #9ed6db solid 5px;
     padding: 1px 7px 3px 5px;
     border-radius: 5px;
     display: inline;
+    float: left;
 }
