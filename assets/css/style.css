@@ -11,24 +11,44 @@ body {
     background-color: #f2e6e6;
     color: darkslategrey;
     font-family: Open Sans, sans-serif;
-    background: url('../images/hero-image2.jpg') no-repeat center fixed ;
+    background: url('../images/hero-image.jpg') no-repeat center fixed ;
     background-size: cover;
 }
 
 /* main heading and logo */
 
-h1, h2 {
+h1, h2, #navbar {
     font-family: Permanent Marker, impact, sans-serif;
     color: #2c746e;
 }
 
 h1 {
-
-    background-color: #ffff;
+    background-color: #f3f1f3;
     font-weight: 230%;
     border: #9ed6db solid 5px;
     padding: 1px 7px 3px 5px;
+    margin: 10px 102px 10px 10px;
     border-radius: 5px;
     display: inline;
     float: left;
+}
+
+/* navigation bar and links */
+
+#navbar {
+    font-size: 140%;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#navbar ul {
+    float: right;
+}
+
+#navbar li {
+    float: left;
+    list-style-type: none;
+    margin-right: 50px;
+    margin-top: 20px;
+
 }
