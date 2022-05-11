@@ -19,11 +19,11 @@ body {
 
 h1, h2, #navbar {
     font-family: Permanent Marker, impact, sans-serif;
-    color: #2c746e;
+    color: #4e6c3e;
 }
 
 h1 {
-    background-color: #f3f1f3;
+    background-color: #f0f8ff;
     font-weight: 230%;
     border: #9ed6db solid 5px;
     padding: 1px 7px 3px 5px;
@@ -50,5 +50,9 @@ h1 {
     list-style-type: none;
     margin-right: 50px;
     margin-top: 20px;
+}
 
+#navbar a {
+    text-decoration: none;
+    color: inherit;
 }
