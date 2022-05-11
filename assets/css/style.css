@@ -11,20 +11,17 @@ body {
     /* if background image is unavailable*/
     background-color: #f2e6e6;
     /* other main settings for body */
-    color: darkslategrey;
+    color: #4d4c53;
     font-family: Open Sans, sans-serif;
     background: url('../images/hero-image.jpg') no-repeat center fixed ;
     background-size: cover;
 }
 
-/* main heading and logo */
-
-h1, h2, #navbar {
-    font-family: Permanent Marker, impact, sans-serif;
-    color: #4e6c3e;
-}
+/* main heading text */
 
 h1 {
+    font-family: Permanent Marker, Impact, sans-serif;
+    color: #495e35;
     background-color: #f0f8ff;
     font-weight: 230%;
     border: #9ed6db solid 5px;
@@ -48,6 +45,8 @@ h1 {
 }
 
 #navbar li {
+    font-family: Permanent Marker, Impact, sans-serif;
+    color: #495e35;
     float: left;
     list-style-type: none;
     margin-right: 50px;
@@ -62,11 +61,22 @@ h1 {
 #navbar a:hover {
     border: 3px solid #9ed6db;
     border-radius: 5px;
-    padding: 1px 2px 2px 2px;
-    color: purple;
+    padding: 1px 2px 2px 4px;
+    color: #583765;
 }
 
 .active {
     border-bottom: 3px dotted #9ed6db;
     color: #4e6c3e;
+}
+
+#center-text {
+    font-size: 100%;
+    letter-spacing: 2px;
+    height: 200px;
+    bottom: 270px;
+    right: 70px;
+    left: 70px;
+    position: absolute;
+    background-color: rgba(240, 248, 255,.5);
 }
