@@ -8,7 +8,9 @@
 }
 
 body {
+    /* if background image is unavailable*/
     background-color: #f2e6e6;
+    /* other main settings for body */
     color: darkslategrey;
     font-family: Open Sans, sans-serif;
     background: url('../images/hero-image.jpg') no-repeat center fixed ;
@@ -65,6 +67,6 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid #9ed6db;
+    border-bottom: 3px dotted #9ed6db;
     color: #4e6c3e;
 }
