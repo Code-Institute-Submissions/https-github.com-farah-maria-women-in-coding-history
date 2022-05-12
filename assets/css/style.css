@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +12,7 @@ body {
     /* other main settings for body */
     color: #4d4c53;
     font-family: 'Courier New', Courier, monospace;
-    background: url('../images/hero-image.jpg') no-repeat center fixed ;
+    background: url('../images/hero-image.jpg') aria-label="keyboard on desk" no-repeat center fixed ;
     background-size: cover;
 }
 
