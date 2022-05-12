@@ -12,7 +12,7 @@ body {
     /* other main settings for body */
     color: #4d4c53;
     font-family: 'Courier New', Courier, monospace;
-    background: url('../images/hero-image.jpg') aria-label="keyboard on desk" no-repeat center fixed ;
+    background: url('../images/hero-image.jpg') no-repeat center fixed;
     background-size: cover;
 }
 
@@ -78,8 +78,31 @@ h1 {
     line-height: 30px;
     height: 200px;
     bottom: 150px;
-    right: 100px;
+    right: 110px;
     left: 250px;
     position: absolute;
-    /*background-color: rgba(240, 248, 255,.5);*/
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 2px;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 50px;
+}
+     
+footer li {
+    display: inline;
+    text-align: center;
+}
+
+footer i {
+    font-size: 180%;
+    color: #495e35;
+    margin: 2%;
+    text-align: center;
+    background-color: #f0f8ff;
 }
