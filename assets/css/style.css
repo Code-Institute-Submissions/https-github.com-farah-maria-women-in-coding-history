@@ -12,7 +12,7 @@ body {
     background-color: #f2e6e6;
     /* other main settings for body */
     color: #4d4c53;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     background: url('../images/hero-image.jpg') no-repeat center fixed ;
     background-size: cover;
 }
@@ -20,6 +20,7 @@ body {
 /* main heading text */
 
 h1 {
+    font-size: 210%;
     font-family: Permanent Marker, Impact, sans-serif;
     color: #495e35;
     background-color: #f0f8ff;
@@ -45,12 +46,14 @@ h1 {
 }
 
 #navbar li {
+    font-size: 110%;
     font-family: Permanent Marker, Impact, sans-serif;
     color: #495e35;
     float: left;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 5px;
     margin-top: 20px;
+    padding-right: 20px;
 }
 
 #navbar a {
@@ -71,13 +74,13 @@ h1 {
 }
 
 #center-text {
-    font-size: 100%;
+    font-size: 140%;
     letter-spacing: 2px;
     line-height: 30px;
     height: 200px;
-    bottom: 300px;
-    right: 70px;
-    left: 70px;
+    bottom: 150px;
+    right: 100px;
+    left: 250px;
     position: absolute;
-    background-color: rgba(240, 248, 255,.5);
+    /*background-color: rgba(240, 248, 255,.5);*/
 }
