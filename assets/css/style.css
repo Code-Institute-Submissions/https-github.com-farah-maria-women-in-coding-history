@@ -1,6 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    flex-wrap: wrap;
+    /* if background image is unavailable*/
+   
+    /* other main settings for body */
+    background: url('../images/hero-image.jpg') no-repeat center fixed;
+    background-size: cover;
+  }
+
+.site-header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+h1, h2 { 
+    font-family: Permanent Marker, Impact, sans-serif;    
+}
+
+h1 {
+    color: darkolivegreen;
+    font-size: 170%;
+    font-weight: lighter;
+}
+
+
+
+h2 {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 120%;
+}
+
+.logo > i { 
+    color: #604664;
+}
+
+
+
+ul li {
+    display: inline;
+}
+
+
+h3 {
+    display: grid;
+    flex: 1;
+    margin-left: 30%;
+    align-items: center;
+    color: #2b2d2f;
+    background-color:rgba(255,251,255,.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 150%;
+}
+
+ a {
+    text-decoration: none;   
+}
+
+.nav-links {
+    color: #604664;
+    font-size: 100%;
+}
+
+footer a {
+    color: darkolivegreen;
+    background-color: rgba(255,251,255,.5);
+    font-size: 120%;
+}
+
+span { 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: darkolivegreen;
+}
+
+/* FOR SMALLISH DESKTOP */
+/*@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -10,7 +109,7 @@ body {
     /* if background image is unavailable*/
     background-color: #f2e6e6;
     /* other main settings for body */
-    color: #4d4c53;
+  /*  color: #4d4c53;
     font-family: 'Courier New', Courier, monospace;
     background: url('../images/hero-image.jpg') no-repeat center fixed;
     background-size: cover;
@@ -18,7 +117,7 @@ body {
 
 /* main heading text */
 
-h1 {
+/*h1 {
     font-size: 210%;
     font-family: Permanent Marker, Impact, sans-serif;
     color: #495e35;
@@ -34,7 +133,7 @@ h1 {
 
 /* navigation bar and links */
 
-#navbar {
+/*#navbar {
     font-size: 140%;
     letter-spacing: 2px;
     text-decoration: none;
@@ -85,13 +184,13 @@ h1 {
 
 /* footer */
 
-footer {
+/*footer {
     position: absolute;
     text-align: center;
     bottom: 2px;
     width: 100%;
     /* Height of the footer*/ 
-    height: 50px;
+  /*  height: 50px;
 }
      
 footer li {
