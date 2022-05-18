@@ -26,7 +26,7 @@ body {
     padding: 0.5em;
     margin: 0.5em;
     background-image: url('../images/wallpaper.jpg');
-}
+    text-decoration: wavy;}
 
 h1, h2 { 
     font-family: Permanent Marker, Impact, sans-serif;    
@@ -74,9 +74,9 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 150%;
-    margin-bottom: 1em;
+    margin-bottom: 10px;
     background-image: url('../images/palewallpaper.jpg');
-    background-size: 80%;
+    background-size: 100%;
 }
 
  a {
