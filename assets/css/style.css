@@ -71,8 +71,9 @@ h3 {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 150%;
+    margin-bottom: 1em;
 }
 
  a {
