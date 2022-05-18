@@ -91,6 +91,11 @@ footer a {
     font-size: 120%;
 }
 
+footer>ul>li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 span { 
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
