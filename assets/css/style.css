@@ -95,6 +95,15 @@ footer a {
     background-color: rgba(255,251,255,.5);
 }
 
+footer>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: auto;
+}
+
 footer>ul>li {
     padding-left: 5px;
     padding-right: 5px;
