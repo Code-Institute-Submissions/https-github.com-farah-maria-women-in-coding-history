@@ -26,7 +26,8 @@ body {
     padding: 0.5em;
     margin: 0.5em;
     background-image: url('../images/wallpaper.jpg');
-    text-decoration: wavy;}
+    text-align: center;
+}
 
 h1, h2 { 
     font-family: Permanent Marker, Impact, sans-serif;    
@@ -95,18 +96,10 @@ footer a {
     background-color: rgba(255,251,255,.5);
 }
 
-footer>ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: auto;
-}
 
 footer>ul>li {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 span { 
