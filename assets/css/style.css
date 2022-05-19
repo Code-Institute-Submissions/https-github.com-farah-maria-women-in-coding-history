@@ -134,15 +134,15 @@ span {
 }
 
 #navbar a:visited {
-    color:#611e9e;
+    color: #A27C5B;
 }
 
 #navbar a:hover {
-    color: brown;
+    color:violet;
 }
 
 #navbar a:active {
-    color: violet;
+    color:#668D2E;
 }
 
 /* for TIMELINE page - experimenting with css grid */
