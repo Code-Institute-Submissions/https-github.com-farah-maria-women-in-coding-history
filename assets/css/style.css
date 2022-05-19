@@ -11,8 +11,11 @@ body {
     flex-direction:column;
     min-height:100vh;
     flex-wrap: wrap;
+    background-color:#fffbff;
     /* if background image is unavailable*/
-   
+}
+
+#homepage-settings {
     /* other main settings for body */
     background: url('../images/hero-image.jpg') no-repeat center fixed;
     background-size: cover;
@@ -67,6 +70,24 @@ h3 {
     background-color:rgba(255,251,255,.5);
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
+}
+
+.timeline-content {
+    display: grid;
+    flex: 1;
+    align-items: center;
+    color: #2b2d2f;
+    background-color:rgba(255,251,255,.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.feedback-content {
+    display: grid;
+    flex: 1;
+    align-items: center;
+    color: #2b2d2f;
+    background-color:rgba(255,251,255,.5);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -126,7 +147,7 @@ span {
 
 /* for TIMELINE page - experimenting with css grid */
 /* div colors to make lesson clear */
-
+/*
 #one { }
 #two { background-color: blueviolet;}
 #three { background-color: grey;}
@@ -140,7 +161,7 @@ span {
 /*                                  */
 
 
-.body-container {
+/*.body-container {
     display: grid;
     /* LESSON 1. grid-template-columns: 100px auto 100px;*/ /* AUTO is responsive. WIDTH plus automatically arranges divs across into columns */
     /* LESSON 2.*/ grid-template-columns: 2fr 1fr 1fr;/*repeat(3, 1fr);/* longhand for this is 1fr 1fr 1fr;*/ /* CAN do 1fr 2fr 1fr. keeps same ratio plus responsiveness */
