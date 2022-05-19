@@ -134,11 +134,11 @@ span {
 }
 
 #navbar a:visited {
-    color: #A27C5B;
+    color:#2c566e;
 }
 
 #navbar a:hover {
-    color:violet;
+    color: #A27C5B;
 }
 
 #navbar a:active {
