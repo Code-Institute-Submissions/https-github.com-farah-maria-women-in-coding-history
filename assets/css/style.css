@@ -123,6 +123,7 @@ footer {
 
     
 @media only screen  and (max-device-width: 360px)
+                    and (max-device-height: 640px)
                     and (orientation: portrait) {
 
     footer {
@@ -134,9 +135,7 @@ footer {
 
     fieldset {
         margin-top: -3rem;
-    }
-
-                 
+    }            
 }
 
 
