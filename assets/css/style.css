@@ -58,8 +58,9 @@ h4 {
 fieldset {
     margin:1%;
     padding:1%;
-    border: solid pink;
-    border-style: inset;
+    border: solid #e5f6df;
+    border-width: 1px;
+    background-color: rgba(255,251,255,.5);
 }
 
 form {
@@ -73,12 +74,9 @@ form {
     color: #604664;
 }
 
-
-
 ul li {
     display: inline;
 }
-
 
 h3 {
     display: grid;
@@ -104,10 +102,10 @@ h3 {
     display: grid;
     flex: 1;
     align-items: center;
-    color: #2b2d2f;
-    background-color:rgba(255,251,255,.5);
-    font-family: 'Courier New', Courier, monospace;
+    background-image: ;
+
 }
+   
 
 
 footer {
