@@ -50,6 +50,20 @@ h2 {
     font-size: 120%;
 }
 
+fieldset {
+    margin:1%;
+    padding:1%;
+    border: solid pink;
+    border-style: inset;
+}
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #604664;
+}
+
+
 .logo > i { 
     color: #604664;
 }
