@@ -34,6 +34,7 @@ body {
     justify-content: space-between;
     align-items: center;   
     padding: 0.5em;
+    padding-right: 1.5em;
     margin: 0.5em;
     text-align: center;
     background-image: url('../images/wallpaper.jpg');
@@ -44,8 +45,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;   
-    padding: 0.5em;
-    margin: 0.5em;
+    padding: 0.8ex;
+    margin: 0.8ex;
     text-align: center;
     background-image: url('../images/wallpaper.jpg');
     background-size: 100%;
@@ -69,8 +70,10 @@ h2 {
 
 h4 { 
     font-weight: lighter;
-    color:#604664S;
-    font-size: 140%;
+    color: hwb(292 27% 61%);
+    font-size: 125%;
+    letter-spacing: 1px;
+    background-color: rgba(255,251,255,.2);
 }
 
 fieldset {
@@ -127,6 +130,7 @@ h3 {
     display: grid;
     flex: 1;
     align-items: center;
+    padding-top: 1ex;
 }
    
 footer {
@@ -189,15 +193,12 @@ footer {
         margin-top: -1rem;
     }
 
-}
-
 #main-footer {
     background-image: url('../images/palewallpaper.jpg');
 }
 
 #form-footer {
-    background-color: rgba(175,192,206,.7);
-
+    background-image: url('../images/palewallpaper.jpg');
 }
 
  a {
@@ -262,12 +263,12 @@ span {
 /*.body-container {
     display: grid;
     /* LESSON 1. grid-template-columns: 100px auto 100px;*/ /* AUTO is responsive. WIDTH plus automatically arranges divs across into columns */
-    /* LESSON 2.*/ grid-template-columns: 2fr 1fr 1fr;/*repeat(3, 1fr);/* longhand for this is 1fr 1fr 1fr;*/ /* CAN do 1fr 2fr 1fr. keeps same ratio plus responsiveness */
-    grid-template-rows: repeat (30%, auto, 30%); /* longhand for this is 50px 50px; /* height of first row, then second row */
+    /* LESSON 2.*/ /*grid-template-columns: 2fr 1fr 1fr;/*repeat(3, 1fr);/* longhand for this is 1fr 1fr 1fr;*/ /* CAN do 1fr 2fr 1fr. keeps same ratio plus responsiveness */
+    /*grid-template-rows: repeat (30%, auto, 30%); /* longhand for this is 50px 50px; /* height of first row, then second row */
     /* LESSON 3. ULTIMATE SHORTHAND FOR ABOVE: grid-template: repeat(2, 50px) / repeat(3, 1fr); */
     
-    grid-gap: 5px; /* puts gutters in */
-}
+    /*grid-gap: 5px; /* puts gutters in */
+
 
 
 /* HOMEPAGE FOR SMALLISH DESKTOP */
@@ -281,7 +282,7 @@ span {
 
 body {
     /* if background image is unavailable*/
-    background-color: #f2e6e6;
+    /*background-color: #f2e6e6;
     /* other main settings for body */
   /*  color: #4d4c53;
     font-family: 'Courier New', Courier, monospace;
