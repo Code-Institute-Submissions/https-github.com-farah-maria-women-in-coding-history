@@ -130,7 +130,7 @@ h3 {
 :root {
     --primary-color: #faf5ff; 
     --background-color: #889bae;
-    --font: Open Sans, Courier;
+    --font: Open Sans, Helvetica
   }
   
   * {
@@ -179,10 +179,12 @@ h3 {
   .title {
     color: #604664;
     position: relative;
+    font-family: Open Sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   /* Timeline dot  */
   .title::before {
+    font-family: Open Sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     content: "";
     position: absolute;
     width: 10px;
@@ -191,6 +193,7 @@ h3 {
     border-radius: 999px;
     left: -39px;
     border: 3px solid slategray;
+
   }
 /* end of timeline code */
 
