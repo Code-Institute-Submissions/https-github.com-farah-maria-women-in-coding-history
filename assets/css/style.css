@@ -153,13 +153,14 @@ footer {
                     
     
     footer {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
-                    
-    
-    fieldset {
+                 
+    .feedback-content {
         margin-top: -1rem;
-    }            
+    }
+        
+    }
 }
 
 @media only screen  and (max-device-width: 360px)
@@ -170,18 +171,20 @@ footer {
         font-size: 130%;
         text-decoration: underline;
     }
+    
     h2 { font-size: 110%}
 
     footer {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         /* footer {
         margin-bottom: 2rem;} */
 
     }
 
-    fieldset {
+    .feedback-content {
         margin-top: -1rem;
     }
+
 }
 
 #main-footer {
