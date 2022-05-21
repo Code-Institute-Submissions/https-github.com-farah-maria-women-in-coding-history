@@ -141,6 +141,8 @@ footer {
     margin-bottom: 1%;
     background-size: 100%;
     opacity: 0.7;
+    background-image: url('../images/palewallpaper.jpg');
+    background-color: lightblue; /* if background image unavailable */ 
 }
 
     
@@ -192,14 +194,6 @@ footer {
     .feedback-content {
         margin-top: -1rem;
     }
-
-#main-footer {
-    background-image: url('../images/palewallpaper.jpg');
-}
-
-#form-footer {
-    background-image: url('../images/palewallpaper.jpg');
-}
 
  a {
     text-decoration: none;   
