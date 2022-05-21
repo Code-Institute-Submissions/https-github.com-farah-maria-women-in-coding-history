@@ -126,6 +126,73 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* timeline code inspired by https://alvarotrigo.com/blog/html-css-timelines/ */
+:root {
+    --primary-color: #faf5ff; 
+    --background-color: #889bae;
+    --font: sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: var(--background-color);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Timeline Container */
+  .timeline {
+    background: var(--primary-color);
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 2px solid #668D2E;
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: #f8eeff;
+    color: gray;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Title of the card */
+  .title {
+    color: #604664;
+    position: relative;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fffbff;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid slategray;
+  }
+/* end of timeline code */
 .feedback-content {
     display: grid;
     flex: 1;
