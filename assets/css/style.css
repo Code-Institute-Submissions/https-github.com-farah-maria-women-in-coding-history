@@ -130,7 +130,7 @@ h3 {
 :root {
     --primary-color: #faf5ff; 
     --background-color: #889bae;
-    --font: sans-serif;
+    --font: Open Sans, Courier;
   }
   
   * {
@@ -193,6 +193,7 @@ h3 {
     border: 3px solid slategray;
   }
 /* end of timeline code */
+
 .feedback-content {
     display: grid;
     flex: 1;
