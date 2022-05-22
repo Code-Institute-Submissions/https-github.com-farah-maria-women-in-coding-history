@@ -15,18 +15,13 @@ body {
     flex-wrap: wrap;
 }
 
-#homepage-settings {background-color:#fffbff;}
-
-#feedback-page {background-color: #F8EEEC;}
-
-
-
 #homepage-settings {
-    /* other main settings for body */
     background-color: #fffbff; /*if background image unavailable */
     background: url('../images/hero-image.jpg') no-repeat center fixed;
     background-size: cover;
   }
+
+#feedback-page {background-color: #F8EEEC;}
 
 .site-header_wrapper {
     display: flex;
@@ -50,8 +45,8 @@ body {
     text-align: center;
     background-image: url('../images/wallpaper.jpg');
     background-size: 100%;
-
 }
+
 h1, h2, h4 { 
     font-family: Permanent Marker, Impact, sans-serif;    
 }
@@ -85,14 +80,11 @@ fieldset {
     background-size: 100%;
 }
 
-
-
 form {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     font-size: small;
     color:#2b2d2f;
 }
-
 
 label {
     padding: 5px;
@@ -130,76 +122,6 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* timeline code inspired by https://alvarotrigo.com/blog/html-css-timelines/ */
-:root {
-    --primary-color: #faf5ff; 
-    --background-color: #889bae;
-    --font: Open Sans, Helvetica
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background: var(--background-color);
-    font-family: var(--font);
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Timeline Container */
-  .timeline {
-    background: var(--primary-color);
-    margin: 20px auto;
-    padding: 20px;
-  }
-  
-  /* Outer Layer with the timeline border */
-  .outer {
-    border-left: 2px solid #668D2E;
-  }
-  
-  /* Card container */
-  .card {
-    position: relative;
-    margin: 0 0 20px 20px;
-    padding: 10px;
-    background: #f8eeff;
-    color: gray;
-    border-radius: 8px;
-    max-width: 400px;
-  }
-  
-  /* Information about the timeline */
-  .info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  /* Title of the card */
-  .title {
-    color: #604664;
-    position: relative;
-    font-family: Open Sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  
-  /* Timeline dot  */
-  .title::before {
-    font-family: Open Sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: #fffbff;
-    border-radius: 999px;
-    left: -39px;
-    border: 3px solid slategray;
-
-  }
-/* end of timeline code */
 
 .feedback-content {
     display: grid;
@@ -207,7 +129,7 @@ h3 {
     align-items: center;
     padding-top: 1ex;
 }
-   
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -219,6 +141,7 @@ footer {
     background-color: lightblue; /* if background image unavailable */
     opacity: 0.7;
 }
+
 
 #form-footer {  
     display: flex;
@@ -233,7 +156,7 @@ footer {
 }
 
 /* media queries for mobile devices with screen size of iphone 4 to iphone 13 pro max */
-@media only screen  and (min-device-width: 320px)
+/*@media only screen  and (min-device-width: 320px)
                     and (max-device-width: 428px)
                     and (min-device-height: 480px)
                     and (max-device-height: 926px)
@@ -281,7 +204,7 @@ footer {
     }
         
     }
-
+*/
 @media only screen  and (max-device-width: 360px)
                     and (max-device-height: 780px)
                     and (orientation: portrait) {
