@@ -21,9 +21,15 @@ body {
     background-size: cover;
   }
 
-#feedback-page {background-color: #F8EEEC;}
+#timeline-settings {
+    background-color: #fffbff; 
+}  
 
-.site-header_wrapper {
+#feedback-settings {
+    background-color: #F8EEEC;
+}
+
+.site-header_wrapper, #form-header_wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -31,19 +37,12 @@ body {
     padding: 0.5em;
     padding-right: 1.5em;
     margin: 0.5em;
-    text-align: center;
+    text-align: center;  
     background-image: url('../images/wallpaper.jpg');
 }
 
+
 #form-header_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;   
-    padding: 0.8ex;
-    margin: 0.8ex;
-    text-align: center;
-    background-image: url('../images/wallpaper.jpg');
     background-size: 100%;
 }
 
@@ -102,7 +101,7 @@ ul li {
     display: inline;
 }
 
-h3 {
+h3, article {
     display: grid;
     flex: 1;
     margin-left: 30%;
@@ -113,16 +112,6 @@ h3 {
     font-size: 100%;
 }
 
-.timeline-content {
-    display: grid;
-    flex: 1;
-    align-items: center;
-    color: #2b2d2f;
-    background-color:rgba(255,251,255,.5);
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
 .feedback-content {
     display: grid;
     flex: 1;
@@ -130,7 +119,7 @@ h3 {
     padding-top: 1ex;
 }
 
-footer {
+.general-footer, #form-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -139,102 +128,13 @@ footer {
     background-size: 100%;
     background-image: url('../images/palewallpaper.jpg');
     background-color: lightblue; /* if background image unavailable */
-    opacity: 0.7;
 }
 
+.general-footer { opacity: 0.7;}
 
-#form-footer {  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 150%;
-    margin-bottom: 1%;
-    background-size: 100%;
-    background-image: url('../images/palewallpaper.jpg');
-    background-color: lightblue; /* if background image unavailable */
-    opacity: 0.9;
-}
+#form-footer { opacity: 0.9;}
 
-/* media queries for mobile devices with screen size of iphone 4 to iphone 13 pro max */
-/*@media only screen  and (min-device-width: 320px)
-                    and (max-device-width: 428px)
-                    and (min-device-height: 480px)
-                    and (max-device-height: 926px)
-                    and (orientation: portrait) {
-
-                        h1 {
-                            font-size: 130%;
-                            text-decoration: underline;
-                        }
-                        
-                        h2 { font-size: 90%;}
-
-                        h4 {font-size: 90%;}
-                        
-                        footer {
-                            margin-bottom: 1rem;
-                        }
-
-                        
-                       
-                                     
-                        .feedback-content {
-                            margin-top: -1rem;
-                        }                                           
-} 
-    
-@media only screen  and (max-device-width: 360px)
-                    and (max-device-height: 640px)
-                    and (orientation: portrait) {
-
-    h1 {
-        font-size: 130%;
-        text-decoration: underline;
-    }
-    
-    h2 { font-size: 110%}
-                    
-    
-    footer {
-        margin-bottom: 4rem;
-    }
-                 
-    .feedback-content {
-        margin-top: -3rem;
-    }
-        
-    }
-*/
-@media only screen  and (max-device-width: 360px)
-                    and (max-device-height: 780px)
-                    and (orientation: portrait) {
-
-    h1 {
-        font-size: 130%;
-        text-decoration: underline;
-    }
-
-    h2 { font-size: 110%}
-
-    footer {
-        margin-bottom: 50px;
-    }
-
-    .feedback-content {
-        margin-top: -1rem;
-    }
-        /* footer {
-        margin-bottom: 2rem;} */
-
-    } 
-
-    .feedback-content {
-        margin-top: -1rem;
-    }
-
- a {
-    text-decoration: none;   
-}
+a { text-decoration: none;}
 
 .nav-links {
     color: #604664;
