@@ -79,9 +79,13 @@ h4 {
 fieldset {
     margin-left:5%;
     padding:1%;
+    /* if background image can't load */
     background-color: #f8eeff;
     background-image: url('../images/form-background.jpg');
+    background-size: 100%;
 }
+
+
 
 form {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
@@ -211,11 +215,50 @@ footer {
     font-size: 150%;
     margin-bottom: 1%;
     background-size: 100%;
-    opacity: 0.7;
     background-image: url('../images/palewallpaper.jpg');
-    background-color: lightblue; /* if background image unavailable */ 
+    background-color: lightblue; /* if background image unavailable */
+    opacity: 0.7;
 }
 
+#form-footer {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 150%;
+    margin-bottom: 1%;
+    background-size: 100%;
+    background-image: url('../images/palewallpaper.jpg');
+    background-color: lightblue; /* if background image unavailable */
+    opacity: 1;
+}
+
+/* media queries for mobile devices with screen size of iphone 4 to iphone 13 pro max */
+@media only screen  and (min-device-width: 320px)
+                    and (max-device-width: 428px)
+                    and (min-device-height: 480px)
+                    and (max-device-height: 926px)
+                    and (orientation: portrait) {
+
+                        h1 {
+                            font-size: 130%;
+                            text-decoration: underline;
+                        }
+                        
+                        h2 { font-size: 90%;}
+
+                        h4 {font-size: 90%;}
+                        
+                        footer {
+                            margin-bottom: 1rem;
+                        }
+
+                        
+                       
+                                     
+                        .feedback-content {
+                            margin-top: -1rem;
+                        }                                           
+} 
     
 @media only screen  and (max-device-width: 360px)
                     and (max-device-height: 640px)
@@ -260,7 +303,7 @@ footer {
         /* footer {
         margin-bottom: 2rem;} */
 
-    }
+    } 
 
     .feedback-content {
         margin-top: -1rem;
