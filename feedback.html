@@ -24,27 +24,56 @@
         </nav>
         </div>
     </header>
-    <div class="feedback-content">
-        <form action="https://formdump.codeinstitute.net/" method="post">
-        <fieldset>
-            <legend><h4>Feedback Form</h4></legend>
-                <div id="form-div">
-                    <label for="learning-scale"><strong>I've learned a lot that's new to me from this site...</strong>
-                    <p><strong><em>   Not really!    <input type="range" id="learning-scale" min="0" max="10" value="5">
-                    Absolutely!</em></strong> 
-                </label></p><br><br>
-                <p><label for="likes"><strong>What I like about it:</strong></label></p><br>
-                    <textarea id="likes" rows="5" cols="40"></textarea><br><br>
-                <p><label for="suggestions"><strong>What I think could be improved:</strong></label></p><br>
-                    <textarea id="suggestions" rows="5" cols="40"></textarea><br><br>
-                <p><label for="email"><strong>Email address for future updates:</strong><br><br><input type="email" id="email" 
-                    placeholder=" Your email address" required><abbr title="required" aria-label="required">*</abbr>
-                </label></p><br>
-                <p><div class="submit"><input type="submit" value="submit"></div><br>
-        </fieldset>
-    </form>
-    </div>
-    <footer id="form-footer">
+    <div class="container">
+        <form action="action_page.php">
+            <div><h4>Feedback form</h4></div>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email address for WICH updates:</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" placeholder="Your email address.." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="learning">I learned more about the history of female coders from this site...</label>
+            </div>
+            <div class="col-75">
+              <select id="learning">
+                <option id="list-title" value="choose">Choose from the following options:</option>
+                <option value="agree">Strongly agree</option>
+                <option value="notsure">Partly agree</option>
+                <option value="disagree">Disagree</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="suggestions">What I'd like to see more of on this site:</label>
+            </div>
+            <div class="col-75">
+              <textarea id="suggestions" name="suggestions" placeholder="My feedback..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+
+      <!--- JS code for computer image in logo -->
+    <script src="https://kit.fontawesome.com/52443e90c9.js" crossorigin="anonymous"></script>
+
+    <footer class="general-footer">
         <ul>
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit the WICH Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
@@ -56,11 +85,9 @@
                 <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Subscribe to the WICH YouTube channel (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a>
             </li>
         </ul>
-        
-    <!--- JS code for computer image in logo -->
-    <script src="https://kit.fontawesome.com/52443e90c9.js" crossorigin="anonymous"></script>
-    
 </footer>
 </body>
 </html>
+
+
 

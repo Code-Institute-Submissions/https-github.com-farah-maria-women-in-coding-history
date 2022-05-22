@@ -174,3 +174,88 @@ span {
 #navbar a:active {
     color:#668D2E;
 }
+
+/* FEEDBACK FORM:  
+Style inputs, select elements and textareas */
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px double #604664;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px double #604664;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #668D2E;
+    color: #F8EEEC;
+    padding: 12px 20px;
+    border: slategrey;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    background-color: #fffbff; /* if background image is unavailable */
+    background-image: url('../images/form-background.jpg');
+    padding: 20px;
+    font-family: Open Sans, 'Courier New', Courier, monospace;
+    color: darkslategray;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  #list-title { 
+      font-style: italic;
+      font-weight: lighter;
+    }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+/* END OF FEEDBACK FORM CODE */  
