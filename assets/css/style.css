@@ -22,7 +22,7 @@ body {
   }
 
 #feedback-settings {
-    background-color: #889bae;
+    background-color: lightgray
 }
 
 .site-header_wrapper, #form-header_wrapper {
@@ -34,7 +34,18 @@ body {
     padding-right: 1.5em;
     margin: 0.5em;
     text-align: center;  
-    background-image: url('../images/wallpaper.jpg');
+    
+}
+
+.site-header_wrapper {
+  background-image: url('../images/wallpaper.jpg');
+  opacity: 0.8;
+}
+
+#form-header_wrapper {
+    background-image: url('../images/palewallpaper.jpg');
+    height: 60px;
+    margin-bottom: 0px;
 }
 
 h1, h2, h4 { 
@@ -293,7 +304,18 @@ span {
     color:#668D2E;
 }
 
+.container {
+  margin-top: 3%;
+}
 
+#form-footer {
+  height: 100px;
+  align-items: center;
+}
+
+#feedback-settings {
+  margin-top: 0; 
+}
 /* RESONSIVE FEEDBACK FORM:  
 Style inputs, select elements and textareas */
 
