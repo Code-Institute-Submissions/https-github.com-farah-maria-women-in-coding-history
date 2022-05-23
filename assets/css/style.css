@@ -390,7 +390,7 @@ input[type=text], select, textarea{
   and (max-device-height: 926px)
   and (orientation: portrait) {
 
-    body {
+    #homepage-settings, #feedback-settings {
       max-height: 80vh;    
   }
 
