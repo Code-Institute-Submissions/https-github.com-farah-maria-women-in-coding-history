@@ -68,7 +68,7 @@ h4 {
 
     /* timeline code inspired by https://alvarotrigo.com/blog/html-css-timelines/ */
     :root {
-        --primary-color:#fffbff; ;
+        --primary-color: #fffffc;
         --background-color: #889bae;
         --font: Open Sans, helvetica;
       }
