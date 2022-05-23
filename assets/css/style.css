@@ -22,7 +22,8 @@ body {
   }
 
 #feedback-settings {
-    background-color: lightgray
+    margin-top: 0;
+    background-color: #f3f3f3;
 }
 
 .site-header_wrapper, #form-header_wrapper {
@@ -42,7 +43,7 @@ body {
 
 #form-header_wrapper {
     background-image: url('../images/palewallpaper.jpg');
-    height: 60px;
+    height: 70px;
     margin-bottom: 0px;
 }
 
@@ -195,21 +196,14 @@ h4 {
       }
     
     /* end of timeline code */
-    
-    
-fieldset {
-    margin-left:5%;
-    padding:1%;
-    /* if background image can't load */
-    background-color: #f8eeff;
-    background-image: url('../images/form-background.jpg');
-    background-size: 100%;
-}
 
 form {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     font-size: small;
     color:#2b2d2f;
+    background-color: #d3d3d3; /* if background image is unavailable */
+    background-image: url('../images/hero-image.jpg');
+    background-size: 100%; 
 }
 
 label {
@@ -239,13 +233,6 @@ h3, article {
     font-size: 100%;
 }
 
-.feedback-content {
-    display: grid;
-    flex: 1;
-    align-items: center;
-    padding-top: 1ex;
-}
-
 .general-footer, #form-footer {
     display: flex;
     flex-wrap: wrap;
@@ -254,7 +241,7 @@ h3, article {
     margin-bottom: 1%;
     background-size: 100%;
     background-image: url('../images/palewallpaper.jpg');
-    background-color: lightblue; /* if background image unavailable */
+    background-color: #d3d3d3; /* if background image unavailable */
 }
 
 .general-footer { opacity: 0.7;}
@@ -303,7 +290,8 @@ span {
 }
 
 .container {
-  margin-top: 3%;
+  margin-top: 2%;
+  margin-bottom: 0;
 }
 
 #form-footer {
@@ -311,12 +299,8 @@ span {
   align-items: center;
 }
 
-#feedback-settings {
-  margin-top: 0; 
-}
 /* RESONSIVE FEEDBACK FORM: based on the W3 "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp */
 /* Style inputs, select elements and textareas */
-
 
 input[type=text], select, textarea{
     width: 100%;
@@ -327,7 +311,7 @@ input[type=text], select, textarea{
     resize: vertical;
   }
 
-  input[type=email], select, textarea{
+  input[type=email], select {
     width: 100%;
     padding: 10px;
     border: 1px double #604664;
@@ -348,6 +332,7 @@ input[type=text], select, textarea{
     background-color: #668D2E;
     color: #F8EEEC;
     padding: 12px 20px;
+    margin-top: 2px;
     border: slategrey;
     border-radius: 4px;
     cursor: pointer;
@@ -356,20 +341,12 @@ input[type=text], select, textarea{
   
   /* Style the container */
   .container {
-    background-color: #fffbff; /* if background image is unavailable */
-    background-image: url('../images/hero-image.jpg');
-    background-size: cover;
     padding: 20px;
     font-family: Open Sans, 'Courier New', Courier, monospace;
     color: darkslategray;
     font-size: large;
     font-weight: bold;
   }
-
-  #list-title { 
-      font-style: italic;
-      font-weight: lighter;
-    }
   
   /* Floating column for labels: 25% width */
   .col-25 {
@@ -415,12 +392,10 @@ input[type=text], select, textarea{
   }
 
   #feedback-settings {
-    background-image: url('../images/hero-image.jpg');
-    background-size: cover;
+      background-color: #889ba;
   }
 
   .container {
-    background-color: #fffbff; /* if background image is unavailable */
     padding: 20px;
     font-family: Open Sans, 'Courier New', Courier, monospace;
     color: darkslategray;
@@ -449,12 +424,6 @@ input[type=text], select, textarea{
       letter-spacing: 1px;
   }
   
-  .site-header_wrapper, #form-header_wrapper {
-    padding: 0.5em;
-    padding-right: 1.5em;
-    margin: 0.5em;
-}
-
   h2 {
     letter-spacing: 2px;
     font-weight: lighter;
@@ -493,10 +462,9 @@ footer a {
   #form-footer a:hover {
       color: #660066;
   }
-  
   }
 
   
 
 
-  }
+  
