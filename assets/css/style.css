@@ -34,12 +34,10 @@ body {
     padding-right: 1.5em;
     margin: 0.5em;
     text-align: center;  
-    
 }
 
 .site-header_wrapper {
   background-image: url('../images/wallpaper.jpg');
-  opacity: 0.8;
 }
 
 #form-header_wrapper {
