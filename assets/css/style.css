@@ -22,7 +22,7 @@ body {
   }
 
 #feedback-settings {
-    background-color: #F8EEEC;
+    background-color: #889bae;
 }
 
 .site-header_wrapper, #form-header_wrapper {
@@ -35,11 +35,6 @@ body {
     margin: 0.5em;
     text-align: center;  
     background-image: url('../images/wallpaper.jpg');
-}
-
-
-#form-header_wrapper {
-    background-size: 100%;
 }
 
 h1, h2, h4 { 
@@ -306,7 +301,7 @@ Style inputs, select elements and textareas */
 
 input[type=text], select, textarea{
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px double #604664;
     border-radius: 5px;
     box-sizing: border-box;
@@ -315,7 +310,7 @@ input[type=text], select, textarea{
 
   input[type=email], select, textarea{
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px double #604664;
     border-radius: 5px;
     box-sizing: border-box;
