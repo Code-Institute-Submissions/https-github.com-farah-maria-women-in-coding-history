@@ -414,6 +414,19 @@ input[type=text], select, textarea{
       max-height: 80vh;    
   }
 
+  #feedback-settings {
+    background-image: url('../images/hero-image.jpg');
+    background-size: cover;
+  }
+
+  .container {
+    background-color: #fffbff; /* if background image is unavailable */
+    padding: 20px;
+    font-family: Open Sans, 'Courier New', Courier, monospace;
+    color: darkslategray;
+    font-size: large;
+    font-weight: bold;
+  }
   
     .site-header_wrapper, #form-header_wrapper {
       padding: 0.5em;
@@ -466,3 +479,24 @@ footer a {
     align-items: center;
   }
 
+  #form-footer {
+    height: 50px;
+    opacity: 0.7;
+  }
+
+  #form-footer a {
+    color: darkslategray;
+    font-size: 120%;
+    background-color: rgba(255,251,255,.5);
+}
+
+  #form-footer a:hover {
+      color: #660066;
+  }
+  
+  }
+
+  
+
+
+  }
