@@ -74,7 +74,7 @@ fieldset {
     padding:1%;
     /* if background image can't load */
     background-color: #f8eeff;
-    background-image: url('../images/form-background.jpg');
+    background-image: url('../images/hero-image.jpg');
     background-size: 100%;
 }
 
@@ -234,7 +234,7 @@ footer {
         margin-bottom: 2rem;} */
 
     } 
-*/
+
     .feedback-content {
         margin-top: -1rem;
     }
@@ -253,7 +253,6 @@ footer a {
     font-size: 120%;
     background-color: rgba(255,251,255,.5);
 }
-
 
 footer>ul>li {
     padding-left: 20px;
@@ -281,6 +280,3 @@ span {
 #navbar a:active {
     color:#668D2E;
 }
-
-
-
