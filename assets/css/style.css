@@ -494,6 +494,7 @@ input[type=text], select, textarea{
 
     h1 {
       font-size: 400%;
+      font-weight:lighter;
     }
 
     h2 {
@@ -512,16 +513,34 @@ input[type=text], select, textarea{
   
   footer a {
       color: darkolivegreen;
-      font-size: 300%;
+      font-size: 250%;
       background-color: rgba(255,251,255,.5);
   }
   
   
   footer>ul>li {
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-top: 10px;
+      padding-bottom: 20px;
   }
   
+  #form-header_wrapper {
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    margin-top: 2%;
+  }
+
+  form {
+    padding: 5%;
+    margin-top: -5%;
+  }
+
+  #form-footer {
+    margin-top: 4%;
+    border: none;
+  }
   }
   
 
