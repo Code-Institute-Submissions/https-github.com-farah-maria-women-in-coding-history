@@ -405,7 +405,20 @@ input[type=text], select, textarea{
 
 /* MEDIA QUERIES */
 
-@media only screen
+@media only screen 
+  and (min-device-width: 746px) and (max-device-width: 793px) {
+
+    .nav-links {
+    font-size: 80%;
+    background-color: rgb(245, 243, 245);
+    border-radius: 5%;
+}   
+
+    nav {
+      padding-left: 5%;
+    }
+  }
+/*@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 428px)
   and (min-device-height: 480px)
