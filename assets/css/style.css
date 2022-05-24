@@ -209,6 +209,10 @@ form {
     background-image: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
     background-size: 100%; 
+    padding-left: 2%;
+    padding-right: 2%;
+    border: #A27C5B solid;
+    border-radius: 20px;
 }
 
 label {
@@ -351,7 +355,15 @@ input[type=text], select, textarea{
     cursor: pointer;
     float: right;
   }
-  
+
+  input[type=submit]:hover{
+    background-color: #660066;
+  }
+
+
+  input[type=submit]:visited{
+    background-color: #d3d3d3;
+  }
   /* Style the container */
   .container {
     padding: 20px;
