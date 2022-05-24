@@ -199,7 +199,7 @@ h4 {
         right: -45px;
       }
     
-    /* end of timeline code */
+       /* end of timeline code */
 
 form {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
@@ -278,7 +278,6 @@ footer a {
     background-color: rgba(255,251,255,.5);
 }
 
-
 footer>ul>li {
     padding-left: 50px;
     padding-right: 50px;
@@ -337,7 +336,6 @@ input[type=text], select, textarea{
     resize: vertical;
   }
 
-
   /* Style the label to display next to the inputs */
   label {
     padding: 12px 12px 12px 0;
@@ -359,7 +357,6 @@ input[type=text], select, textarea{
   input[type=submit]:hover{
     background-color: #660066;
   }
-
 
   input[type=submit]:visited{
     background-color: #d3d3d3;
@@ -401,21 +398,21 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
   }
-/* END OF FEEDBACK FORM CODE */  
+/* END OF REGULAR FEEDBACK FORM CODE */  
 
 /* MEDIA QUERIES */
 
 @media only screen 
   and (min-device-width: 746px) and (max-device-width: 793px) {
 
-    .nav-links {
+  .nav-links {
     font-size: 80%;
     background-color: rgb(245, 243, 245);
     border-radius: 5%;
 }   
 
-    nav {
-      padding-left: 5%;
+  nav {
+    padding-left: 5%;
     }
   }
 
@@ -427,16 +424,16 @@ input[type=text], select, textarea{
   and (min-device-height: 480px)
   and (max-device-height: 2050px)
   and (orientation: portrait) {
-
-   h4 {font-size: small;}
-   
-    #form-footer {
+ 
+   h4 {font-size: small;}   
+    
+  #form-footer {
       border: none;
       background: none;
       margin-bottom: min(50px, 10%);
-    }
+}
 
-    form {
+  form {
       font-size: x-small;
       padding-left: 1%;
       padding-right: 1%;
@@ -444,46 +441,45 @@ input[type=text], select, textarea{
       border-radius: 10px;
       margin-top: min(5px);
       background-image: none;
-      background-color: #F8EEEC;      
-       
-    }  
-
-    .container {
+      background-color: #F8EEEC;             
+}  
+    
+  .container {
      margin-top: min(2px);
-    }
+
+}
 
     nav {
     width: 100%;
     margin-top: min(2px);
     margin-bottom: min(2px);
     
-    }
+}
   
     #feedback-settings {
       background-image: url('../images/palewallpaper.jpg');
       background-size: 50%;
       background-repeat: repeat;
-    }
+}
 
     footer a {
       font-size: 100%;
       color: #660066
-  }
+}
   
   h1 {
     font-size: 120%;
     font-weight:300;
     background-color: #f3f3f3;
     border-radius: 5%;
-  }
+}
   .nav-links {
     font-size: small;
     background-color: rgb(245, 243, 245);
     border-radius: 5%;
     padding: min(2px);
+  }
 }
-}
-
 /* desktops and some laptops */
 @media only screen 
   and (min-device-width: 1200px)
@@ -497,16 +493,15 @@ input[type=text], select, textarea{
       font-weight:lighter;
     }
 
-    h2 {
+  h2 {
       font-size: 250%;
-    }
+  }
 
-    h3 {
+  h3 {
       font-size: 250%;
+  } 
 
-    }
-   
-    .nav-links {
+  .nav-links {
       color: #604664;
       font-size: 100%;
   }
@@ -516,8 +511,7 @@ input[type=text], select, textarea{
       font-size: 250%;
       background-color: rgba(255,251,255,.5);
   }
-  
-  
+    
   footer>ul>li {
       padding-left: 200px;
       padding-right: 200px;
@@ -548,122 +542,6 @@ input[type=text], select, textarea{
     background-repeat: repeat;
   }
 }
-  
-  
-/*
- Surface Duo to Nexus 9 tablets 
-@media screen only 
-  and (min-device-width: 530px)
-  and (min-device-height: 700px)
-  and (max-device-width: 770px)
-  and (max-device-height: 2050px) {
-
-    #form-footer {
-      border: none;
-      background: none;
-      margin-bottom: min(50px, 10%);
-      z-index: 1;
-    }
-
-    .container {
-      z-index: 2;
-    }
-
-    #form-footer {
-      border-top: none;
-    }
-
-    form {
-      
-    }
-  }
-
-  
-/*@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 428px)
-  and (min-device-height: 480px)
-  and (max-device-height: 926px)
-  and (orientation: portrait) {
-
-    #homepage-settings, #feedback-settings {
-      max-height: 80vh;    
-  }
-
-  #feedback-settings {
-      background-color: #889ba;
-  }
-
-  .container {
-    padding: 20px;
-    font-family: Open Sans, 'Courier New', Courier, monospace;
-    color: darkslategray;
-    font-size: large;
-    font-weight: bold;
-  }
-  
-    .site-header_wrapper, #form-header_wrapper {
-      padding: 0.5em;
-      padding-right: 1.5em;
-      margin: 0.5em;
-  }
-  
-    h1 {
-      font-size: 120%;
-      font-weight: lighter;
-  }
-  
-    h2 {
-      letter-spacing: 2px;
-      font-size: 100%;
-  }
-  
-    h4 { 
-      font-size: 125%;
-      letter-spacing: 1px;
-  }
-  
-  h2 {
-    letter-spacing: 2px;
-    font-weight: lighter;
-    font-size: 120%;
-}
-
-.nav-links {
-  font-size: 80%;
-}
-
-footer a {
-  font-size: 100%;
-}
-
-  footer>ul>li {  
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-  footer {
-    height: 100px;
-    align-items: center;
-  }
-
-  #form-footer {
-    height: 50px;
-    opacity: 0.7;
-  }
-
-  #form-footer a {
-    color: darkslategray;
-    font-size: 120%;
-    background-color: rgba(255,251,255,.5);
-}
-
-  #form-footer a:hover {
-      color: #660066;
-  }
-  }
-
-  
 
 
-  
+
