@@ -251,10 +251,10 @@ h3, article {
 }
 
 .general-footer { 
-    opacity: 0.9;
     background-image: url('../images/palewallpaper.jpg');
     background-color: #d3d3d3; /* if background image unavailable */
-    background-size: 100%
+    background-size: 70%;
+    background-repeat: repeat;
     }
 
 #form-footer { 
@@ -280,8 +280,8 @@ footer a {
 
 
 footer>ul>li {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 footer a:hover {
@@ -547,12 +547,9 @@ input[type=text], select, textarea{
     background-size: 30%;
     background-repeat: repeat;
   }
-  #timeline-footer {
-    background-image: url('../images/wallpaper.jpg');
-  }
-  }
+}
   
-
+  
 /*
  Surface Duo to Nexus 9 tablets 
 @media screen only 
