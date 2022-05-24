@@ -484,6 +484,47 @@ input[type=text], select, textarea{
 }
 }
 
+/* desktops and some laptops */
+@media only screen 
+  and (min-device-width: 1200px)
+  and (max-device-width: 1930px)
+  and (min-device-height: 680px)
+  and (max-device-height: 1100px)
+  and (orientation: landscape) {
+
+    h1 {
+      font-size: 400%;
+    }
+
+    h2 {
+      font-size: 250%;
+    }
+
+    h3 {
+      font-size: 250%;
+
+    }
+   
+    .nav-links {
+      color: #604664;
+      font-size: 100%;
+  }
+  
+  footer a {
+      color: darkolivegreen;
+      font-size: 300%;
+      background-color: rgba(255,251,255,.5);
+  }
+  
+  
+  footer>ul>li {
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  
+  }
+  
+
 /*
  Surface Duo to Nexus 9 tablets 
 @media screen only 
