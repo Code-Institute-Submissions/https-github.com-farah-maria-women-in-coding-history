@@ -205,7 +205,7 @@ form {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     font-size: small;
     color:#2b2d2f;
-    background-color: #d3d3d3; /* if background image is unavailable */
+    background-color: #F8EEEC; /* if background image is unavailable */
     background-image: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
     background-size: 100%; 
@@ -251,7 +251,7 @@ h3, article {
 }
 
 .general-footer { 
-    opacity: 0.7;
+    opacity: 0.9;
     background-image: url('../images/palewallpaper.jpg');
     background-color: #d3d3d3; /* if background image unavailable */
     background-size: 100%
@@ -419,11 +419,13 @@ input[type=text], select, textarea{
     }
   }
 
+  /* most mobile phones, portrait, including the foldable galaxy fold (just about!), from iphone4  to iphone13 max. 
+  And tablets from surface duo to nexus 9 */
  @media only screen 
-  and (min-device-width: 320px)
-  and (max-device-width: 428px)
+  and (min-device-width: 280px)
+  and (max-device-width: 770px)
   and (min-device-height: 480px)
-  and (max-device-height: 926px)
+  and (max-device-height: 2050px)
   and (orientation: portrait) {
 
    h4 {font-size: small;}
@@ -442,7 +444,9 @@ input[type=text], select, textarea{
       border-radius: 10px;
       margin-top: min(5px);
       background-image: none;
-  }
+      background-color: #F8EEEC;      
+       
+    }  
 
     .container {
      margin-top: min(2px);
@@ -463,13 +467,14 @@ input[type=text], select, textarea{
 
     footer a {
       font-size: 100%;
-      color: #936B53;
-      background: none;
+      color: #660066
   }
   
   h1 {
     font-size: 120%;
-    font-weight: bold;
+    font-weight:300;
+    background-color: #f3f3f3;
+    border-radius: 5%;
   }
   .nav-links {
     font-size: small;
@@ -477,11 +482,35 @@ input[type=text], select, textarea{
     border-radius: 5%;
     padding: min(2px);
 }
+}
 
+/*
+ Surface Duo to Nexus 9 tablets 
+@media screen only 
+  and (min-device-width: 530px)
+  and (min-device-height: 700px)
+  and (max-device-width: 770px)
+  and (max-device-height: 2050px) {
 
+    #form-footer {
+      border: none;
+      background: none;
+      margin-bottom: min(50px, 10%);
+      z-index: 1;
+    }
+
+    .container {
+      z-index: 2;
+    }
+
+    #form-footer {
+      border-top: none;
+    }
+
+    form {
+      
+    }
   }
-  
-  
 
   
 /*@media only screen
