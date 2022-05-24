@@ -541,6 +541,15 @@ input[type=text], select, textarea{
     margin-top: 4%;
     border: none;
   }
+
+  #timeline-body {
+    background-image: url('../images/palewallpaper.jpg');
+    background-size: 30%;
+    background-repeat: repeat;
+  }
+  #timeline-footer {
+    background-image: url('../images/wallpaper.jpg');
+  }
   }
   
 
