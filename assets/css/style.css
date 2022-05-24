@@ -45,6 +45,10 @@ body {
 #form-header_wrapper {
     height: 70px;
     margin-bottom: 0px;
+    background-color: rgba(235,239,233,.3);
+    margin-top: 5%;
+    border-bottom: #889bae solid;
+    border-top: #889bae solid;
 }
 
 h1, h2, h4 { 
@@ -203,6 +207,7 @@ form {
     color:#2b2d2f;
     background-color: #d3d3d3; /* if background image is unavailable */
     background-image: url('../images/hero-image.jpg');
+    background-repeat: no-repeat;
     background-size: 100%; 
 }
 
@@ -251,6 +256,9 @@ h3, article {
 #form-footer { 
     opacity: 1;
     margin-top: -40px;
+    background-color: rgba(235,239,233,.3);
+    border-top: #889bae solid;
+    border-radius: 40px;
   }
 
 a { text-decoration: none;}
