@@ -426,7 +426,7 @@ input[type=text], select, textarea{
   and (max-device-height: 926px)
   and (orientation: portrait) {
 
-   h4 {font-size: smaller;}
+   h4 {font-size: small;}
    
     #form-footer {
       border: none;
@@ -441,9 +441,10 @@ input[type=text], select, textarea{
       border: #A27C5B solid 1px;
       border-radius: 10px;
       margin-top: min(5px);
-      background-image: none
+      background-image: none;
   }
 
+    .container {
      margin-top: min(2px);
     }
 
@@ -451,7 +452,6 @@ input[type=text], select, textarea{
     width: 100%;
     margin-top: min(2px);
     margin-bottom: min(2px);
-    padding-bottom: 
     
     }
   
