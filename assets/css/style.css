@@ -420,17 +420,25 @@ input[type=text], select, textarea{
   And tablets from surface duo to nexus 9 */
  @media only screen 
   and (min-device-width: 280px)
-  and (max-device-width: 770px)
+  and (max-device-width: 1280px)
   and (min-device-height: 480px)
   and (max-device-height: 2050px)
-  and (orientation: portrait) {
+  and (orientation: portrait)  {
  
    h4 {font-size: small;}   
-    
+ 
+   footer>ul>li {
+    padding-left: min (10px);
+    padding-right: min(10px);
+    align-items: stretch;
+}
+
   #form-footer {
       border: none;
       background: none;
       margin-bottom: min(50px, 10%);
+      width: 30% center;
+      align-items: center;
 }
 
   form {
@@ -443,10 +451,9 @@ input[type=text], select, textarea{
       background-image: none;
       background-color: #F8EEEC;             
 }  
-    
+
   .container {
      margin-top: min(2px);
-
 }
 
     nav {
@@ -455,46 +462,139 @@ input[type=text], select, textarea{
     margin-bottom: min(2px);
     
 }
-  
-    #feedback-settings {
-      background-image: url('../images/palewallpaper.jpg');
-      background-size: 50%;
-      background-repeat: repeat;
-}
 
-    footer a {
-      font-size: 100%;
-      color: #660066
-}
-  
   h1 {
     font-size: 120%;
     font-weight:300;
     background-color: #f3f3f3;
     border-radius: 5%;
 }
-  .nav-links {
+
+.nav-links {
     font-size: small;
     background-color: rgb(245, 243, 245);
     border-radius: 5%;
     padding: min(2px);
   }
+
+  .general-footer, #form-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: medium;
 }
-/* desktops and some laptops */
+
+  footer>ul>li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+/* same as above, phones and tablets, but for landscape */
+
 @media only screen 
-  and (min-device-width: 1200px)
-  and (max-device-width: 1930px)
-  and (min-device-height: 680px)
+  and (min-device-width: 640px)
+  and (max-device-width: 1279px)
+  and (min-device-height: 360px)
+  and (max-device-height: 719px)
+  and (orientation: landscape)  {
+
+    h1 { font-size: 120%;}
+    h2 {font-size: small;}
+    #nav-bar { font-size: small;}
+
+    .site-header_wrapper, #form-header_wrapper {
+      margin-top: 0%;
+      max-height: 10%;
+      border: none;
+    }
+
+    footer>ul>li {
+      padding-left: min (10px);
+      padding-right: min(10px);
+      align-items: stretch;
+  }
+  
+    #form-footer {
+        border: none;
+        background: none;
+        margin-bottom: min(50px, 10%);
+        width: 30% center;
+        align-items: center;
+  }
+  
+    form {
+        font-size: x-small;
+        padding-left: 1%;
+        padding-right: 1%;
+        border: #A27C5B solid 1px;
+        border-radius: 10px;
+        margin-top: min(5px);
+        background-image: none;
+        background-color: #F8EEEC;             
+  }  
+  
+    .container {
+       margin-top: -20px;
+  }
+  
+  .nav-links {
+      font-size: small;
+      background-color: rgb(245, 243, 245);
+      border-radius: 5%;
+    }
+  
+    .general-footer, #form-footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: medium;
+  }
+  
+    footer>ul>li {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  }
+  
+  /*surface pro landscape*/
+
+  @media only screen 
+  and (device-width: 1368px) and (device-height: 912px)
+  and (orientation: landscape) {
+
+  .site-header_wrapper {
+    border: none;
+  }
+
+  h1 { font-size: medium;}
+    
+  }
+
+
+  /*nest hub max landscape*/
+
+
+/* desktops and some laptops and nest hub and nest hub max */
+
+@media only screen 
+  and (min-device-width: 1280px)
+  and (max-device-width: 2000px)
+  and (min-device-height: 720px)
   and (max-device-height: 1100px)
   and (orientation: landscape) {
 
     h1 {
-      font-size: 400%;
-      font-weight:lighter;
+      font-size: 300%;
+      font-weight: lighter;
     }
 
+    span {
+      color: violet;
+      font-size: larger;}
+
   h2 {
-      font-size: 250%;
+      font-size: 220%;
   }
 
   h3 {
@@ -513,10 +613,9 @@ input[type=text], select, textarea{
   }
     
   footer>ul>li {
-      padding-left: 200px;
-      padding-right: 200px;
-      padding-top: 10px;
-      padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
   }
   
   #form-header_wrapper {
@@ -542,6 +641,7 @@ input[type=text], select, textarea{
     background-repeat: repeat;
   }
 }
+
 
 
 
