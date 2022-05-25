@@ -442,7 +442,6 @@ input[type=text], select, textarea{
 }
   .general-footer {
     margin-bottom: 6vh;
-    margin-top: 
   }
 
   form {
@@ -538,7 +537,7 @@ input[type=text], select, textarea{
         background-color: #F8EEEC;             
   }  
   
-    .container {
+  .container {
        margin-top: -20px;
   }
   
