@@ -170,7 +170,7 @@ h4 {
       .title {
         color: #04293e;
         position: relative;
-        background-color: #d7c3a3;
+        text-decoration: underline #A27C5B;
       }
       
       /* Timeline dot  */
