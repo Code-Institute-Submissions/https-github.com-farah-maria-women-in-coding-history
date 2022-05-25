@@ -257,6 +257,29 @@ h3, article {
     background-repeat: repeat;
     }
 
+    /* styles for images on timeline and text */
+
+img {
+  border-radius: 5%;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.float-left {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.history-link > a {
+  color: violet;
+  font-weight: bold;
+}
+
+/* end of styles for content of timeline  */
+
 #form-footer { 
     opacity: 1;
     margin-top: -40px;
