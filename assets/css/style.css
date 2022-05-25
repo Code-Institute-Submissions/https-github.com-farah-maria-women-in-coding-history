@@ -440,6 +440,9 @@ input[type=text], select, textarea{
       width: 30% center;
       align-items: center;
 }
+  .general-footer {
+    margin-bottom: 20px;
+  }
 
   form {
       font-size: x-small;
