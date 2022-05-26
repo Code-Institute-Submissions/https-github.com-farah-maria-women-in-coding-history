@@ -7,7 +7,6 @@
     padding: 0;
 }
 
-
 body {
     display:flex;
     flex-direction:column;
@@ -125,8 +124,8 @@ h4 {
       /* Setting the border of top, bottom, left */
       .card:nth-child(odd)::before {
         left: 0px;
-        top: -4.5px;
-        bottom: -4.5px;
+        top: -5.5px;
+        bottom: -5px;
         border-width: 5px 0 5px 5px;
         border-radius: 50px 0 0 50px;
       }
@@ -191,7 +190,7 @@ h4 {
       
       /* setting dot to the left if the card is odd */
       .card:nth-child(odd) > .info > .title::before {
-        left: -45px;
+        left: -160px;
       }
       
       /* setting dot to the right if the card is odd */
