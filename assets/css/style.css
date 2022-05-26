@@ -256,7 +256,7 @@ h3, article {
     background-repeat: repeat;
     }
 
-    /* styles for images on timeline and text */
+    /* styles for images and text on timeline */
 
 img {
   border-radius: 5%;
@@ -466,7 +466,9 @@ input[type=text], select, textarea{
       align-items: center;
 }
   .general-footer {
-    margin-bottom: 6vh;
+    margin-bottom: 0;
+    height: 100px;
+    align-items: center;
   }
 
   form {
@@ -518,7 +520,22 @@ input[type=text], select, textarea{
 }
 }
 
-/* same as above, phones and tablets, but for landscape */
+/*                      */
+@media only screen
+  and (min-device-width: 280px) 
+  and (max-device-width: 462px) {
+
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+
+.card:nth-child(odd) > .info > .title::before {
+  left: -142px;
+}
+}
+
+/*                         */
+
+/* most phones and tablets, landscape view */
 
 @media only screen 
   and (min-device-width: 640px)
