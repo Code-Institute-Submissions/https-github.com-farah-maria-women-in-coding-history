@@ -272,8 +272,8 @@ img {
   margin: 0 15px 0 0;
 }
 
-.centre-image {
-  margin: 0 7px 0 7px;
+.center-img {
+  margin-left: 100px;
 }
 .history-link > a {
   color: violet;
