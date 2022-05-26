@@ -468,7 +468,7 @@ input[type=text], select, textarea{
   .general-footer {
     margin-bottom: 0;
     height: 100px;
-    align-items: center;
+    padding-top: 10px;
   }
 
   form {
