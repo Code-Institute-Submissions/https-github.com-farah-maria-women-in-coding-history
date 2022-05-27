@@ -561,14 +561,17 @@ this goes weird on narrow view without adjustmust */
   and (max-device-height: 719px)
   and (orientation: landscape)  {
 
-    h1 { font-size: 120%}
-    h2 {font-size: small}
+    h1 { font-size: 120%;
+    background-color: none;}
+    h2 {font-size: small;
+    background-color: none;}
     h3 {font-size: 120%}
 
     .site-header_wrapper, #form-header_wrapper {
       margin-top: 0%;
       max-height: 10%;
       border: none;
+      display: inline-block;
     }
   
     #form-footer {
@@ -643,15 +646,78 @@ this goes weird on narrow view without adjustmust */
 
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
-@media screen 
+@media only screen
   and (min-device-width: 1200px) 
-  and (max-device-width: 2000px) 
+  and (max-device-width: 1281px) 
   and (orientation: landscape) {
 
-    footer>ul>li {
-      padding-left: 100px;
-      padding-right: 100px;
+  .general-footer > ul {
+    font-size: 250%;
+}
+
+form { margin-top: 20px;}
+
+  .general-footer > ul > li {
+    padding-right: 80px;
+    padding-left: 80px;
+} 
+  
+  h1 {
+      font-size: 200%;
+      font-weight: lighter;
+      background-color: none;
+  }
+  
+  h2 {
+      letter-spacing: 2px;
+      font-weight: lighter;
+      font-size: 120%;
+      background-color: none;
+  }
+  
+    #timeline-body {
+      background-color: #889bae;
+      background-image: none;
     }
+  
+    span {
+      color: violet;
+      font-size: larger;}
+  
+    h3 {
+      font-size: 250%;
+    } 
+  
+    .title {
+      font-size: 100%;
+    }
+  
+    .nav-links {
+        color: #604664;
+        font-size: 100%;
+        background-color: none;
+        margin-bottom: 20px;
+    }
+        
+    #form-header_wrapper {
+      margin-bottom: 10%;
+      padding-bottom: 3%;
+      padding-top: 1%;
+      margin-top: 2%;
+    }
+    .logo {
+      background-color: none;
+    }
+    form {
+      padding: 5%;
+      margin-top: -5%;
+    }
+  
+    #form-footer {
+      margin-top: 4%;
+      border: none;
+    }
+  
   }
   
 /* desktops and some laptops and nest hub and nest hub max */
@@ -663,12 +729,12 @@ this goes weird on narrow view without adjustmust */
   and (max-device-height: 1100px)
   and (orientation: landscape) {
 
-    h1 {
+  h1 {
       font-size: 200%;
       font-weight: lighter;
     }
 
-    span {
+  span {
       color: violet;
       font-size: larger;}
 
@@ -677,7 +743,7 @@ this goes weird on narrow view without adjustmust */
   }
 
   h3 {
-      font-size: 250%;
+      font-size: 150%;
   } 
 
   .title {
@@ -686,19 +752,19 @@ this goes weird on narrow view without adjustmust */
 
   .nav-links {
       color: #604664;
-      font-size: 100%;
+      font-size: 80%;
   }
   
   footer a {
-      color: darkolivegreen;
+      color: #556b2f;
       font-size: 200%;
       background-color: rgba(255,251,255,.5);
   }
     
-  footer>ul>li {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: medium;
+  .general-footer>ul>li {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 100%;
   }
   
   #form-header_wrapper {
@@ -758,12 +824,6 @@ this goes weird on narrow view without adjustmust */
       color: darkolivegreen;
       font-size: 250%;
       background-color: rgba(255,251,255,.5);
-  }
-    
-  footer>ul>li {
-    padding-left: 20px;
-    padding-right: 20px;
-
   }
   
   #form-header_wrapper {
