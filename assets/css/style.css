@@ -472,7 +472,7 @@ input[type=text], select, textarea{
   }
 
   .general-footer > ul {
-    font-size: 180%;
+    font-size: 160%;
   }
   }
 
@@ -532,18 +532,25 @@ form {
 /*                      */
 @media only screen
   and (min-device-width: 280px) 
+  and (max-device-width: 420px) {
+
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -142px;
+}
+}
+
+@media only screen
+  and (min-device-width: 421px) 
   and (max-device-width: 462px) {
 
 /* setting dot to the left on odd numbered cards on TIMELINE - 
 this goes weird on narrow view without adjustmust */
-
-
-/* setting dot to the left if the card is odd */
 .card:nth-child(odd) > .info > .title::before {
   left: -157px;
 }
 }
-
 /*                         */
 /* most phones and tablets, landscape view */
 
@@ -620,7 +627,6 @@ this goes weird on narrow view without adjustmust */
       padding-right: 20px;
       font-size: 70%;
   }
-  } 
 
   /*surface pro landscape*/
 
