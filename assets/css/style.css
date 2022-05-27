@@ -444,7 +444,7 @@ input[type=text], select, textarea{
   /* most mobile phones, portrait, including the foldable galaxy fold (just about!), from iphone4  to iphone13 max. 
   And tablets from surface duo to nexus 9 */
  @media only screen 
-  and (min-device-width: 280px)
+  and (min-device-width: 280px)  
   and (max-device-width: 1280px)
   and (min-device-height: 480px)
   and (max-device-height: 2050px)
@@ -452,26 +452,35 @@ input[type=text], select, textarea{
  
    h4 {font-size: small;}   
  
-   footer>ul>li {
-    padding-left: min (10px);
-    padding-right: min(10px);
-    align-items: stretch;
-}
-
   #form-footer {
       border: none;
       background: none;
       margin-bottom: min(50px, 10%);
-      width: 30% center;
       align-items: center;
+      justify-content: center;
 }
+
+  #form-footer > ul > li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .general-footer {
     margin-bottom: 0;
     height: 100px;
     padding-top: 10px;
   }
 
-  form {
+  .general-footer > ul {
+    font-size: 180%;
+  }
+  }
+
+  .general-footer, #form-footer {
+    justify-content: center;
+}
+
+form {
       font-size: x-small;
       padding-left: 1%;
       padding-right: 1%;
@@ -481,16 +490,13 @@ input[type=text], select, textarea{
       background-image: none;
       background-color: #F8EEEC;             
 }  
-
   .container {
      margin-top: min(2px);
 }
-
     nav {
     width: 100%;
     margin-top: min(2px);
     margin-bottom: min(2px);
-    
 }
 
   h1 {
@@ -514,16 +520,15 @@ input[type=text], select, textarea{
     font-size: medium;
 }
 
-  footer>ul>li {
+ .general-footer>ul>li {
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 500%;
 }
 
 #timeline-body {
   background-color: #e9def2;
 }
-}
-
 /*                      */
 @media only screen
   and (min-device-width: 280px) 
@@ -532,37 +537,32 @@ input[type=text], select, textarea{
 /* setting dot to the left on odd numbered cards on TIMELINE - 
 this goes weird on narrow view without adjustmust */
 
+
+/* setting dot to the left if the card is odd */
 .card:nth-child(odd) > .info > .title::before {
-  left: -142px;
+  left: -157px;
 }
 }
 
 /*                         */
-
 /* most phones and tablets, landscape view */
 
 @media only screen 
   and (min-device-width: 640px)
-  and (max-device-width: 1279px)
+  and (max-device-width: 1919px)
   and (min-device-height: 360px)
   and (max-device-height: 719px)
   and (orientation: landscape)  {
 
-    h1 { font-size: 120%;}
-    h2 {font-size: small;}
-    #nav-bar { font-size: small;}
+    h1 { font-size: 120%}
+    h2 {font-size: small}
+    h3 {font-size: 120%}
 
     .site-header_wrapper, #form-header_wrapper {
       margin-top: 0%;
       max-height: 10%;
       border: none;
     }
-
-    footer>ul>li {
-      padding-left: min (10px);
-      padding-right: min(10px);
-      align-items: stretch;
-  }
   
     #form-footer {
         border: none;
@@ -603,9 +603,25 @@ this goes weird on narrow view without adjustmust */
     footer>ul>li {
       padding-left: 20px;
       padding-right: 20px;
+      padding-left: min (10px);
+      padding-right: min(10px);
+}
+}
+/*  very narrow screens in portrait for foldable phones */
+  @media only screen 
+  and (max-device-width: 279px)
+  and (orientation: portrait) {
+
+  h1 {font-size: large}
+  h2 {font-size: small}
+  }    
+   .general-footer>ul>li {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 70%;
   }
-  }
-  
+  } 
+
   /*surface pro landscape*/
 
   @media only screen 
@@ -616,14 +632,22 @@ this goes weird on narrow view without adjustmust */
     border: none;
   }
 
-  h1 { font-size: medium;}
-    
+  h1 { font-size: medium;}    
   }
 
+/* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
-  /*nest hub max landscape*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2000px) 
+  and (orientation: landscape) {
 
-
+    footer>ul>li {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+  
 /* desktops and some laptops and nest hub and nest hub max */
 
 @media only screen 
@@ -631,6 +655,75 @@ this goes weird on narrow view without adjustmust */
   and (max-device-width: 2000px)
   and (min-device-height: 720px)
   and (max-device-height: 1100px)
+  and (orientation: landscape) {
+
+    h1 {
+      font-size: 200%;
+      font-weight: lighter;
+    }
+
+    span {
+      color: violet;
+      font-size: larger;}
+
+  h2 {
+      font-size: 150%;
+  }
+
+  h3 {
+      font-size: 250%;
+  } 
+
+  .title {
+    font-size: 100%;
+  }
+
+  .nav-links {
+      color: #604664;
+      font-size: 100%;
+  }
+  
+  footer a {
+      color: darkolivegreen;
+      font-size: 200%;
+      background-color: rgba(255,251,255,.5);
+  }
+    
+  footer>ul>li {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: medium;
+  }
+  
+  #form-header_wrapper {
+    margin-bottom: 8%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    border: none;
+  }
+
+  form {
+    padding: 1%;
+    margin-top: -5%;
+  }
+
+  #form-footer {
+    margin-top: -10vh;
+    border: none;
+  }
+
+  #timeline-body {
+    background-image: url('../images/palewallpaper.jpg');
+    background-size: 30%;
+    background-repeat: repeat;
+  }
+}
+
+/* large desktops */
+
+@media only screen 
+  and (min-device-height: 1101) 
   and (orientation: landscape) {
 
     h1 {
@@ -691,6 +784,6 @@ this goes weird on narrow view without adjustmust */
   }
 }
 
-
-
-
+@media only screen 
+  and (min-device-:width: 2000px) 
+  and (orientation: landscape)
