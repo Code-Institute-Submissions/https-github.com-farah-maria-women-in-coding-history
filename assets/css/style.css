@@ -640,6 +640,19 @@ this goes weird on narrow view without adjustmust */
 }
 }
 
+@media only screen 
+  and (min-device-width: 586px) and (max-device-width: 1199px){
+  
+    .general-footer > ul > li {
+      padding-right: 60px;
+      padding-left: 60px;
+      font-size: 100%;
+    }
+
+    .general-footer {
+      margin-bottom: 0;
+    }
+}
 /*surface pro landscape*/
 
   @media only screen 
