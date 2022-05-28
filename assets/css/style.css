@@ -664,7 +664,7 @@ this goes weird on narrow view without adjustmust */
     font-size: 250%;
 }
 
-form { margin-top: 20px;}
+  form { margin-top: 20px;}
 
   .general-footer > ul > li {
     padding-right: 80px;
@@ -672,64 +672,62 @@ form { margin-top: 20px;}
 } 
   
   h1 {
-      font-size: 200%;
-      font-weight: lighter;
-      background-color: none;
-  }
+    font-size: 200%;
+    font-weight: lighter;
+    background-color: none;
+}
   
   h2 {
-      letter-spacing: 2px;
-      font-weight: lighter;
-      font-size: 120%;
-      background-color: none;
-  }
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 120%;
+    background-color: none;
+}
   
-    #timeline-body {
-      background-color: #889bae;
-      background-image: none;
-    }
+  #timeline-body {
+    background-color: #889bae;
+    background-image: none;
+}
   
-    span {
-      color: violet;
-      font-size: larger;}
+  span {
+    color: violet;
+    font-size: larger;}
   
     h3 {
       font-size: 250%;
     } 
   
-    .title {
-      font-size: 100%;
-    }
+  .title {
+    font-size: 100%;
+}
   
-    .nav-links {
-        color: #604664;
-        font-size: 100%;
-        margin-bottom: 20px;
-    }
+  .nav-links {
+    color: #604664;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
         
-    #form-header_wrapper {
-      margin-bottom: 10%;
-      padding-bottom: 3%;
-      padding-top: 1%;
-      margin-top: 2%;
-    }
-    .logo {
-      background-color: none;
-    }
-    form {
-      padding: 5%;
-      margin-top: -5%;
-    }
+  #form-header_wrapper {
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    margin-top: 2%;
+}
+  .logo {
+    background-color: none;
+}
+  form {
+    padding: 5%;
+    margin-top: -5%;
+}
   
-    #form-footer {
-      margin-top: 4%;
-      border: none;
-    }
-  
-  }
+  #form-footer {
+    margin-top: 4%;
+    border: none;
+}
+}
   
 /* desktops and some laptops and nest hub and nest hub max */
-
 @media only screen 
   and (min-device-width: 1280px)
   and (max-device-width: 2000px)
@@ -738,20 +736,20 @@ form { margin-top: 20px;}
   and (orientation: landscape) {
 
   h1 {
-      font-size: 200%;
-      font-weight: lighter;
-    }
+    font-size: 200%;
+    font-weight: lighter;
+}
 
   span {
-      color: violet;
-      font-size: larger;}
+    color: violet;
+    font-size: larger;}
 
   h2 {
-      font-size: 150%;
+    font-size: 150%;
   }
 
   h3 {
-      font-size: 150%;
+    font-size: 150%;
   } 
 
   .title {
@@ -759,23 +757,24 @@ form { margin-top: 20px;}
   }
 
   .nav-links {
-      color: #604664;
-      font-size: 80%;
+    color: #604664;
+    font-size: 80%;
   }
   
   footer a {
-      color: #556b2f;
-      font-size: 100%;
+    color: #556b2f;
+    font-size: 100%;
   }
 
   .general-footer>ul {
     padding-bottom: 20px;
-  }
+}
+
   .general-footer>ul>li {
     padding-left: 80px;
     padding-right: 80px;
     font-size: 50%;
-  }
+}
   
   #form-header_wrapper {
     margin-bottom: 8%;
@@ -783,23 +782,23 @@ form { margin-top: 20px;}
     padding-top: 1%;
     margin-top: 1%;
     border: none;
-  }
+}
 
   form {
     padding: 1%;
     margin-top: -5%;
-  }
+}
 
   #form-footer {
     margin-top: -10vh;
     border: none;
-  }
+}
 
   #timeline-body {
     background-image: url('../images/palewallpaper.jpg');
     background-size: 30%;
     background-repeat: repeat;
-  }
+}
 }
 
 /* large desktops */
@@ -808,32 +807,33 @@ form { margin-top: 20px;}
   and (min-device-height: 1101) 
   and (orientation: landscape) {
 
-    h1 {
-      font-size: 300%;
-      font-weight: lighter;
-    }
+  h1 {
+    font-size: 300%;
+    font-weight: lighter;
+}
 
-    span {
-      color: violet;
-      font-size: larger;}
+  span {
+    color: violet;
+    font-size: larger;
+}
 
   h2 {
-      font-size: 220%;
-  }
+    font-size: 220%;
+}
 
   h3 {
-      font-size: 250%;
-  } 
+    font-size: 250%;
+} 
 
   .nav-links {
-      color: #604664;
-      font-size: 100%;
-  }
+    color: #604664;
+    font-size: 100%;
+}
   
   footer a {
-      color: darkolivegreen;
-      font-size: 250%;
-  }
+    color: darkolivegreen;
+    font-size: 250%;
+}
   
   #form-header_wrapper {
     margin-bottom: 10%;
@@ -845,17 +845,16 @@ form { margin-top: 20px;}
   form {
     padding: 5%;
     margin-top: -5%;
-  }
+}
 
   #form-footer {
     margin-top: 4%;
     border: none;
-  }
+}
 
   #timeline-body {
     background-image: url('../images/palewallpaper.jpg');
     background-size: 30%;
     background-repeat: repeat;
-  }
 }
-/*
+}
