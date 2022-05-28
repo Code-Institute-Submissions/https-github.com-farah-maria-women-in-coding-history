@@ -417,9 +417,43 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
   }
-/* END OF REGULAR FEEDBACK FORM CODE */  
+/* END OF STANDARD FEEDBACK FORM CODE */  
 
 /* MEDIA QUERIES */
+
+@media only screen
+  and (min-device-width: 280px) 
+  and (max-device-width: 420px) {
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -142px;
+}
+}
+@media only screen
+  and (min-device-width: 421px) 
+  and (max-device-width: 462px) {
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -157px;
+}
+}
+/*  very narrow screens in portrait for foldable phones */
+  @media only screen 
+  and (max-device-width: 279px)
+  and (orientation: portrait) {
+
+  h1 {font-size: small}
+  h2 {font-size: small}
+  }    
+   .general-footer>ul>li {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 70%;
+  }
+
+
 
 @media only screen 
   and (min-device-width: 746px) and (max-device-width: 793px) {
@@ -434,8 +468,7 @@ input[type=text], select, textarea{
     }
   }
 
-  /* most mobile phones, portrait, from iphone4  to iphone13 max. 
-  And tablets from surface duo to nexus 9 */
+  /* most mobile phones, portrait, from iphone4.*/
  @media only screen 
   and (min-device-width: 320px)  
   and (max-device-width: 667px)
@@ -443,25 +476,25 @@ input[type=text], select, textarea{
   and (max-device-height: 812px)
   and (orientation: portrait)  {
 
-    footer>ul>li {	
-      padding-left: min (10px);	
-      padding-right: min(10px);	
-      align-items: stretch;	
-  }	
+  footer>ul>li {	
+    padding-left: min (10px);	
+    padding-right: min(10px);	
+    align-items: stretch;	
+}	
   
   h4 {font-size: small;}   
  
   #form-footer {
-      background: none;
-      margin-bottom: min(50px, 10%);
-      align-items: center;
-      justify-content: center;
+    background: none;
+    margin-bottom: min(50px, 10%);
+    align-items: center;
+    justify-content: center;
 }
 
   #form-footer > ul > li {
     padding-left: 15px;
     padding-right: 15px;
-  }
+}
 
   .general-footer {
     margin-bottom: 0;
@@ -472,32 +505,31 @@ input[type=text], select, textarea{
   .general-footer > ul {
     font-size: 160%;
   }
-  }
-
+  
   .general-footer, #form-footer {
     justify-content: center;
 }
 
-form {
-      font-size: x-small;
-      padding-left: 1%;
-      padding-right: 1%;
-      border: #A27C5B solid 1px;
-      border-radius: 10px;
-      margin-top: min(5px);
-      background-image: none;
-      background-color: #F8EEEC;             
+  form {
+    font-size: x-small;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: #A27C5B solid 1px;
+    border-radius: 10px;
+    margin-top: min(5px);
+    background-image: none;
+    background-color: #F8EEEC;             
 }  
   .container {
-      margin-top: 2px;
-      padding: 20px;
-      font-family: Open Sans, 'Courier New', Courier, monospace;
-      color: darkslategray;
-      font-size: medium;
-      font-weight: bold;
-  }
+    margin-top: 2px;
+    padding: 20px;
+    font-family: Open Sans, 'Courier New', Courier, monospace;
+    color: darkslategray;
+    font-size: medium;
+    font-weight: bold;
+}
 
-    nav {
+  nav {
     width: 100%;
     margin-top: min(2px);
     margin-bottom: min(2px);
@@ -509,11 +541,11 @@ form {
     border-radius: 5%;
 }
 
-.nav-links {
+  .nav-links {
     font-size: small;
     border-radius: 5%;
     padding: min(2px);
-  }
+}
 
   .general-footer, #form-footer {
     display: flex;
@@ -533,113 +565,82 @@ form {
 
   h3.title {
     font-size: 12px;
-  }
+}
 
   p {
     font-size: 12px; 
-  }
-
-/*                      */
-@media only screen
-  and (min-device-width: 280px) 
-  and (max-device-width: 420px) {
-
-/* setting dot to the left on odd numbered cards on TIMELINE - 
-this goes weird on narrow view without adjustmust */
-.card:nth-child(odd) > .info > .title::before {
-  left: -142px;
 }
 }
-
-@media only screen
-  and (min-device-width: 421px) 
-  and (max-device-width: 462px) {
-
-/* setting dot to the left on odd numbered cards on TIMELINE - 
-this goes weird on narrow view without adjustmust */
-.card:nth-child(odd) > .info > .title::before {
-  left: -157px;
-}
-}
-/* most phones and tablets, landscape view */
-
+/* same as above - most mobile phones, but in landscape mode */
 @media only screen 
-  and (min-device-width: 480px)
-  and (max-device-width: 1919px)
-  and (min-device-height: 360px)
-  and (max-device-height: 767px)
-  and (orientation: landscape)  {
+  and (min-device-width: 320px)  
+  and (max-device-width: 667px)
+  and (min-device-height: 480px)
+  and (max-device-height: 812px)
+  and (orientation: landscape) {
 
-    h1 { font-size: 120%;
-    background-color: none;}
-    h2 {font-size: small;
-    background-color: none;}
-    h3 {font-size: 120%}
-
-    .site-header_wrapper, #form-header_wrapper {
-      margin-top: 0%;
-      max-height: 10%;
-      border: none;
-      display: inline-block;
-    }
-  
-    #form-footer {
-        border: none;
-        background: none;
-        margin-bottom: min(50px, 10%);
-        width: 30% center;
-        align-items: center;
-  }
-  
-    form {
+    h1 { 
+      font-size: 120%;
+      background-color: none;
+}
+    h2 {
         font-size: small;
-        padding-left: 1%;
-        padding-right: 1%;
-        border: #A27C5B solid 1px;
-        border-radius: 10px;
-        margin-top: min(5px);
-        background-image: none;
-        background-color: #F8EEEC;             
-  }  
+        background-color: none;
+}
+    h3 {
+        font-size: 120%
+}
+
+  .site-header_wrapper, #form-header_wrapper {
+    margin-top: 0%;
+    max-height: 10%;
+    border: none;
+    display: inline-block;
+}
+  
+  #form-footer {
+    border: none;
+    background: none;
+    margin-bottom: min(50px, 10%);
+    width: 30% center;
+    align-items: center;
+}
+  
+  form {
+    font-size: small;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: #A27C5B solid 1px;
+    border-radius: 10px;
+    margin-top: min(5px);
+    background-image: none;
+    background-color: #F8EEEC;             
+}  
   
   .container {
-       margin-top: -20px;
-  }
+    margin-top: -20px;
+}
   
   .nav-links {
-      font-size: small;
-      border-radius: 5%;
-    }
+    font-size: small;
+    border-radius: 5%;
+}
   
-    .general-footer, #form-footer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      font-size: medium;
-  }
-  
-    footer>ul>li {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-left: min (10px);
-      padding-right: min(10px);
+  .general-footer, #form-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: medium;
+}
+  footer>ul>li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-left: min (10px);
+    padding-right: min(10px);
 }
 }
-/*  very narrow screens in portrait for foldable phones */
-  @media only screen 
-  and (max-device-width: 279px)
-  and (orientation: portrait) {
 
-  h1 {font-size: large}
-  h2 {font-size: small}
-  }    
-   .general-footer>ul>li {
-      padding-left: 20px;
-      padding-right: 20px;
-      font-size: 70%;
-  }
-
-  /*surface pro landscape*/
+/*surface pro landscape*/
 
   @media only screen 
   and (device-width: 1368px) and (device-height: 912px)
@@ -764,13 +765,16 @@ form { margin-top: 20px;}
   
   footer a {
       color: #556b2f;
-      font-size: 200%;
+      font-size: 100%;
   }
-    
+
+  .general-footer>ul {
+    padding-bottom: 20px;
+  }
   .general-footer>ul>li {
     padding-left: 80px;
     padding-right: 80px;
-    font-size: 100%;
+    font-size: 50%;
   }
   
   #form-header_wrapper {
@@ -855,6 +859,3 @@ form { margin-top: 20px;}
   }
 }
 /*
-@media only screen 
-  and (min-device-:width: 2000px) 
-  and (orientation: landscape)
