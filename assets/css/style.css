@@ -22,7 +22,7 @@ body {
 
 #feedback-settings {
     margin-top: 0;
-    background-color: #f3f3f3;
+    background-color: #f3f3f3; /* if image is not available */
     background-image: url('../images/palewallpaper.jpg');
 }
 
@@ -73,16 +73,16 @@ h4 {
 }
 
     /* timeline code inspired by https://alvarotrigo.com/blog/html-css-timelines/ */
-    :root {
-        --primary-color: #fffffc;
-        --background-color: #889bae;
-        --font: Open Sans, helvetica;
+:root {
+  --primary-color: #fffffc;
+  --background-color: #889bae;
+  --font: Open Sans, helvetica;
       }
       
-      * {
-        margin: 0;
-        padding: 0;
-      }
+* {
+    margin: 0;
+    padding: 0;
+}
       
       #timeline-body {
         background: var(--background-color);
@@ -196,7 +196,7 @@ h4 {
         right: -45px;
       }
     
-       /* end of timeline code */
+       /* end of main timeline code */
 
 form {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
@@ -228,7 +228,7 @@ ul li {
     display: inline;
 }
 
-h3, article {
+h3 {
     display: grid;
     flex: 1;
     margin-left: 30%;
@@ -380,7 +380,7 @@ input[type=text], select, textarea{
   input[type=submit]:visited{
     background-color: #d3d3d3;
   }
-  /* Style the container */
+  /* Style the container */ 
   .container {
     padding: 20px;
     font-family: Open Sans, 'Courier New', Courier, monospace;
@@ -426,7 +426,6 @@ input[type=text], select, textarea{
 
   .nav-links {
     font-size: 80%;
-    background-color: rgb(245, 243, 245);
     border-radius: 5%;
 }   
 
@@ -495,13 +494,11 @@ form {
   h1 {
     font-size: 120%;
     font-weight:300;
-    background-color: #f3f3f3;
     border-radius: 5%;
 }
 
 .nav-links {
     font-size: small;
-    background-color: rgb(245, 243, 245);
     border-radius: 5%;
     padding: min(2px);
   }
@@ -544,7 +541,6 @@ this goes weird on narrow view without adjustmust */
   left: -157px;
 }
 }
-/*                         */
 /* most phones and tablets, landscape view */
 
 @media only screen 
@@ -576,7 +572,7 @@ this goes weird on narrow view without adjustmust */
   }
   
     form {
-        font-size: x-small;
+        font-size: small;
         padding-left: 1%;
         padding-right: 1%;
         border: #A27C5B solid 1px;
@@ -592,7 +588,6 @@ this goes weird on narrow view without adjustmust */
   
   .nav-links {
       font-size: small;
-      background-color: rgb(245, 243, 245);
       border-radius: 5%;
     }
   
@@ -688,7 +683,6 @@ form { margin-top: 20px;}
     .nav-links {
         color: #604664;
         font-size: 100%;
-        background-color: none;
         margin-bottom: 20px;
     }
         
@@ -751,7 +745,6 @@ form { margin-top: 20px;}
   footer a {
       color: #556b2f;
       font-size: 200%;
-      background-color: rgba(255,251,255,.5);
   }
     
   .general-footer>ul>li {
