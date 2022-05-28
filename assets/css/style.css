@@ -571,6 +571,15 @@ this goes weird on narrow view without adjustmust */
     font-size: 12px; 
 }
 }
+
+@media only screen 
+  and (min-device-height: 813px) and (orientation: portrait) {
+  
+  .general-footer > ul > li {
+    font-size: min(25px);
+  }
+
+}
 /* same as above - most mobile phones, but in landscape mode */
 @media only screen 
   and (min-device-width: 320px)  
