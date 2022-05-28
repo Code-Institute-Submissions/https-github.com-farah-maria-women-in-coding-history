@@ -26,7 +26,7 @@ body {
     background-image: url('../images/palewallpaper.jpg');
 }
 
-.site-header_wrapper {
+.site-header_wrapper, #form-header_wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,10 +42,10 @@ body {
 }
 
 #form-header_wrapper {
-    height: 70px;
-    margin-bottom: min 10px;
-    margin-top: 2vh;
-    padding-left: 20px;
+  height: 70px;
+  margin-bottom: min 10px;
+  margin-top: 2vh;
+  padding-left: 20px;
 }
 
 h1, h2, h4 { 
@@ -122,7 +122,7 @@ h4 {
       /* Setting the border of top, bottom, left */
       .card:nth-child(odd)::before {
         left: 0px;
-        top: -5.5px;
+        top: -5px;
         bottom: -5px;
         border-width: 5px 0 5px 5px;
         border-radius: 50px 0 0 50px;
@@ -434,16 +434,22 @@ input[type=text], select, textarea{
     }
   }
 
-  /* most mobile phones, portrait, including the foldable galaxy fold (just about!), from iphone4  to iphone13 max. 
+  /* most mobile phones, portrait, from iphone4  to iphone13 max. 
   And tablets from surface duo to nexus 9 */
  @media only screen 
-  and (min-device-width: 280px)  
-  and (max-device-width: 1280px)
+  and (min-device-width: 320px)  
+  and (max-device-width: 667px)
   and (min-device-height: 480px)
-  and (max-device-height: 2050px)
+  and (max-device-height: 812px)
   and (orientation: portrait)  {
- 
-   h4 {font-size: small;}   
+
+    footer>ul>li {	
+      padding-left: min (10px);	
+      padding-right: min(10px);	
+      align-items: stretch;	
+  }	
+  
+  h4 {font-size: small;}   
  
   #form-footer {
       background: none;
@@ -483,8 +489,14 @@ form {
       background-color: #F8EEEC;             
 }  
   .container {
-     margin-top: min(2px);
-}
+      margin-top: 2px;
+      padding: 20px;
+      font-family: Open Sans, 'Courier New', Courier, monospace;
+      color: darkslategray;
+      font-size: medium;
+      font-weight: bold;
+  }
+
     nav {
     width: 100%;
     margin-top: min(2px);
@@ -513,12 +525,20 @@ form {
  .general-footer>ul>li {
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 500%;
 }
 
-#timeline-body {
-  background-color: #e9def2;
+  #timeline-body {
+    background-color: #e9def2;
 }
+
+  h3.title {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px; 
+  }
+
 /*                      */
 @media only screen
   and (min-device-width: 280px) 
@@ -544,7 +564,7 @@ this goes weird on narrow view without adjustmust */
 /* most phones and tablets, landscape view */
 
 @media only screen 
-  and (min-device-width: 640px)
+  and (min-device-width: 480px)
   and (max-device-width: 1919px)
   and (min-device-height: 360px)
   and (max-device-height: 767px)
