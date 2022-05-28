@@ -764,18 +764,16 @@ this goes weird on narrow view without adjustmust */
   footer a {
     color: #556b2f;
     font-size: 100%;
-  }
+}
 
   .general-footer>ul {
-    padding-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .general-footer>li {
+    padding: 0 80px 0;
 }
 
-  .general-footer>ul>li {
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 50%;
-}
-  
   #form-header_wrapper {
     margin-bottom: 8%;
     padding-bottom: 1%;
