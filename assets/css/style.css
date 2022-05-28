@@ -578,8 +578,41 @@ this goes weird on narrow view without adjustmust */
   .general-footer > ul > li {
     font-size: min(25px);
   }
-
 }
+
+@media only screen 
+and (min-device-width: 360px) and (max-device-width: 734px ) and (orientation: landscape) {
+  
+  h1 {font-size: medium;}
+
+  h2 {font-size: small;}
+
+  h4 {font-size: small;}
+
+  label {font-size: 10px;}
+
+  .general-footer {font-size: medium;}
+
+  #form-footer { font-size: medium;} 
+
+  #form-header_wrapper {
+    height: 40px;
+    margin-top: 2vh;
+    padding-left: 20px;
+  } 
+
+  #form-header_wrapper > h1.logo {
+    font-size: large;
+  }
+
+  .container {
+    padding: 0px;
+    font-family: Open Sans, 'Courier New', Courier, monospace;
+    color: darkslategray;
+    font-size: small;
+    font-weight: bold;
+}
+
 /* same as above - most mobile phones, but in landscape mode */
 @media only screen 
   and (min-device-width: 320px)  
