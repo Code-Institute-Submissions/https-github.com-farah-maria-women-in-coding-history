@@ -793,11 +793,35 @@ this goes weird on narrow view without adjustmust */
 }
 
   #timeline-body {
-    background-image: url('../images/palewallpaper.jpg');
-    background-size: 30%;
+    background-image: url('../images/wallpaper.jpg');
+    background-size: 20%;
     background-repeat: repeat;
 }
+
+#timeline-header {
+    background-image: url('../images/palewallpaper.jpg'); 
+    border-radius: 10px;
+    border-top: #889bae 4px solid;
+    border-bottom: #889bae 4px solid;
 }
+
+#timeline-header > h1 {
+  color: #1d4d3e;
+}
+
+#timeline-footer {
+  border-top: #889bae 2px solid;
+  border-radius: 10px;
+  background-image: url('../images/palewallpaper.jpg') cover;
+  background-repeat: repeat;
+  margin-bottom: 0;
+}
+
+#timeline-footer>ul {
+  padding-bottom: 10px;
+}
+}
+
 
 /* large desktops */
 
