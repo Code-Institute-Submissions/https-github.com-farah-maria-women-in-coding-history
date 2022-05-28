@@ -595,7 +595,6 @@ this goes weird on narrow view without adjustmust */
     margin-top: 0%;
     max-height: 10%;
     border: none;
-    display: inline-block;
 }
   
   #form-footer {
