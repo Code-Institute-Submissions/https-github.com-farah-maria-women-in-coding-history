@@ -42,9 +42,9 @@ body {
 }
 
 #form-header_wrapper {
-  height: min(3vh)px;
-  margin-bottom: min(5%);
-  margin-top: 2vh;
+  height: 3vh;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
   padding-left: 20px;
 }
 
@@ -753,14 +753,13 @@ and (orientation: landscape) {
 
 @media only and 
   and (device-width: 1920px)
-  and (device-height: 1080px) {
+  and (device-height: 1080px) 
+  and (orientation: landscape) {
 
   
     #form-header_wrapper {
       height: 100px;
       margin-bottom: 200px;
-      margin-top: 2vh;
-      padding-left: 20px;
       font-size: larger;
       background-color: rgba(235,239,233,.3);
       margin-top: 5%;
