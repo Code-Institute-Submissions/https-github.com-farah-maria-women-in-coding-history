@@ -42,8 +42,8 @@ body {
 }
 
 #form-header_wrapper {
-  height: 70px;
-  margin-bottom: min 10px;
+  height: min(3vh)px;
+  margin-bottom: min(5%);
   margin-top: 2vh;
   padding-left: 20px;
 }
@@ -71,6 +71,7 @@ h4 {
     letter-spacing: 1px;
     background-color: rgba(255,251,255,.2);
 }
+
 
     /* timeline code inspired by https://alvarotrigo.com/blog/html-css-timelines/ */
 :root {
@@ -746,9 +747,35 @@ and (orientation: landscape) {
     border-radius: 10px;
     background-color: #F8EEEC;
   }
+}
+
+/* media queries to cover the most popular desktop and laptop sizes */
+
+@media only and 
+  and (device-width: 1920px)
+  and (device-height: 1080px) {
 
   
+    #form-header_wrapper {
+      height: 100px;
+      margin-bottom: 200px;
+      margin-top: 2vh;
+      padding-left: 20px;
+      font-size: larger;
+      background-color: rgba(235,239,233,.3);
+      margin-top: 5%;
+      border-bottom: #889bae solid;
+      border-top: #889bae solid;
+    }
 
+    #form-footer > ul {
+      padding: 5px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      background-color: #F8EEEC;
+    }
+    
+}
 
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
@@ -872,12 +899,7 @@ and (orientation: landscape) {
     padding: 0 80px 0;
 }
 
-  #form-header_wrapper {
-    margin-bottom: 8%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    margin-top: 1%;
-    border: none;
+  
 }
 
   form {
