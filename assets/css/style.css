@@ -581,7 +581,9 @@ this goes weird on narrow view without adjustmust */
 }
 
 @media only screen 
-and (min-device-width: 360px) and (max-device-width: 734px ) and (orientation: landscape) {
+and (min-device-width: 360px) 
+and (max-device-width: 734px)
+and (orientation: landscape) {
   
   h1 {font-size: medium;}
 
@@ -612,6 +614,7 @@ and (min-device-width: 360px) and (max-device-width: 734px ) and (orientation: l
     font-size: small;
     font-weight: bold;
 }
+}
 
 /* same as above - most mobile phones, but in landscape mode */
 @media only screen 
@@ -621,16 +624,16 @@ and (min-device-width: 360px) and (max-device-width: 734px ) and (orientation: l
   and (max-device-height: 812px)
   and (orientation: landscape) {
 
-    h1 { 
-      font-size: 120%;
-      background-color: none;
+  h1 { 
+    font-size: 120%;
+    background-color: none;
 }
-    h2 {
-        font-size: small;
-        background-color: none;
+  h2 {
+    font-size: small;
+    background-color: none;
 }
-    h3 {
-        font-size: 120%
+  h3 {
+    font-size: 120%
 }
 
   .site-header_wrapper, #form-header_wrapper {
@@ -684,28 +687,28 @@ and (min-device-width: 360px) and (max-device-width: 734px ) and (orientation: l
 @media only screen 
   and (min-device-width: 586px) and (max-device-width: 1199px){
   
-    .general-footer > ul > li {
-      padding-right: 60px;
-      padding-left: 60px;
-      font-size: 100%;
-    }
-
-    .general-footer {
-      margin-bottom: 0;
-    }
+  .general-footer > ul > li {
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 100%;
 }
+
+  .general-footer {
+    margin-bottom: 0;
+}
+}
+
 /*surface pro landscape*/
 
-  @media only screen 
+ @media only screen 
   and (device-width: 1368px) and (device-height: 912px)
   and (orientation: landscape) {
 
-  .site-header_wrapper {
-    border: none;
-  }
-
-  h1 { font-size: medium;}    
-  }
+ .general-footer > ul > li {
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 200%;
+}
 
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
