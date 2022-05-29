@@ -698,17 +698,18 @@ and (orientation: landscape) {
 }
 }
 
-/*surface pro landscape*/
+/* adjustments for tablets */
 
- @media only screen 
-  and (device-width: 1368px) and (device-height: 912px)
+@media only screen 
+  and (min-device-width: 1282px)
   and (orientation: landscape) {
 
- .general-footer > ul > li {
-    padding-right: 60px;
-    padding-left: 60px;
-    font-size: 200%;
+  .general-footer>ul>li {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 100%;
 }
+
 
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
@@ -717,16 +718,17 @@ and (orientation: landscape) {
   and (max-device-width: 1281px) 
   and (orientation: landscape) {
 
+  .general-footer > ul > li {
+    padding-right: 80px;
+    padding-left: 80px;
+  } 
+
   .general-footer > ul {
     font-size: 250%;
 }
 
   form { margin-top: 20px;}
 
-  .general-footer > ul > li {
-    padding-right: 80px;
-    padding-left: 80px;
-} 
   
   h1 {
     font-size: 200%;
