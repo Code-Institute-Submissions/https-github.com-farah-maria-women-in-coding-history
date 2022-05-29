@@ -442,21 +442,6 @@ this goes weird on narrow view without adjustmust */
   left: -157px;
 }
 }
-/*  very narrow screens in portrait for foldable phones */
-  @media only screen 
-  and (max-device-width: 279px)
-  and (orientation: portrait) {
-
-  h1 {font-size: small}
-  h2 {font-size: small}
-  }    
-   .general-footer>ul>li {
-      padding-left: 20px;
-      padding-right: 20px;
-      font-size: 70%;
-  }
-
-
 
 @media only screen 
   and (min-device-width: 746px) and (max-device-width: 793px) {
@@ -492,6 +477,8 @@ this goes weird on narrow view without adjustmust */
     margin-bottom: min(50px, 10%);
     align-items: center;
     justify-content: center;
+    margin-top: 0.5vh;
+
 }
 
   #form-footer > ul > li {
@@ -506,7 +493,7 @@ this goes weird on narrow view without adjustmust */
   }
 
   .general-footer > ul {
-    font-size: 160%;
+    font-size: 100%;
   }
   
   .general-footer, #form-footer {
@@ -524,7 +511,7 @@ this goes weird on narrow view without adjustmust */
     background-color: #F8EEEC;             
 }  
   .container {
-    margin-top: 2px;
+    margin-top: 5vh;
     padding: 20px;
     font-family: Open Sans, 'Courier New', Courier, monospace;
     color: darkslategray;
@@ -563,8 +550,13 @@ this goes weird on narrow view without adjustmust */
 }
 
   #timeline-body {
-    background-color: #e9def2;
+    background-color: #889bae;
+    background-image: none;
 }
+
+  #timeline-settings {
+    background-image: none;
+  }
 
   h3.title {
     font-size: 12px;
@@ -598,7 +590,10 @@ and (orientation: landscape) {
 
   .general-footer {font-size: medium;}
 
-  #form-footer { font-size: medium;} 
+  #form-footer { 
+    font-size: medium;
+    margin-top: -1vh;
+  } 
 
   #form-header_wrapper {
     height: 40px;
@@ -651,6 +646,7 @@ and (orientation: landscape) {
     margin-bottom: min(50px, 10%);
     width: 30% center;
     align-items: center;
+    margin-top: 2vh;
 }
   
   form {
@@ -731,7 +727,10 @@ and (orientation: landscape) {
 
     form {
       margin-top: -50px;
-}
+  }
+  #form-footer {
+    margin-top: -16vh;
+  }
 }
 
 @media only screen 
@@ -749,7 +748,45 @@ and (orientation: landscape) {
     border-radius: 10px;
     background-color: #F8EEEC;
   }
+  .general-footer {
+    font-size: 200%;
+  }
 }
+
+@media only screen 
+  and (device-width: 1280px)
+  and (device-height: 800px)
+  and (orientation: landscape) {
+
+    #form-footer > ul {
+      padding: 5px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      background-color: #F8EEEC;
+      margin-top: 2%;
+    }
+
+    form {
+      height: 450px;
+    }
+ }
+
+ @media only screen 
+  and (device-width: 1280px)
+  and (device-height: 800px)
+  and (orientation: portrait) {
+
+    #form-footer > ul {
+      padding: 5px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      background-color: #F8EEEC;
+    } 
+
+    .general-footer {
+      font-size: 200%;
+    }
+  }
 
 /* media queries to cover the most popular desktop and laptop sizes */
 
@@ -842,10 +879,6 @@ and (orientation: landscape) {
   and (device-width: 1280px)
   and (device-height: 720px)
   and (orientation: landscape) {
-
-  #form-footer {
-    margin-top: -7vh;
-  }
   
   #form-footer > ul {
     padding: 5px;
@@ -950,7 +983,7 @@ and (orientation: landscape) {
 }
   
   #form-footer {
-    margin-top: 4%;
+    margin-top: 0.5%;
     border: none;
 }
 }
@@ -1011,7 +1044,6 @@ and (orientation: landscape) {
 }
 
   #form-footer {
-    margin-top: -10vh;
     border: none;
 }
 
