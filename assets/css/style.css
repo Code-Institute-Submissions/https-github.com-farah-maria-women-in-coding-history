@@ -709,6 +709,45 @@ and (orientation: landscape) {
     padding-right: 80px;
     font-size: 100%;
 }
+}
+
+@media only screen
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (orientation: landscape){
+
+  h3.wrapper {
+    font-size: large;
+  }
+}
+
+@media only screen 
+  and (device-width: 962px)
+  and (device-height: 601px)
+  and (orientation: landscape) {
+
+    form {
+      margin-top: -50px;
+}
+}
+
+@media only screen 
+  and (device-width: 601px)
+  and (device-height: 962px)
+  and (orientation: portrait) {
+
+  nav {
+    padding-left: 30%;
+    border-top: gray solid 1px;
+}
+  #form-footer > ul {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #F8EEEC;
+  }
+
+  
 
 
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
