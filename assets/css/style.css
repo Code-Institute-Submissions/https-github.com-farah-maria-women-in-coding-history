@@ -813,6 +813,26 @@ and (orientation: landscape) {
     }
   }
   
+  @media only screen 
+    and (device-width: 1536px)
+    and (device-height: 864px)
+    and (orientation: landscape) {
+  
+  #form-footer {
+    height: 220px;
+  }  
+
+  #form-footer > ul {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #F8EEEC;
+  }
+
+  #form-header_wrapper {
+    height: 80px;
+  }
+}
 
 
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
