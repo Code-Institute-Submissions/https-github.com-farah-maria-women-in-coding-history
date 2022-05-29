@@ -302,6 +302,7 @@ footer a {
 footer>ul>li {
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 120%;
 }
 
 footer a:hover {
@@ -778,6 +779,15 @@ and (orientation: landscape) {
     #form-footer {font-size: 210%;}
 }
 
+@media only screen 
+  and (device-width: 1366px)
+  and (device-height: 768px)
+  and (orientation: landscape) {
+
+  #form-footer {
+    height: 150px;
+  }
+}
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
 @media only screen
