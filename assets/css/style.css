@@ -881,7 +881,7 @@ and (orientation: landscape) {
   }
 }
 
-/* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+/* some laptops, that don't fall into the above category, - pixel perameters from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
 @media only screen
   and (min-device-width: 1200px) 
@@ -899,7 +899,6 @@ and (orientation: landscape) {
 
   form { margin-top: 20px;}
 
-  
   h1 {
     font-size: 200%;
     font-weight: lighter;
@@ -922,9 +921,9 @@ and (orientation: landscape) {
     color: violet;
     font-size: larger;}
   
-    h3 {
-      font-size: 250%;
-    } 
+  h3 {
+    font-size: 250%;
+} 
   
   .title {
     font-size: 100%;
@@ -956,7 +955,7 @@ and (orientation: landscape) {
 }
 }
   
-/* desktops and some laptops and nest hub and nest hub max */
+/* desktops and some laptops that don't fall into above perameters */
 @media only screen 
   and (min-device-width: 1280px)
   and (max-device-width: 2000px)
@@ -1044,10 +1043,8 @@ and (orientation: landscape) {
 #timeline-footer>ul {
   padding-bottom: 10px;
 }
-}
 
-
-/* large desktops */
+/* large desktops that don't fall into above perameters, to make sure screen isn't cramped with content in one part and then with loads of empty space around it */
 
 @media only screen 
   and (min-device-height: 1101) 
@@ -1104,3 +1101,5 @@ and (orientation: landscape) {
     background-repeat: repeat;
 }
 }
+
+/* end of media queries */
