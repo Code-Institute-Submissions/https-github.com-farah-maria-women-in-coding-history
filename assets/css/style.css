@@ -811,6 +811,10 @@ and (orientation: landscape) {
       border-radius: 10px;
       background-color: #F8EEEC;
     }
+
+    #form-header_wrapper {
+      height: 80px;
+    }
   }
   
   @media only screen 
@@ -834,6 +838,48 @@ and (orientation: landscape) {
   }
 }
 
+@media only screen 
+  and (device-width: 1280px)
+  and (device-height: 720px)
+  and (orientation: landscape) {
+
+  #form-footer {
+    margin-top: -7vh;
+  }
+  
+  #form-footer > ul {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #F8EEEC;
+  }
+  }
+
+@media only screen 
+  and (device-width: 1920px)
+  and (device-height: 1080px)
+  and (orientation: landscape) {
+
+  #form-footer {
+  height: 300px;
+  margin-top: -5vh;
+}
+
+  form {
+    height: 600px;
+  }
+  
+  #form-footer > ul {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #F8EEEC;
+  }
+  
+  #form-header_wrapper {
+    height: 80px;
+  }
+}
 
 /* laptops - code from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
