@@ -563,7 +563,10 @@ form {
     font-size: min(25px);
   }
 
-  #timeline-body { background-image: none;}
+  #timeline-body { 
+    background-image: none;
+    background-color: #fffdf3;
+  }
 
 }
 
@@ -604,6 +607,10 @@ and (orientation: landscape) {
     font-size: small;
     font-weight: bold;
 }
+  #timeline-body {
+    background-image: none;
+    background-color: #FFFDF3;
+  }
 }
 /* same as above - most mobile phones, but in landscape mode */
 @media only screen 
