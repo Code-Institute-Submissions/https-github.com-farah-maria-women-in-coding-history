@@ -407,6 +407,10 @@ img {
 }
 
 #enlarge {
+  max-width: 60%;
+}
+
+#enlarge-more {
   max-width: 70%;
 }
 
