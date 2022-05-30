@@ -547,13 +547,9 @@ form {
 }
 
   #timeline-body {
-    background-color: #889bae;
+    background-color: #FFFDF3;
     background-image: none;
 }
-
-  #timeline-settings {
-    background-image: none;
-  }
 
   p {
     font-size: 12px; 
@@ -566,6 +562,9 @@ form {
   .general-footer > ul > li {
     font-size: min(25px);
   }
+
+  #timeline-body { background-image: none;}
+
 }
 
 @media only screen 
@@ -606,7 +605,6 @@ and (orientation: landscape) {
     font-weight: bold;
 }
 }
-
 /* same as above - most mobile phones, but in landscape mode */
 @media only screen 
   and (min-device-width: 320px)  
@@ -656,6 +654,10 @@ footer>ul>li {
     margin-top: 2vh;
 }
   
+  #timeline-body { 
+    background-image: none;
+    background-color: #fffdf3;}
+  
   form {
     font-size: small;
     padding-left: 1%;
@@ -689,6 +691,11 @@ footer>ul>li {
   .general-footer {
     margin-bottom: 0;
 }
+
+  #timeline-body {
+    background-image: none;
+    background-color: #889bae;
+  }
 }
 
 /* adjustments for tablets */
@@ -992,7 +999,7 @@ footer>ul>li {
 }
 }
   
-/* desktops and some laptops that don't fall into above perameters */
+/* desktops and some laptops and tablets that don't fall into above perameters */
 @media only screen 
   and (min-device-width: 1280px)
   and (max-device-width: 2000px)
@@ -1039,9 +1046,6 @@ footer>ul>li {
     padding: 0 80px 0;
 }
 
-  
-}
-
   form {
     padding: 1%;
     margin-top: -5%;
@@ -1052,9 +1056,8 @@ footer>ul>li {
 }
 
   #timeline-body {
-    background-image: url('../images/wallpaper.jpg');
-    background-size: 20%;
-    background-repeat: repeat;
+    background-image: none;
+    background-color:#889bae;
 }
 
 #timeline-header {
@@ -1078,6 +1081,7 @@ footer>ul>li {
 
 #timeline-footer>ul {
   padding-bottom: 10px;
+}
 }
 
 /* large desktops that don't fall into above perameters, to make sure screen isn't cramped with content in one part and then with loads of empty space around it */
