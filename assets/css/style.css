@@ -52,7 +52,7 @@ body {
 
 
 h1, h2, h4, .nav-links { 
-    font-family: Permanent Marker, Impact, sans-serif;    
+    font-family: "Permanent Marker", Impact, sans-serif;    
 }
 
 h1 {
@@ -164,7 +164,7 @@ span {
 }
       
     form {
-      font-family: Open Sans, Arial, Helvetica, sans-serif;
+      font-family: "Open Sans", Arial, Helvetica, sans-serif;
       font-size: small;
       color:#2b2d2f;
       background-color: #F8EEEC; /* if background image is unavailable */
@@ -239,7 +239,7 @@ input[type=submit]:visited{
 /* Style the container */ 
 .container {
   padding: 20px;
-  font-family: Open Sans, 'Courier New', Courier, monospace;
+  font-family: "Open Sans", 'Courier New', Courier, monospace;
   color: darkslategray;
   font-size: large;
   font-weight: bold;
@@ -279,7 +279,7 @@ input[type=submit]:visited{
    :root {
     --primary-color: #fffffc;
     --background-color: #889bae;
-    --font: Open Sans, helvetica;
+    --font: "Open Sans", helvetica;
         }
         
   * {
@@ -403,6 +403,7 @@ input[type=submit]:visited{
 
 img {
   border-radius: 5%;
+  height: 150vh;
 }
 
 .float-right {
@@ -529,7 +530,7 @@ form {
   .container {
     margin-top: 5vh;
     padding: 20px;
-    font-family: Open Sans, 'Courier New', Courier, monospace;
+    font-family: "Open Sans", 'Courier New', Courier, monospace;
     color: darkslategray;
     font-size: medium;
     font-weight: bold;
@@ -607,7 +608,7 @@ and (orientation: landscape) {
 
   .container {
     padding: 0px;
-    font-family: Open Sans, 'Courier New', Courier, monospace;
+    font-family: "Open Sans", 'Courier New', Courier, monospace;
     color: darkslategray;
     font-size: small;
     font-weight: bold;
