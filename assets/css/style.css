@@ -467,7 +467,7 @@ this goes weird on narrow view without adjustmust */
   and (orientation: portrait)  {
 
   h1 {
-      font-size: 120%;
+      font-size: 6vw;
       font-weight:300;
       border-radius: 5%;
   }
@@ -504,12 +504,12 @@ this goes weird on narrow view without adjustmust */
   }
 
   .general-footer > ul {
-    font-size: 100%;
+    font-size: 5vw;
 }
 
 .general-footer>ul>li {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 footer>ul>li {	
@@ -560,8 +560,13 @@ form {
 
 @media only screen 
   and (min-device-height: 813px) and (orientation: portrait) {
-  
-  .general-footer > ul > li {
+ 
+      footer>ul>li {
+      padding-left: 7vw;
+      padding-right: 7vw;
+      font-size: 120%;
+ 
+      .general-footer > ul > li {
     font-size: min(25px);
   }
 
