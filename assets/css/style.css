@@ -464,21 +464,30 @@ this goes weird on narrow view without adjustmust */
   and (max-device-height: 812px)
   and (orientation: portrait)  {
 
-  footer>ul>li {	
-    padding-left: min (10px);	
-    padding-right: min(10px);	
-    align-items: stretch;	
-}	
-  
+  h1 {
+      font-size: 120%;
+      font-weight:300;
+      border-radius: 5%;
+  }
+
   h4 {font-size: small;}   
- 
+
+  h3.title {
+    font-size: 12px;
+}
+
+  .general-footer, #form-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   #form-footer {
     background: none;
     margin-bottom: min(50px, 10%);
     align-items: center;
     justify-content: center;
     margin-top: 0.5vh;
-
 }
 
   #form-footer > ul > li {
@@ -494,13 +503,20 @@ this goes weird on narrow view without adjustmust */
 
   .general-footer > ul {
     font-size: 100%;
-  }
-  
-  .general-footer, #form-footer {
-    justify-content: center;
 }
 
-  form {
+.general-footer>ul>li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer>ul>li {	
+  padding-left: min (10px);	
+  padding-right: min(10px);	
+  align-items: stretch;	
+}	
+
+form {
     font-size: x-small;
     padding-left: 1%;
     padding-right: 1%;
@@ -524,29 +540,10 @@ this goes weird on narrow view without adjustmust */
     margin-top: min(2px);
     margin-bottom: min(2px);
 }
-
-  h1 {
-    font-size: 120%;
-    font-weight:300;
-    border-radius: 5%;
-}
-
   .nav-links {
     font-size: small;
     border-radius: 5%;
     padding: min(2px);
-}
-
-  .general-footer, #form-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: medium;
-}
-
- .general-footer>ul>li {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
   #timeline-body {
@@ -557,10 +554,6 @@ this goes weird on narrow view without adjustmust */
   #timeline-settings {
     background-image: none;
   }
-
-  h3.title {
-    font-size: 12px;
-}
 
   p {
     font-size: 12px; 
@@ -927,7 +920,7 @@ and (orientation: landscape) {
   } 
 
   .general-footer > ul {
-    font-size: 250%;
+    font-size: 120%;
 }
 
   form { margin-top: 20px;}
@@ -955,7 +948,7 @@ and (orientation: landscape) {
     font-size: larger;}
   
   h3 {
-    font-size: 250%;
+    font-size: 150%;
 } 
   
   .title {
