@@ -403,7 +403,11 @@ input[type=submit]:visited{
 
 img {
   border-radius: 5%;
-  height: 15vh;
+  max-width: 40%;
+}
+
+#enlarge {
+  max-width: 70%;
 }
 
 .float-right {
