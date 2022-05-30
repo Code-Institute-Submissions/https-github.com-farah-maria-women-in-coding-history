@@ -835,12 +835,12 @@ and (orientation: landscape) {
     height: 250px;
   }
 
-    #form-footer > ul {
-      padding: 5px;
-      border: 2px solid gray;
-      border-radius: 10px;
-      background-color: #F8EEEC;
-    }
+  #form-footer > ul {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #F8EEEC;
+}
 
     #form-header_wrapper {
       height: 80px;
