@@ -426,8 +426,8 @@ img {
 /* MEDIA QUERIES */
 
 @media only screen
-  and (min-device-width: 280px) 
-  and (max-device-width: 420px) {
+  and (min-width: 280px) 
+  and (max-width: 420px) {
 /* setting dot to the left on odd numbered cards on TIMELINE - 
 this goes weird on narrow view without adjustmust */
 .card:nth-child(odd) > .info > .title::before {
@@ -435,8 +435,8 @@ this goes weird on narrow view without adjustmust */
 }
 }
 @media only screen
-  and (min-device-width: 421px) 
-  and (max-device-width: 462px) {
+  and (min-width: 421px) 
+  and (max-width: 462px) {
 /* setting dot to the left on odd numbered cards on TIMELINE - 
 this goes weird on narrow view without adjustmust */
 .card:nth-child(odd) > .info > .title::before {
@@ -445,7 +445,7 @@ this goes weird on narrow view without adjustmust */
 }
 
 @media only screen 
-  and (min-device-width: 746px) and (max-device-width: 793px) {
+  and (min-width: 746px) and (max-width: 793px) {
 
   .nav-links {
     font-size: 80%;
@@ -459,10 +459,10 @@ this goes weird on narrow view without adjustmust */
 
   /* most mobile phones, portrait, from iphone4.*/
  @media only screen 
-  and (min-device-width: 320px)  
-  and (max-device-width: 667px)
-  and (min-device-height: 480px)
-  and (max-device-height: 812px)
+  and (min-width: 320px)  
+  and (max-width: 667px)
+  and (min-height: 480px)
+  and (max-height: 812px)
   and (orientation: portrait)  {
 
   h1 {
@@ -512,9 +512,8 @@ this goes weird on narrow view without adjustmust */
 }
 
 footer>ul>li {	
-  padding-left: min (10px);	
-  padding-right: min(10px);	
-  align-items: stretch;	
+  padding-left: 10px;	
+  padding-right: 10px;	
 }	
 
 form {
@@ -554,11 +553,12 @@ form {
 
   p {
     font-size: 12px; 
-}
+  }
 }
 
 @media only screen 
-  and (min-device-height: 813px) and (orientation: portrait){
+  and (min-height: 813px) 
+  and (orientation: portrait) {
  
       footer>ul>li {
       padding-left: 7vw;
@@ -573,12 +573,11 @@ form {
     background-image: none;
     background-color: #fffdf3;
   }
-
 }
 
 @media only screen 
-and (min-device-width: 360px) 
-and (max-device-width: 734px)
+and (min-width: 360px) 
+and (max-width: 734px)
 and (orientation: landscape) {
   
   h1 {font-size: medium;}
@@ -620,19 +619,17 @@ and (orientation: landscape) {
 }
 /* same as above - most mobile phones, but in landscape mode */
 @media only screen 
-  and (min-device-width: 320px)  
-  and (max-device-width: 667px)
-  and (min-device-height: 480px)
-  and (max-device-height: 812px)
+  and (min-width: 320px)  
+  and (max-width: 667px)
+  and (min-height: 480px)
+  and (max-height: 812px)
   and (orientation: landscape) {
 
   h1 { 
     font-size: 120%;
-    background-color: none;
 }
   .nav-links {
     font-size: small;
-    background-color: none;
 }
   h3 {
     font-size: 120%
@@ -654,15 +651,15 @@ and (orientation: landscape) {
 footer>ul>li {
   padding-left: 20px;
   padding-right: 20px;
-  padding-left: min (10px);
-  padding-right: min(10px);
+  padding-left: 10px;
+  padding-right: 10px;
 } 
  
 #form-footer {
     border: none;
     background: none;
     margin-bottom: min(50px, 10%);
-    width: 30% center;
+    width: 30%;
     align-items: center;
     margin-top: 2vh;
 }
@@ -693,7 +690,8 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (min-device-width: 586px) and (max-device-width: 1199px){
+  and (min-width: 586px) 
+  and (max-width: 1199px) {
   
   .general-footer > ul > li {
     padding-right: 60px;
@@ -715,7 +713,7 @@ footer>ul>li {
 
 /* adjustments for tablets */
 
-@media only screen and (min-device-width: 600px) and (orientation: portrait) {
+@media only screen and (min-width: 600px) and (orientation: portrait) {
  
   .general-footer { 
     font-size: 200%;
@@ -726,7 +724,7 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (min-device-width: 1282px)
+  and (min-width: 1282px)
   and (orientation: landscape) {
 
   .nav-links {
@@ -740,8 +738,8 @@ footer>ul>li {
 }
 
 @media only screen
-  and (device-width: 1024px)
-  and (device-height: 768px)
+  and (width: 1024px)
+  and (height: 768px)
   and (orientation: landscape){
 
   .nav-links {
@@ -753,11 +751,11 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (device-width: 962px)
-  and (device-height: 601px)
+  and (width: 962px)
+  and (height: 601px)
   and (orientation: landscape) {
 
-    form {
+  form {
       margin-top: -50px;
   }
   #form-footer {
@@ -766,8 +764,8 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (device-width: 601px)
-  and (device-height: 962px)
+  and (width: 601px)
+  and (height: 962px)
   and (orientation: portrait) {
 
   nav {
@@ -786,8 +784,8 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (device-width: 1280px)
-  and (device-height: 800px)
+  and (width: 1280px)
+  and (height: 800px)
   and (orientation: landscape) {
 
     #form-footer > ul {
@@ -804,8 +802,8 @@ footer>ul>li {
  }
 
  @media only screen 
-  and (device-width: 1280px)
-  and (device-height: 800px)
+  and (width: 1280px)
+  and (height: 800px)
   and (orientation: portrait) {
 
     #form-footer > ul {
@@ -822,9 +820,9 @@ footer>ul>li {
 
 /* media queries to cover the most popular desktop and laptop sizes */
 
-@media only and 
-  and (device-width: 1920px)
-  and (device-height: 1080px) 
+@media only screen
+  and (width: 1920px)
+  and (height: 1080px) 
   and (orientation: landscape) {
 
   
@@ -851,11 +849,9 @@ footer>ul>li {
     #form-footer {font-size: 210%;}
 }
 
-
-
 @media only screen 
-  and (device-width: 1366px)
-  and (device-height: 768px)
+  and (width: 1366px)
+  and (height: 768px)
   and (orientation: landscape) {
 
   #form-footer {
@@ -871,8 +867,8 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (device-width: 1440px)
-  and (device-height: 900px)
+  and (width: 1440px)
+  and (height: 900px)
   and (orientation: landscape) {
 
   #form-footer {
@@ -892,8 +888,8 @@ footer>ul>li {
 }
   
   @media only screen 
-    and (device-width: 1536px)
-    and (device-height: 864px)
+    and (width: 1536px)
+    and (height: 864px)
     and (orientation: landscape) {
   
   #form-footer {
@@ -913,8 +909,8 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (device-width: 1280px)
-  and (device-height: 720px)
+  and (width: 1280px)
+  and (height: 720px)
   and (orientation: landscape) {
   
     footer>ul>li {
@@ -930,8 +926,8 @@ footer>ul>li {
 }
 
 @media only screen 
-  and (device-width: 1920px)
-  and (device-height: 1080px)
+  and (width: 1920px)
+  and (height: 1080px)
   and (orientation: landscape) {
 
   #form-footer {
@@ -959,8 +955,8 @@ footer>ul>li {
 /* some laptops, that don't fall into the above categories, - pixel perameters from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
 @media only screen
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1281px) 
+  and (min-width: 1200px) 
+  and (max-width: 1281px) 
   and (orientation: landscape) {
 
   .general-footer > ul > li {
@@ -984,14 +980,12 @@ footer>ul>li {
   h1 {
     font-size: 200%;
     font-weight: lighter;
-    background-color: none;
 }
   
   .nav-links {
     letter-spacing: 2px;
     font-weight: lighter;
     font-size: 2vw;
-    background-color: none;
 }
   
   #timeline-body {
@@ -1023,9 +1017,7 @@ footer>ul>li {
     padding-top: 1%;
     margin-top: 2%;
 }
-  .logo {
-    background-color: none;
-}
+
   form {
     padding: 5%;
     margin-top: -5%;
@@ -1039,10 +1031,10 @@ footer>ul>li {
   
 /* desktops and some laptops and tablets that don't fall into above perameters */
 @media only screen 
-  and (min-device-width: 1280px)
-  and (max-device-width: 2000px)
-  and (min-device-height: 720px)
-  and (max-device-height: 1100px)
+  and (min-width: 1280px)
+  and (max-width: 2000px)
+  and (min-height: 720px)
+  and (max-height: 1100px)
   and (orientation: landscape) {
 
   h1 {
@@ -1115,7 +1107,7 @@ footer>ul>li {
 #timeline-footer {
   border-top: #889bae 2px solid;
   border-radius: 10px;
-  background-image: url('../images/palewallpaper.jpg') cover;
+  background-image: url('../images/palewallpaper.jpg');
   background-repeat: repeat;
   margin-bottom: 0;
 }
@@ -1128,7 +1120,7 @@ footer>ul>li {
 /* large desktops that don't fall into above perameters, to make sure screen isn't cramped with content in one part and then with loads of empty space around it */
 
 @media only screen 
-  and (min-device-height: 1101) 
+  and (min-height: 1101px) 
   and (orientation: landscape) {
 
   h1 {
@@ -1178,7 +1170,4 @@ footer>ul>li {
     background-repeat: repeat;
 }
 }
-
-
-
 /* end of media queries */
