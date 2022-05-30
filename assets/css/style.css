@@ -474,7 +474,7 @@ this goes weird on narrow view without adjustmust */
 
   h3.title {
     font-size: 12px;
-}
+  }
 
   .general-footer, #form-footer {
     display: flex;
@@ -632,8 +632,22 @@ and (orientation: landscape) {
     max-height: 10%;
     border: none;
 }
+
+.general-footer, #form-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: medium;
+}
   
-  #form-footer {
+footer>ul>li {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-left: min (10px);
+  padding-right: min(10px);
+} 
+ 
+#form-footer {
     border: none;
     background: none;
     margin-bottom: min(50px, 10%);
@@ -661,19 +675,6 @@ and (orientation: landscape) {
     font-size: small;
     border-radius: 5%;
 }
-  
-  .general-footer, #form-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: medium;
-}
-  footer>ul>li {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-left: min (10px);
-    padding-right: min(10px);
-}
 }
 
 @media only screen 
@@ -691,6 +692,16 @@ and (orientation: landscape) {
 }
 
 /* adjustments for tablets */
+
+@media only screen and (min-device-width: 600px) and (orientation: portrait) {
+ 
+  .general-footer { 
+    font-size: 200%;
+    margin-bottom: 2vh;
+  }
+
+  .site-header { margin-top: 3vh}
+}
 
 @media only screen 
   and (min-device-width: 1282px)
@@ -840,12 +851,12 @@ and (orientation: landscape) {
     border: 2px solid gray;
     border-radius: 10px;
     background-color: #F8EEEC;
-}
+  }
 
     #form-header_wrapper {
       height: 80px;
-    }
   }
+}
   
   @media only screen 
     and (device-width: 1536px)
@@ -878,8 +889,8 @@ and (orientation: landscape) {
     border: 2px solid gray;
     border-radius: 10px;
     background-color: #F8EEEC;
-  }
-  }
+}
+}
 
 @media only screen 
   and (device-width: 1920px)
@@ -893,7 +904,7 @@ and (orientation: landscape) {
 
   form {
     height: 600px;
-  }
+}
   
   #form-footer > ul {
     padding: 5px;
