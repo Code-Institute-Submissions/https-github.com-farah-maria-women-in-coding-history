@@ -51,7 +51,7 @@ body {
 }
 
 
-h1, h2, h4 { 
+h1, h2, h4, .nav-links { 
     font-family: Permanent Marker, Impact, sans-serif;    
 }
 
@@ -61,12 +61,17 @@ h1 {
     font-weight: lighter;
 }
 
-h2 {
+  .nav-links {
     letter-spacing: 2px;
     font-weight: lighter;
     font-size: 120%;
 }
 
+.nav-links {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 120%;
+  }
 h4 { 
     font-weight: lighter;
     color: hwb(292 27% 61%);
@@ -578,7 +583,7 @@ and (orientation: landscape) {
   
   h1 {font-size: medium;}
 
-  h2 {font-size: small;}
+  .nav-links {font-size: small;}
 
   h4 {font-size: small;}
 
@@ -625,7 +630,7 @@ and (orientation: landscape) {
     font-size: 120%;
     background-color: none;
 }
-  h2 {
+  .nav-links {
     font-size: small;
     background-color: none;
 }
@@ -704,6 +709,8 @@ footer>ul>li {
     background-image: none;
     background-color: #889bae;
   }
+
+
 }
 
 /* adjustments for tablets */
@@ -722,6 +729,9 @@ footer>ul>li {
   and (min-device-width: 1282px)
   and (orientation: landscape) {
 
+  .nav-links {
+    font-size: 130%;
+  }
   .general-footer>ul>li {
     padding-left: 80px;
     padding-right: 80px;
@@ -734,6 +744,9 @@ footer>ul>li {
   and (device-height: 768px)
   and (orientation: landscape){
 
+  .nav-links {
+    font-size: 125%;
+  }
   h3.wrapper {
     font-size: large;
   }
@@ -748,7 +761,7 @@ footer>ul>li {
       margin-top: -50px;
   }
   #form-footer {
-    margin-top: -16vh;
+    margin-top: -12vh;
   }
 }
 
@@ -825,6 +838,9 @@ footer>ul>li {
       border-top: #889bae solid;
     }
 
+    .nav-links {
+      font-size: 200%;
+    }
     #form-footer > ul {
       padding: 5px;
       border: 2px solid gray;
@@ -834,6 +850,8 @@ footer>ul>li {
     
     #form-footer {font-size: 210%;}
 }
+
+
 
 @media only screen 
   and (device-width: 1366px)
@@ -899,6 +917,10 @@ footer>ul>li {
   and (device-height: 720px)
   and (orientation: landscape) {
   
+    footer>ul>li {
+      font-size: 5vh;
+  }
+
   #form-footer > ul {
     padding: 5px;
     border: 2px solid gray;
@@ -915,6 +937,7 @@ footer>ul>li {
   #form-footer {
   height: 300px;
   margin-top: -5vh;
+  font-size: 1.3vw;
 }
 
   form {
@@ -951,16 +974,23 @@ footer>ul>li {
 
   form { margin-top: 20px;}
 
+  #form-footer > ul {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #F8EEEC;
+  }
+  
   h1 {
     font-size: 200%;
     font-weight: lighter;
     background-color: none;
 }
   
-  h2 {
+  .nav-links {
     letter-spacing: 2px;
     font-weight: lighter;
-    font-size: 120%;
+    font-size: 2vw;
     background-color: none;
 }
   
@@ -983,7 +1013,7 @@ footer>ul>li {
   
   .nav-links {
     color: #604664;
-    font-size: 100%;
+    font-size: 150%;
     margin-bottom: 20px;
 }
         
@@ -1024,7 +1054,7 @@ footer>ul>li {
     color: violet;
     font-size: larger;}
 
-  h2 {
+  .nav-links {
     font-size: 150%;
   }
 
@@ -1038,7 +1068,7 @@ footer>ul>li {
 
   .nav-links {
     color: #604664;
-    font-size: 80%;
+    font-size: 1.5vw;
   }
   
   footer a {
@@ -1059,8 +1089,11 @@ footer>ul>li {
     margin-top: -5%;
 }
 
-  #form-footer {
-    border: none;
+#form-footer > ul {
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: #F8EEEC;
 }
 
   #timeline-body {
@@ -1108,8 +1141,8 @@ footer>ul>li {
     font-size: larger;
 }
 
-  h2 {
-    font-size: 220%;
+  .nav-links {
+    font-size: ;
 }
 
   h3 {
