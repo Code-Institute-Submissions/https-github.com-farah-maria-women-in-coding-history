@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
 * {
     border: 0;
@@ -716,8 +717,6 @@ footer>ul>li {
     background-image: none;
     background-color: #889bae;
   }
-
-
 }
 
 /* adjustments for tablets */
