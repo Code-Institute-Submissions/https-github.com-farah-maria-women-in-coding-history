@@ -741,7 +741,7 @@ footer>ul>li {
   .general-footer>ul>li {
     padding-left: 80px;
     padding-right: 80px;
-    font-size: 100%;
+    font-size: 150%;
 }
 }
 
@@ -833,20 +833,26 @@ footer>ul>li {
   and (height: 1080px) 
   and (orientation: landscape) {
 
-  
-    #form-header_wrapper {
-      height: 100px;
-      margin-bottom: 200px;
-      font-size: larger;
-      background-color: rgba(235,239,233,.3);
-      margin-top: 5%;
-      border-bottom: #889bae solid;
-      border-top: #889bae solid;
-    }
+  h3 {
+    font-family: "Homemade Apple", cursive;
+    color: #604664;
+    font-size: 300%;
+  }
+
+  #form-header_wrapper {
+    height: 100px;
+    margin-bottom: 200px;
+    font-size: larger;
+    background-color: rgba(235,239,233,.3);
+    margin-top: 5%;
+    border-bottom: #889bae solid;
+    border-top: #889bae solid;
+  }
 
     .nav-links {
       font-size: 200%;
-    }
+  }
+  
     #form-footer > ul {
       padding: 5px;
       border: 2px solid gray;
@@ -921,16 +927,31 @@ footer>ul>li {
   and (height: 720px)
   and (orientation: landscape) {
   
-    footer>ul>li {
+  
+  h1 {
+    font-size: 200%;
+  }
+
+   footer>ul>li {
       font-size: 5vh;
   }
 
+  .container {
+    padding: 0px;
+    height: 400px;
+  }
+
   #form-footer > ul {
-    padding: 5px;
+    padding-right:30px;
+    padding-left: 30px;
     border: 2px solid gray;
     border-radius: 10px;
     background-color: #F8EEEC;
 }
+
+  #form-footer {
+    margin-bottom: 10px
+  }
 }
 
 @media only screen 
@@ -942,10 +963,6 @@ footer>ul>li {
   height: 300px;
   margin-top: -5vh;
   font-size: 1.3vw;
-}
-
-  form {
-    height: 600px;
 }
   
   #form-footer > ul {
@@ -969,11 +986,13 @@ footer>ul>li {
 
   .general-footer > ul > li {
     padding-right: 80px;
-    padding-left: 80px;
+    padding-left: 80px; 
   } 
 
   .general-footer > ul {
     font-size: 120%;
+    border: solid 2px #889bae;
+    border-radius: 5px;
 }
 
   form { margin-top: 20px;}
@@ -990,6 +1009,13 @@ footer>ul>li {
     font-weight: lighter;
 }
   
+  h3 {
+    font-family: "Homemade Apple", cursive;
+    font-size: 300%;
+    color: #604664;
+} 
+
+
   .nav-links {
     letter-spacing: 2px;
     font-weight: lighter;
@@ -1046,7 +1072,7 @@ footer>ul>li {
   and (orientation: landscape) {
 
   h1 {
-    font-size: 200%;
+    font-size: 300%;
     font-weight: lighter;
 }
 
@@ -1054,12 +1080,10 @@ footer>ul>li {
     color: violet;
     font-size: larger;}
 
-  .nav-links {
-    font-size: 150%;
-  }
-
   h3 {
-    font-size: 150%;
+    font-family: "Homemade Apple", cursive;
+    font-size: 300%;
+    color: #604664;
   } 
 
   .title {
@@ -1068,7 +1092,7 @@ footer>ul>li {
 
   .nav-links {
     color: #604664;
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   
   footer a {
