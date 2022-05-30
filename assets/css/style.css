@@ -553,12 +553,12 @@ form {
 }
 
 @media only screen 
-  and (min-device-height: 813px) and (orientation: portrait) {
+  and (min-device-height: 813px) and (orientation: portrait){
  
       footer>ul>li {
       padding-left: 7vw;
       padding-right: 7vw;
-      font-size: 120%;
+      font-size: 120%;}
  
       .general-footer > ul > li {
     font-size: min(25px);
@@ -933,7 +933,7 @@ footer>ul>li {
   }
 }
 
-/* some laptops, that don't fall into the above category, - pixel perameters from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+/* some laptops, that don't fall into the above categories, - pixel perameters from https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
 
 @media only screen
   and (min-device-width: 1200px) 
@@ -1149,5 +1149,7 @@ footer>ul>li {
     background-repeat: repeat;
 }
 }
+
+
 
 /* end of media queries */
