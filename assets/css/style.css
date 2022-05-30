@@ -75,155 +75,6 @@ h4 {
     background-color: rgba(255,251,255,.2);
 }
 
-
-    /* timeline code inspired by https://alvarotrigo.com/blog/html-css-timelines/ */
-:root {
-  --primary-color: #fffffc;
-  --background-color: #889bae;
-  --font: Open Sans, helvetica;
-      }
-      
-* {
-    margin: 0;
-    padding: 0;
-}
-      
-      #timeline-body {
-        background: var(--background-color);
-        font-family: var(--font);
-        display: flex;
-        justify-content: center;
-      }
-      
-      /* Timeline Container */
-      .timeline-container {
-        background: var(--primary-color);
-        margin: 20px auto;
-        padding: 20px;
-      }
-      
-      /* Card container */
-      .card {
-        position: relative;
-        max-width: 400px;
-      }
-      
-      /* setting padding based on even or odd */
-      .card:nth-child(odd) {
-        padding: 30px 0 30px 30px;
-      }
-      .card:nth-child(even) {
-        padding: 30px 30px 30px 0;
-      }
-      /* Global ::before */
-      .card::before {
-        content: "";
-        position: absolute;
-        width: 50%;
-        border: solid #668D2E;
-      }
-      
-      /* Setting the border of top, bottom, left */
-      .card:nth-child(odd)::before {
-        left: 0px;
-        top: -5px;
-        bottom: -5px;
-        border-width: 5px 0 5px 5px;
-        border-radius: 50px 0 0 50px;
-      }
-      
-      /* Setting the border of top, bottom, right */
-      .card:nth-child(even)::before {
-        right: 0;
-        top: 0;
-        bottom: 0;
-        border-width: 5px 5px 5px 0;
-        border-radius: 0 50px 50px 0;
-      }
-      
-      /* Removing the border if it is the first card */
-      .card:first-child::before {
-        border-top: 0;
-        border-top-left-radius: 0;
-      }
-      
-      /* Removing the border if it is the last card  and it's odd */
-      .card:last-child:nth-child(odd)::before {
-        border-bottom: 0;
-        border-bottom-left-radius: 0;
-      }
-      
-      /* Removing the border if it is the last card  and it's even */
-      .card:last-child:nth-child(even)::before {
-        border-bottom: 0;
-        border-bottom-right-radius: 0;
-      }
-      
-      /* Information about the timeline */
-      .info {
-        display: flex;
-        flex-direction: column;
-        border-radius: 10px;
-        padding: 10px;
-      }
-      
-      /* Title of the card */
-      .title {
-        color: #04293e;
-        position: relative;
-        text-decoration: underline #A27C5B;
-      }
-      
-      /* Timeline dot  */
-      .title::before {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        background: #604664;
-        border-radius: 999px;
-        border: 3px solid #668D2E;
-      }
-      
-      /* text right if the card is even  */
-      .card:nth-child(even) > .info > .title {
-        text-align: right;
-      }
-      
-      /* setting dot to the left if the card is odd */
-      .card:nth-child(odd) > .info > .title::before {
-        left: -160px;
-      }
-      
-      /* setting dot to the right if the card is odd */
-      .card:nth-child(even) > .info > .title::before {
-        right: -45px;
-      }
-    
-       /* end of main timeline code */
-
-form {
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
-    font-size: small;
-    color:#2b2d2f;
-    background-color: #F8EEEC; /* if background image is unavailable */
-    background-image: url('../images/hero-image.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%; 
-    padding-left: 2%;
-    padding-right: 2%;
-    border: #A27C5B solid;
-    border-radius: 20px;
-}
-
-label {
-    padding: 5px;
-}
-
-textarea {
-    padding: 5px;
-}
-
 .logo > i { 
     color: #604664;
 }
@@ -256,38 +107,7 @@ h3 {
     background-color: #d3d3d3; /* if background image unavailable */
     background-size: 70%;
     background-repeat: repeat;
-    }
-
-    /* styles for images and text on timeline */
-
-img {
-  border-radius: 5%;
 }
-
-.float-right {
-  float: right;
-  margin: 0 0 0 15px;
-}
-
-.float-left {
-  float: left;
-  margin: 0 15px 0 0;
-}
-
-.center-img {
-  margin-left: 100px;
-}
-.history-link > a {
-  color: violet;
-  font-weight: bold;
-}
-
-/* end of styles for content of timeline  */
-
-#form-footer { 
-    opacity: 1;
-    margin-top: -40px;
-  }
 
 a { text-decoration: none;}
 
@@ -329,100 +149,274 @@ span {
     color:#668D2E;
 }
 
-.container {
-  margin-top: 2%;
-  margin-bottom: 0;
-}
+    /* feedback form */
 
-#form-footer {
-  height: 100px;
-  align-items: center;
+    #form-footer { 
+      opacity: 1;
+      margin-top: -40px;
+      height: 100px;
+      align-items: center;
 }
+      
+    form {
+      font-family: Open Sans, Arial, Helvetica, sans-serif;
+      font-size: small;
+      color:#2b2d2f;
+      background-color: #F8EEEC; /* if background image is unavailable */
+      background-image: url('../images/hero-image.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%; 
+      padding-left: 2%;
+      padding-right: 2%;
+      border: #A27C5B solid;
+      border-radius: 20px;
+  }
+  
+  label {
+      padding: 5px;
+  }
+  
+  textarea {
+      padding: 5px;
+  }
 
-/* RESONSIVE FEEDBACK FORM: based on the W3 "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp */
+  .container {
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+
+/* RESONSIVE FEEDBACK FORM CODE: based on the W3 "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp */
 /* Style inputs, select elements and textareas */
 
 input[type=text], select, textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px double #604664;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 10px;
+  border: 1px double #604664;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #668D2E;
+  color: #F8EEEC;
+  padding: 12px 20px;
+  margin-top: 2px;
+  border: slategrey;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover{
+  background-color: #660066;
+}
+
+input[type=submit]:visited{
+  background-color: #d3d3d3;
+}
+/* Style the container */ 
+.container {
+  padding: 20px;
+  font-family: Open Sans, 'Courier New', Courier, monospace;
+  color: darkslategray;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 20px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
     width: 100%;
-    padding: 10px;
-    border: 1px double #604664;
-    border-radius: 5px;
-    box-sizing: border-box;
-    resize: vertical;
+    margin-top: 0;
   }
-
-  input[type=email], select {
-    width: 100%;
-    padding: 10px;
-    border: 1px double #604664;
-    border-radius: 5px;
-    box-sizing: border-box;
-    resize: vertical;
-  }
-
-  /* Style the label to display next to the inputs */
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: #668D2E;
-    color: #F8EEEC;
-    padding: 12px 20px;
-    margin-top: 2px;
-    border: slategrey;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
-
-  input[type=submit]:hover{
-    background-color: #660066;
-  }
-
-  input[type=submit]:visited{
-    background-color: #d3d3d3;
-  }
-  /* Style the container */ 
-  .container {
-    padding: 20px;
-    font-family: Open Sans, 'Courier New', Courier, monospace;
-    color: darkslategray;
-    font-size: large;
-    font-weight: bold;
-  }
-  
-  /* Floating column for labels: 25% width */
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 20px;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+}
 /* END OF STANDARD FEEDBACK FORM CODE */  
+
+   /* timeline code inspired by https://alvarotrigo.com/blog/html-css-timelines/ */
+   :root {
+    --primary-color: #fffffc;
+    --background-color: #889bae;
+    --font: Open Sans, helvetica;
+        }
+        
+  * {
+      margin: 0;
+      padding: 0;
+  }
+        
+        #timeline-body {
+          background: var(--background-color);
+          font-family: var(--font);
+          display: flex;
+          justify-content: center;
+        }
+        
+        /* Timeline Container */
+        .timeline-container {
+          background: var(--primary-color);
+          margin: 20px auto;
+          padding: 20px;
+        }
+        
+        /* Card container */
+        .card {
+          position: relative;
+          max-width: 400px;
+        }
+        
+        /* setting padding based on even or odd */
+        .card:nth-child(odd) {
+          padding: 30px 0 30px 30px;
+        }
+        .card:nth-child(even) {
+          padding: 30px 30px 30px 0;
+        }
+        /* Global ::before */
+        .card::before {
+          content: "";
+          position: absolute;
+          width: 50%;
+          border: solid #668D2E;
+        }
+        
+        /* Setting the border of top, bottom, left */
+        .card:nth-child(odd)::before {
+          left: 0px;
+          top: -5px;
+          bottom: -5px;
+          border-width: 5px 0 5px 5px;
+          border-radius: 50px 0 0 50px;
+        }
+        
+        /* Setting the border of top, bottom, right */
+        .card:nth-child(even)::before {
+          right: 0;
+          top: 0;
+          bottom: 0;
+          border-width: 5px 5px 5px 0;
+          border-radius: 0 50px 50px 0;
+        }
+        
+        /* Removing the border if it is the first card */
+        .card:first-child::before {
+          border-top: 0;
+          border-top-left-radius: 0;
+        }
+        
+        /* Removing the border if it is the last card  and it's odd */
+        .card:last-child:nth-child(odd)::before {
+          border-bottom: 0;
+          border-bottom-left-radius: 0;
+        }
+        
+        /* Removing the border if it is the last card  and it's even */
+        .card:last-child:nth-child(even)::before {
+          border-bottom: 0;
+          border-bottom-right-radius: 0;
+        }
+        
+        /* Information about the timeline */
+        .info {
+          display: flex;
+          flex-direction: column;
+          border-radius: 10px;
+          padding: 10px;
+        }
+        
+        /* Title of the card */
+        .title {
+          color: #04293e;
+          position: relative;
+          text-decoration: underline #A27C5B;
+        }
+        
+        /* Timeline dot  */
+        .title::before {
+          content: "";
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background: #604664;
+          border-radius: 999px;
+          border: 3px solid #668D2E;
+        }
+        
+        /* text right if the card is even  */
+        .card:nth-child(even) > .info > .title {
+          text-align: right;
+        }
+        
+        /* setting dot to the left if the card is odd */
+        .card:nth-child(odd) > .info > .title::before {
+          left: -160px;
+        }
+        
+        /* setting dot to the right if the card is odd */
+        .card:nth-child(even) > .info > .title::before {
+          right: -45px;
+        }
+
+    /* styles for images and text on timeline - my own code! */
+
+img {
+  border-radius: 5%;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.float-left {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.center-img {
+  margin-left: 100px;
+}
+.history-link > a {
+  color: violet;
+  font-weight: bold;
+}
 
 /* MEDIA QUERIES */
 
