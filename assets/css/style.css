@@ -39,6 +39,8 @@ body {
 
 .site-header_wrapper {
   background-image: url('../images/wallpaper.jpg');
+  background-color: #F8EEEC; /* if image not available */
+  border-radius: 2%;
 }
 
 #form-header_wrapper {
