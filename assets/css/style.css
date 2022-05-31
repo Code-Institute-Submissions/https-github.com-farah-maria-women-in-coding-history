@@ -831,7 +831,7 @@ footer>ul>li {
  }
 }
 
-@media screen only 
+@media only screen  
 and (min-width: 797px)
 and (min-height: 600px) {
 
@@ -970,8 +970,7 @@ and (min-height: 600px) {
   }
 
   .container {
-    padding: 0px;
-    height: px;
+    padding: 0;
   }
 
   #form-footer > ul {
