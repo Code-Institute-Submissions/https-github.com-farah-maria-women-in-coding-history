@@ -1,4 +1,4 @@
-![WICH logo] (assets/images/logo.jpg)
+![WICH logo] (assets/css/images/logo.jpg)
 
 # Women in Coding History (WICH)
 
@@ -11,4 +11,4 @@ The aim of this project is to educate and engage women and girls who would not "
 
 Ultimately, the aim is for this site to contribute towards more gender equality in the field of software engineering and to raise awareness of the great accomplishments that have already been achieved by female coders. The knowledge of positive role models, past and present, can inspire women and girls to see themselves and their potential aptitudes in a new and more confident way.
 
-! [Responsive mock-up] (assets/images/amiresponsive.jpg)
+! [Responsive mock-up] (assets/css/images/amiresponsive.jpg)
