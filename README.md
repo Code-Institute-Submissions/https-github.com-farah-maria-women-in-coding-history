@@ -1,14 +1,15 @@
-![WICH logo] (assets/css/images/logo.jpg)
+![WICH logo] (/assets/images/logo.jpg)
 
 # Women in Coding History (WICH)
 
-This site is an educational resource that includes a timeline showing how women have in fact shaped the field of coding since its inception, from before the first computer was even invented. It will eventually include current and future
-projects being headed by female coders, and a page with links to resources for women and girls who want to learn more about coding and the tech industry. 
+Did you know that women have been writing machine-readable code since the 1840s? And that coding used to be considered "women's work"? Yet according to a Statista poll taken in 2021, only 5% of software developers worldwide are female.
 
-The project is a work in progress, with more historical and current figures who will be included on the illustrated timeline. It is aimed at both school children and adults who do not necessarily know much about programming, tech, or the history behind its development. Any technical terms used are therefore explained in simple and accessible language. 
+This site is both a general interest and educational resource that shows how women have in fact shaped the world of coding since its inception, from before the first computing device was even invented. The website includes an illustrated timeline. This will eventually include current and future projects being headed by female coders, not just historical figures. I also hope to add a page with links to resources for women and girls who want to learn more about coding and the tech industry. 
 
-The aim of this project is to educate and engage women and girls who would not "normally" be interested in this subject or who are new to it. The colour palette and imagery is therefore gentle, non-glaring, friendly, and "soft". It is meant to be inviting to those who might otherwise feel intimidated or nervous about discussions concerning technology. 
+The project is a work in progress, with more figures who need including on the timeline. It is aimed at both school children and adults who do not necessarily know much about programming, tech, or the history behind its development. Any technical terms used are therefore explained in simple and accessible language. 
 
-Ultimately, the aim is for this site to contribute towards more gender equality in the field of software engineering and to raise awareness of the great accomplishments that have already been achieved by female coders. The knowledge of positive role models, past and present, can inspire women and girls to see themselves and their potential aptitudes in a new and more confident way.
+The aim is to educate and engage women and girls who would not "normally" be interested in this subject or who are new to it. The colour palette and imagery is therefore gentle, non-glaring, friendly, and "soft". The site is meant to be inviting to those who might otherwise feel intimidated by tech talk. 
 
-! [Responsive mock-up] (assets/css/images/amiresponsive.jpg)
+Ultimately, the greater aim is to contribute towards gender equality in the field of software engineering and to raise awareness of the great accomplishments already been achieved by female coders. The knowledge of positive role models, past and present, will hopefully inspire women and girls to feel "I could do this, too!" 
+
+! [Responsive mock-up - see website on different screen sizes] (/assets/images/amiresponsive.jpg)
