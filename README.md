@@ -23,6 +23,14 @@ The homepage and feedback form are therefore minimalist, with little content, an
 The site is not aimed at very young primary school aged children, where the use of bright colours and busy content would have been more appropriate. However, I used to be a Montessori teacher, and the site would be suitable for some elementary school aged children in such an educational setting (where over-busy decoration is discouraged, and natural colours are used more often).
 The colour palette of lilacs, blues, greens and soft brown is meant to reflect nature through use of the colours of flowers, grass, sky and trees. The surface level of the website is therefore entirely designed to put the eye, and the audience, at ease and to let the reader feel gently invited to the content.
 
-Simplicity is at the heart of the basic navigation structure: a homepage that introduces the subject area and content of the site in one line, and just two other navigation options… The timeline and a feedback page. Consistency of design used through the site, in terms of the headers and footers and the location of these features. The site is easy and simple to follow. This was a priority right from the onset of designing the site...
+Simplicity is at the heart of the basic navigation structure: a homepage that introduces the subject area and content of the site in one line, and just two other navigation options… The timeline and a feedback page. Consistency of design is used throughout the site, in terms of the headers and footers and the location of these features. The site is easy and simple to follow. This was a priority right from the onset of designing the site, when I hand-drew a wireframe...
+
+![wireframe 1](assets/images/frame-one.jpg)
+![wireframe 2](assets/images/frame-two.jpg)
+![wireframe 2 - scrolling portrait view](assets/images/frame-two-scrollview.jpg)
+![wireframe 3](assets/images/frame-three.jpg)
+![wireframe 4](assets/images/frame-four.jpg)
+
+
 
 
