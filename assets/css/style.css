@@ -448,7 +448,7 @@ img {
 
 @media only screen
   and (min-width: 320px) 
-  and (max-width: 384px) {
+  and (max-width: 336px) {
 /* setting dot to the left on odd numbered cards on TIMELINE - 
 this goes weird on narrow view without adjustmust */
 .card:nth-child(odd) > .info > .title::before {
@@ -457,12 +457,62 @@ this goes weird on narrow view without adjustmust */
 }
 
 @media only screen
+  and (min-width: 337px) 
+  and (max-width: 350px) {
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -120px;
+}
+}
+
+@media only screen
+  and (min-width: 351px) 
+  and (max-width: 370px) {
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -125px;
+}
+}
+
+@media only screen
+  and (min-width: 371px) 
+  and (max-width: 384px) {
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -130px;
+}
+}
+
+@media only screen
   and (min-width: 385px) 
-  and (max-width: 462px) {
+  and (max-width: 400px) {
 /* setting dot to the left on odd numbered cards on TIMELINE - 
 this goes weird on narrow view without adjustmust */
 .card:nth-child(odd) > .info > .title::before {
   left: -143px;
+}
+}
+
+@media only screen
+  and (min-width: 401px) 
+  and (max-width: 420px) {
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -140px;
+}
+}
+
+@media only screen
+  and (min-width: 421px) 
+  and (max-width: 450px) {
+/* setting dot to the left on odd numbered cards on TIMELINE - 
+this goes weird on narrow view without adjustmust */
+.card:nth-child(odd) > .info > .title::before {
+  left: -148px;
 }
 }
 
