@@ -34,8 +34,15 @@ Simplicity is at the heart of the basic navigation structure: a homepage that in
 <br>     
 <center>4 <img src="assets/images/frame-three.jpg" alt="wireframe drawing of feedback page" width="30%"/></center>
 <br>
-<center>5 <img src="assets/images/frame-four.jpg" alt="wireframe drawing of landing page that says thank for submitting your form " width="30%"/></center>
+<center>5 <img src="assets/images/frame-four.jpg" alt="wireframe drawing of landing page that says thank for submitting your form "width="30%"/></center>
 <br>
+
+A few minor aspects of design changed after the wireframing process. The hero image, for example, contains a lot of empty space in the middle, so it was better suited as a background image with what I called the 'blurb' going across the centre rather than underneath. I asked a friend to open the homepage on his computer with a large desktop, and he found that it was still very empty-looking after this change in design, so I veered away from my choice of the courier font (which evokes a historical sense of "typing" code using an old machine) for larger desktops. A more attractive, decorative font was employed just for bigger screens to address this issue. The "Homemade Apple" cursive font worked well with the handwritten-style header in suggesting a first draft of history that's still being written. It also softens the page, giving a more homely feel, which works as an idea given that women have been traditionally relegated to domestic life.
+
+The 'thank you' page that I planned, as confirmation to the user that their feedback form had been successfully submitted, fell away as the scope of the project became more limited given the time constraints. This is something I would like to add later.
+
+I wanted to include links to the educational curricula for teachers using the site for class, ideally during the week of international women's day, but I decided early on in the wireframing process that the scope would have to exclude this, again, due to time constraints. This can also be added as the website develops, with an easily-printable format for the timeline. I kept the scope more basic instead, with space for additional content. The focus stayed on simply informing the user of the history of women in coding. A basic, educational site also suitable for general interest.
+
 
 
 
