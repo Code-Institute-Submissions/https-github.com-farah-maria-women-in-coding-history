@@ -528,9 +528,9 @@ this goes weird on narrow view without adjustmust */
     font-size: 5vw;
 }
 
-.general-footer>ul>li {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  .general-footer>ul>li {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 footer>ul>li {	
@@ -542,14 +542,13 @@ form {
     font-size: x-small;
     padding-left: 1%;
     padding-right: 1%;
-    border: #A27C5B solid 1px;
     border-radius: 10px;
     margin-top: min(5px);
     background-image: none;
     background-color: #F8EEEC;             
 }  
   .container {
-    margin-top: 5vh;
+    margin-top: 1vh;
     padding: 20px;
     font-family: "Open Sans", 'Courier New', Courier, monospace;
     color: darkslategray;
@@ -566,7 +565,7 @@ form {
 }
 
 #form-footer {
-  font-size: 120%;
+  font-size: 170%;
 }
  
 nav {
@@ -575,7 +574,7 @@ nav {
     margin-bottom: min(2px);
 }
   .nav-links {
-    font-size: small;
+    font-size: 80%;
     border-radius: 5%;
     padding: min(2px);
 }
@@ -590,7 +589,35 @@ nav {
   }
 }
 
+/*adjustments for above widths from 481px to 666px */
 
+@media only screen 
+  and (min-width: 481px)
+  and (max-width: 666px)
+  and (orientation: portrait) {
+    
+  #form-footer { 
+    width: 100%;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+  #form-footer > ul > li {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+  #form-header-wrapper > #navbar {
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fffbff;
+    margin-top: 20px;
+}
+  .nav-links {
+    font-size: 120%; 
+}
+}
 
 @media only screen 
   and (min-height: 813px) 
@@ -601,7 +628,7 @@ nav {
       padding-right: 7vw;
       font-size: 120%;}
  
-      .general-footer > ul > li {
+  .general-footer > ul > li {
     font-size: min(25px);
   }
 
