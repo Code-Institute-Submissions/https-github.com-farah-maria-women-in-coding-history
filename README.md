@@ -21,7 +21,7 @@ A timeline format was used as this lay-out is simple to follow, carrying the rea
 The homepage and feedback form are therefore minimalist, with little content, and get straight to the point. The focus is clear – the timeline. But the landing page is also attractive in a “soft” way that is pleasing to the eye, and as discussed in the introduction, uses a gentle palette of colours that puts the audience at ease. 
 
 <br>
-<center>Desktop version of homepage with 'hover' colour on 'home' along the navigation bar.<br><img src="assets/images/homepage-desk.jpg" alt="screenshot of homepage for desktop" width="60%"/></center>
+<center>Desktop version of homepage with 'hover' colour on 'home' along the navigation bar.<br><br><img src="assets/images/homepage-desk.jpg" alt="screenshot of homepage for desktop" width="60%"/></center>
 <br>
 
 The imagery of nature and trees is used subtly throughout for the headings and footers, as nature generally helps people to relax. The imagery of trees also feeds into the idea of growth – personal growth through learning and evolution through time. Family trees are used to illustrate the growth of a family through many years, and the idea of using tree-imagery on a history site came from this usage.
@@ -52,6 +52,37 @@ The 'thank you' page that I planned, as confirmation to the user that their feed
 I wanted to include links to the educational curricula in Ireland and the UK for teachers using the site for class, ideally during the week of international women's day, but I decided early on in the wireframing process that the scope would have to exclude this due to time constraints. This can be added as the website develops, along with an easily-printable format for the timeline, so that the history page can be used as a hand-out for students. I kept the scope quite basic, with space for additional content. The focus is on simply informing the user of the history of women in coding... A basic but attractive educational site that is also suitable for general interest.
 
 ## Existing Features
+
+It is hard to completely separate the topics that need attention in this document, so there is some overlap, but I will avoid repeating descriptions.
+
+-_Navigation Bar_
+
+As suggested above, in the section on user experience and design, the header and navigation bar are on all three pages of the website. The navigation bar is part of the header and is fully responsive, containing links to the homepage, the history timeline and the feedback form. At no point does the user need to hit the ‘back’ button to access a page they were on previously, as each available option is clearly displayed in the same area of each page and is easily ‘clickable’. This is true regardless of whether the site is being accessed via mobile, tablet, laptop of desktop. I have tried to balance creativity with consistency. As the site focuses on new discoveries and breakthroughs made by innovative women, I wanted to avoid translating consistency as “sameness”, while recognizing that the user needs to know where they are on the navigation journey. Consistency is important, especially for the visually impaired, so they have a clear sense that they are on the same website even if they are on a different page. Here are the three headers, containing the nav bards, with the same main title and logo on each page...
+
+<br>
+<center>Homepage <img src="assets/images/homenav.png" alt="screenshot of homepage header with navigation bar" width="50%"/></center>
+<br>
+<center>Timeline page <img src="assets/images/timelinenav.png" alt="screenshot of navigation bar on history page" width="50%"/></center>     
+<br>
+<center>Feedback page <img src="assets/images/formnav.png" alt="screenshot of navigation bar on feedback page" width="50%"/></center>
+<br>     
+
+The style and font is the same for each of the three navigation bars, except on small mobile devices where a border and background color were added to improve visibility and accessibility. The colours used are still from the same colour palette. I kept the header and navigation identical for the first two pages of the mobile version, with the understanding that a smaller screen gives less visual clues, and therefore more consistency is useful to offer a clear message to a younger user or user with visual impairment.
+
+Home & history pages, mobile screenshot:
+
+<center><img src="assets/images/mobhistorynav.jpg" alt="screenshot on Huawei P20 lite phone of navigation bar on history page" width="50%"/></center>     
+<br>
+Feedback page, mobile screenshot:
+
+<br>
+<center><img src="assets/images/mobformnav.jpg" alt="screenshot on Huawei P20 lite phone of navigation bar on feedback page" width="50%"/></center>
+<br>     
+ 
+The above screenshots were taken on my Huawei P20 lite phone. As you can see, the navigation bar for both the desktop and mobile versions of the site are a little different because there are only two options: 'home' and 'timeline'. Initially, I did have all three but the inclusion of the navigation link for 'feedback' was confusing and made the page over-busy because there is already a title directly underneath it for the feedback form. The repetition of the words looked odd, and was unnecessary. The pared down navigation bar allows the user to visit or revisit pages they are not already on - which is the point of the navigation bar, anyway. If they need to reload the page, they can click on that option offered by their browser at the top of their screen.
+
+-_Landing Page_-
+
 
 
 
