@@ -372,6 +372,8 @@ input[type=submit]:visited{
           color: #04293e;
           position: relative;
           text-decoration: underline #A27C5B;
+          font-family: 'Courier New', Courier, monospace;
+          font-size: large;
         }
         
         /* Timeline dot  */
