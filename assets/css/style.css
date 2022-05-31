@@ -821,6 +821,28 @@ footer>ul>li {
  }
 
  @media only screen 
+ and (min-height: 1280px)
+ and (orientation: landscape) {
+
+ h3 {
+  font-family: "Homemade Apple", cursive;
+  font-size: 300%;
+  color: #604664;
+ }
+}
+
+@media screen only 
+and (min-width: 797px)
+and (min-height: 600px) {
+
+  h3 {
+    font-family: "Homemade Apple", cursive;
+    font-size: 300%;
+    color: purple;
+  }
+} 
+
+ @media only screen 
   and (width: 1280px)
   and (height: 800px)
   and (orientation: portrait) {
