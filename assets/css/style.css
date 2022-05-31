@@ -51,6 +51,13 @@ body {
   padding-left: 20px;
 }
 
+#form-header_wrapper > #navbar {
+  border: solid 2px gray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fffbff;
+}
+
 
 h1, h2, h4, .nav-links { 
     font-family: "Permanent Marker", Impact, sans-serif;    
@@ -113,6 +120,7 @@ h3 {
     background-color: #d3d3d3; /* if background image unavailable */
     background-size: 70%;
     background-repeat: repeat;
+    font-size: 150%;
 }
 
 a { text-decoration: none;}
@@ -162,6 +170,7 @@ span {
       margin-top: -40px;
       height: 100px;
       align-items: center;
+      font-size: 200%;
 }
       
     form {
