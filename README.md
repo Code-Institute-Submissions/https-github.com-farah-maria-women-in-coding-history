@@ -1,6 +1,4 @@
-![WICH logo] (/assets/images/logo.jpg)
-
-# Women in Coding History (WICH)
+# **Women in Coding History (WICH)**
 
 Did you know that women have been writing machine-readable code since the 1840s? And that coding used to be considered "women's work"? Yet according to a Statista poll taken in 2021, only 5% of software developers worldwide are female.
 
@@ -12,4 +10,4 @@ The aim is to educate and engage women and girls who would not "normally" be int
 
 Ultimately, the greater aim is to contribute towards gender equality in the field of software engineering and to raise awareness of the great accomplishments already been achieved by female coders. The knowledge of positive role models, past and present, will hopefully inspire women and girls to feel "I could do this, too!" 
 
-! [Responsive mock-up - see website on different screen sizes] (/assets/images/amiresponsive.jpg)
+![mock-up of site on different sized devices](assets/images/amiresponsive.jpg)
