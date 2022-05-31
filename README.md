@@ -25,11 +25,9 @@ The colour palette of lilacs, blues, greens and soft brown is meant to reflect n
 
 Simplicity is at the heart of the basic navigation structure: a homepage that introduces the subject area and content of the site in one line, and just two other navigation options… The timeline and a feedback page. Consistency of design is used throughout the site, in terms of the headers and footers and the location of these features. The site is easy and simple to follow. This was a priority right from the onset of designing the site, when I hand-drew a wireframe...
 
-![wireframe 1](assets/images/frame-one.jpg)
-![wireframe 2](assets/images/frame-two.jpg)
-![wireframe 2 - scrolling portrait view](assets/images/frame-two-scrollview.jpg)
-![wireframe 3](assets/images/frame-three.jpg)
-![wireframe 4](assets/images/frame-four.jpg)
+<img src="assets/images/frame-one.jpg" alt="wireframe drawing for homepage" width="200px"/><img src="assets/images/frame-two.jpg" alt="wireframe drawing of timeline page in landscape" width="200px"/><br>
+
+<img src="assets/images/frame-two-scrollview.jpg" alt="wireframe drawing of timeline page in portrait with scrolling view" width="200px"/><img src="assets/images/frame-three.jpg" alt="wireframe drawing of feedback page" width="200px"/><img src="assets/images/frame-four.jpg" alt="wireframe drawing of landing page that says thank for submitting your form " width="200px"/>
 
 
 
