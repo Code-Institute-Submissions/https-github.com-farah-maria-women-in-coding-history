@@ -58,13 +58,13 @@ I wanted to include links to the educational curricula in Ireland and the UK for
 Design responsivity for different devices is essential for positive user experiences. According to a recent article  by the online magazine Design Rush (15 Screen Resolutions to Design For | DesignRush), 90% of website visitors bounce due to poor design. So, after creating an elaborate desktop design for the homepage (which didn’t work on smaller screens) I decided to start again from scratch with a mobile first approach, with the awareness that a majority of website visits in general happen via smart phone. 
 
 Accessibility is an important part of my website, as it is partly aimed at a non-tech-savvy audience who are less likely to have elaborate, expensive devices for viewing web pages. A young audience – especially the school student community - is also less likely to have the funds, as they do not control their own budget or income. So, I researched the most common screen sizes and set my scope for design responsivity around these. According to the Design Rush article already mentioned, which is based on statistics from StatCounter, the most common screen sizes for mobile phone are somewhere between 320 and 667 pixels wide and between 480 and 812 pixels tall. I tested the design of my site and created media queries with a focus on this in terms of mobile phone devices. However, these parameters only accounted for 45% of web surfers between March 2019 and March 2020, and there are now even more mobile phone sizes in use. Mobile phones clearly account for the most varied and unpredictable screen sizes in use, and so I did make sure that my media queries included sizes above and beyond the parameters discussed in Design Rush magazine…
-The website is fully responsive from the smallest screen size of an iphone 4.  Foldables and wearables were not included in the scope for the above reasons (they are less commonly used and RE associated with people with a higher level of tech-awareness and appreciation). 
+The website is fully responsive from the smallest screen size of an iPhone 4.  Foldables and wearables were not included in the scope for the above reasons (they are less commonly used and RE associated with people with a higher level of tech-awareness and appreciation). 
 
 According to research (the same article), tablet sizes and desktop sizes (including laptops) are far more predictable, in terms of assessing what most people use, so I strongly focused on the most common screen sizes for these types of devices when it came to testing my site using Chrome dev tools and creating specific media queries targeting these screen sizes.
 
 The five most common desktop screen resolutions worldwide are: 1366 x 768px; 1536 x 864px; 1440 x 900px; 1920 x 1090px and 1280 x 720px. This includes laptops, and these screen-size users accounted for 63% of web surfing. While including media queries and dev testing for other screen sizes, I strongly focused on these. The site is optimised to look good and be accessible when it comes to how content is presented on these screen sizes. Strong contrast between content and background (colours, fonts, information boxes), and making sure the screen is not too "busy", have been priorities for these sized screens.
 
-Tablets are even more predictatable/ standard in size. The 5 most common tablet sizes used to surf the net between March 2019 and March 2020, according to StatCounter, were 1024 x 768px; 1280 x 800px, 800 x 1280px (the same device in portrait); 962 x 601px and 601 x 962px (the same device in portrait). This accounted for 70% of tablet users. While including media queries and doing dev testing for other dimensions, I strongly focused on these. The site is optimised to look good and be accessible when it comes to how content is presented on these screen sizes. Strong contrast between content and background (colours, fonts, information boxes), and making sure the screen is not too "busy", have been priorities for these sized screens
+Tablets are even more predictable/ standard in size. The 5 most common tablet sizes used to surf the net between March 2019 and March 2020, according to StatCounter, were 1024 x 768px; 1280 x 800px, 800 x 1280px (the same device in portrait); 962 x 601px and 601 x 962px (the same device in portrait). This accounted for 70% of tablet users. While including media queries and doing dev testing for other dimensions, I strongly focused on these. The site is optimised to look good and be accessible when it comes to how content is presented on these screen sizes. Strong contrast between content and background (colours, fonts, information boxes), and making sure the screen is not too "busy", have been priorities for these sized screens
 
 ## Existing Features
 
@@ -82,7 +82,7 @@ As suggested above, in the section on user experience and design, the header and
 <center>Feedback page <img src="assets/images/formnav.png" alt="screenshot of navigation bar on feedback page" width="50%"/></center>
 <br>     
 
-The style and font is the same for each of the three navigation bars, except on small mobile devices where a border and background color were added to improve visibility and accessibility. The colours used are still from the same colour palette. I kept the header and navigation identical for the first two pages of the mobile version, with the understanding that a smaller screen gives less visual clues, and therefore more consistency is useful to offer a clear message to a younger user or user with visual impairment.
+The style and font is the same for each of the three navigation bars, except on small mobile devices where a border and background colour were added to improve visibility and accessibility. The colours used are still from the same colour palette. I kept the header and navigation identical for the first two pages of the mobile version, with the understanding that a smaller screen gives less visual clues, and therefore more consistency is useful to offer a clear message to a younger user or user with visual impairment.
 
 Home & history pages, mobile screenshot:
 
@@ -94,27 +94,27 @@ Feedback page, mobile screenshot:
 <center><img src="assets/images/mobformnav.png" alt="screenshot of nav bar on feedback page using Chrome dev tools to create dimensions for iphone4" width="50%"/></center>
 <br>     
  
-The top screenshot was taken on my Huawei P30 lite phone. The second is on the dimensions of an iphone 4, created using Chrome dev tools. 
+The top screenshot was taken on my Huawei P30 lite phone. The second is on the dimensions of an iPhone 4, created using Chrome dev tools. 
 
 There is a hover effect for the options on the navbars, to help the user see that the labels on the header are interactive and 'clickable', and also a colour effect to show if the page has already been visited. This is to help the reader understand the functionality of the navigation bar and to remind them of what they have already viewed, creating a clear sense of where they are on their journey through the site.
 
 -_Footer with Social Media Links_-
 
-The same footer design is used on all three pages with a hover effect to indicate interactivity. There are three icons for Facebook, Twitter and Youtube taken from the Font Awesome library. As with the navigation bar on the mobile version of the site, the feedback page has a border around the icons so that they clearly stand out on a small screen. The style and colour of the border is the same. Tablets also have a slightly tweaked design for the footer, which is a compromise between the full-size design for large desktops and the boxed footer for mobiles. It consists of the same background illustration that's used for desktops, but with the addition of a grey border to draw emphasis to the links on a smaller screen. The links on the footer do work, but I have yet to set up a social media presence for the WICH project. 
+The same footer design is used on all three pages with a hover effect to indicate interactivity. There are three icons for Facebook, Twitter and YouTube taken from the Font Awesome library. As with the navigation bar on the mobile version of the site, the feedback page has a border around the icons so that they clearly stand out on a small screen. The style and colour of the border is the same. Tablets also have a slightly tweaked design for the footer, which is a compromise between the full-size design for large desktops and the boxed footer for mobiles. It consists of the same background illustration that's used for desktops, but with the addition of a grey border to draw emphasis to the links on a smaller screen. The links on the footer do work, but I have yet to set up a social media presence for the WICH project. 
 
 -_Landing Page & WICH Logo_-
 
-As shown at the start of this document, the landing page, or homepage, is simple, minamilist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' at the top of the page also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
+As shown at the start of this document, the landing page, or homepage, is simple, minimalist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' at the top of the page also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
 
 The icon used for the logo is from the Font Awesome library [Font Awesome website](fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink on the home page are a wry reference to what is stereotypically thought of as 'feminine taste'. The logo and title heading are repeated on all three pages.
 
-The WICH anacronism was fun to come up with, and obviously points to the word 'witch'. This is intended to evoke the history of confident, intelligent women being considered oddballs and outsiders. Women software developers are, after all, still a small minority.
+The WICH acronym was fun to come up with, and obviously points to the word 'witch'. This is intended to evoke the history of confident, intelligent women being considered oddballs and outsiders. Women software developers are, after all, still a small minority.
 
 All of the fonts are from Google Fonts [Google Fonts website](fonts.google.com), except for Courier. Courier is used on the landing page for smaller screens, as it is clearer to read and still in line with the themes of coding and history (i.e. typewriters).
 
 The hero image is by @lum3n and can be downloaded free of charge from Unsplash [Unsplash web address](https://unsplash.com/photos/-RBuQ2PK_L8).
 
-The tree wallpaper design used as a background throghout the site as been edited to different sizes and hues by me, but the original can be downloaded from the Creative Tacos site, which has a beautiful collection of free design resources. To find free background wallpaper options, look up 'digital papers' on https://creativetacos.com/ 
+The tree wallpaper design used as a background throughout the site as been edited to different sizes and hues by me, but the original can be downloaded from the Creative Tacos site, which has a beautiful collection of free design resources. To find free background wallpaper options, look up 'digital papers' on https://creativetacos.com/ 
 
 -_Timeline_-
 
@@ -122,13 +122,13 @@ The timeline is the main focus of the website and it is where the most of the co
 
 Descriptions of each figure are short and easy to understand with technical terms such as "compiler" fully explained, making the timeline a bit of an introduction to the world of computing in general.
 
-Every description is accompanied by an image, and most are accompanied by a link to audio or video material for users who want to know more. Most people, especially young peopole, learn through all of their senses, not just through sight, so it was important to include audio material as well as videos that provide a 'break' from pure text. 
+Every description is accompanied by an image, and most are accompanied by a link to audio or video material for users who want to know more. Most people, especially young people, learn through all of their senses, not just through sight, so it was important to include audio material as well as videos that provide a 'break' from pure text. 
 
 Every image has an 'alt' tag, for users with visual impairments.
 
 The timeline has a different background for phones than for tablets and larger desktops. The smaller the device, the fewer colours used. I did not want to crowd the page with strong colours and contrasts for mobile phone screens, as this can affect concentration. The bigger desktops have background wallpaper for the timeline to add interest where the background might otherwise look too bare. 
 
-The wallpaper idea, also used for the headings and footers, was inspired by William Morris and the Arts and Crafts Movement. The movement roughly correlates with the period when machine readable code started being talked about. Morris began his apprenticeship as an embroiderer of textiles in the mid-1800s, when Ada Lovelace was working as a mathemetician in the same city (London). Both were associated with radical politics (Morris was a socialist and Ada Lovelace was the daughter of Lord Byron).
+The wallpaper idea, also used for the headings and footers, was inspired by William Morris and the Arts and Crafts Movement. The movement roughly correlates with the period when machine readable code started being talked about. Morris began his apprenticeship as an embroiderer of textiles in the mid-1800s, when Ada Lovelace was working as a mathematician in the same city (London). Both were associated with radical politics (Morris was a socialist and Ada Lovelace was the daughter of Lord Byron).
 
 Timeline for mobile phones with neutral background (screenshot from my Huawei P30 lite):
 
@@ -138,18 +138,15 @@ Timeline for mobile phones with neutral background (screenshot from my Huawei P3
 
 Timeline for tablets and smaller desktops with sky blue background (screenshot from my Surface Go):
 
-
 <br>
 <center><img src="assets/images/tabtimeline.png" alt="screenshot on Surface Go" width="50%"/></center>
 <br>   
 
-
-Timeline for larger desktops with 'wallpaper' as background (screensize 1882 x 1317px in Chrome dev tools):
+Timeline for larger desktops with 'wallpaper' as background (screen size 1882 x 1317px in Chrome dev tools):
 
 <br>
 <center><img src="assets/images/desktimeline.png" alt="screenshot on Surface Go" width="80%"/></center>
 <br>   
-
 
 Code for the timeline was borrowed from the following website: https://alvarotrigo.com/blog/html-css-timelines. However, there were numerous bugs in the code, which I had to fix so that it worked on all sized screens. I'll discuss these later.
 
@@ -159,9 +156,9 @@ All links have an aria-label to help visually impaired users, and they open in a
 
 -_Feedback Form_-
 
-The feedback form is responsive and functional on all different devices from the size of an iphone 4 up. I already knew how to code forms from my HTML course material, however I taught myself how to make a fully responsive one from W3 schools "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp/.
+The feedback form is responsive and functional on all different devices from the size of an iPhone 4 up. I already knew how to code forms from my HTML course material, however I taught myself how to make a fully responsive one from W3 schools "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp/.
 
-I have yet to make this form active beyond the data being sent to the Code Institute formdump address. To make this website a functioning site of current use, the main thing I need to do is to change this, so that I receive the data and am able to respond to the feedback in how I develop the project in future.
+I have yet to make this form active beyond the data being sent to the Code Institute form dump address. To make this website a functioning site of current use, the main thing I need to do is to change this, so that I receive the data and am able to respond to the feedback in how I develop the project in future.
 
 When I learn JavaScript later in my diploma course, I will use this language to code a properly interactive form with a pop up page that says "Thank you for submitting your feedback!". 
 
@@ -186,6 +183,8 @@ The screenshots of the report are above. The first one is for the desktop versio
 I also tested the site on real devices by checking how it looked on my phone (Huawei P30 lite), my friends' devices (I asked them send me screenshots), my tablet (Surface Go) and by checking all of the most common screen sizes from the smallest size of 320 x 480 pixels (the dimensions for the iphone4). I also tested the points at which the integrity of the webpages fell apart using Chrome dev tools. I used these to guide the creation of further media queries in my CSS code to remedy the 'glitches', so that when I played with the width and height in Chrome dev tools, the design seamlessly adapted. I learned about this adaptive approach from a 'Sam's Teach Yourself' textbook that I have on CSS and HTML. "Focus your breakpoints on where your design starts to fail rather than worrying about specific devices or widths. It's also a good idea to strive for as few breakpoints as your design can handle and not be broken" (p.468, Colburn, Kyrnin & Lemay 2016). If I could go back and do this project again, I would certainly aim for less media queries. The feedback form in particular required a lot of adjustments in CSS for different screen sizes, and even though the code "works" and my course mentor was happy with the design responsivity for all of the pages of the site, I could have saved a lot of time and effort if I simply taught myself CSS grids and used this for the whole of the feedback page.
 
 I noticed early on that Chrome dev tools do not show how a site looks like on a given device in real life. This is because the browser adds elements to the top and the bottom of the page, and these are difficult to predict it varies with different browsers. When I tested the homepage on my phone, the footer dropped off the screen, but it was visible for the same dimensions in Chrome dev tools. I was told, for the sake for how this project is being assessed, to focus on what is shown by Chrome dev tools. However, I couldn't leave it alone, because I want this site to be of actual real-life use. I have coded the footer to come up higher on mobile devices so that it is always visible. It turns out that this makes the footer stand out more on smaller screens, so it probably pushed up the accessibility score on the Lighthouse report.   
+
+The timeline code turned out to not work in its entirety on different devices after it had been amended by me to include images and different fonts/ colours. Specifically, there was a join in the timeline that was visibly out of alignment. I used Chrome dev tools to click on this, and discover which bit of code needed amending. A similar issue came up that related to the dots on the timeline. They were not on the actual timeline, but floating off away from the descriptions about each woman in history. I found the bug in the same way and created a series of media queries that fix this for different screen sizes.
 
  ## **Code Validation (and bugs!)**
 
@@ -222,6 +221,37 @@ I went through the HTML with a fine toothcomb and discovered the problem. I was 
 I used GitHub pages to deploy my site. The process is simple. Click on 'settings' after going into the repository and scroll down. The menu down the lefthand side will have an option called 'pages'. Click on this, and after a few moments the site will be deployed and GitHub will automatically show a web address in blue. This is the address for the live site, which anyone can now access from their own devices.
 
 ## **Acknowledgements**
+
+1. Am I Responsive? (https://amiresponsive.co.uk/) This free site illustrates how your web project looks on different devices in an attractive way.
+
+2. Google Fonts. (https://fonts.google.com/) 
+
+3. Canva. (canva.com/learn/best-google-font-combinations).
+
+4. Font Awesome. (https://fontawesome.com/)
+
+5. Hero image by @lum3n on Unsplash [Unsplash web address](https://unsplash.com/photos/-RBuQ2PK_L8).
+
+6. Digital papers used as backgrounds throughout the site originally sourced from Creative Tacos (https://creativetacos.com/). 
+
+7. Code for timeline inspired by https://alvarotrigo.com/blog/html-css-timelines. I added floating images and different fonts, which meant that I had to edit the code.
+
+8. All images for the timeline are open source and from Wikimedia Commons (https://commons.wikimedia.org/wiki/Main_Page). 
+
+9. W3 schools "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp/.
+
+10. 'Website Dimensions: These are the 15 Most Common 15 Screen Resolutions to Design for'. Design Rush. Updated 05/05/2022. https://www.designrush.com/agency/web-development-companies/trends/website-dimensions
+
+11. Chrome developer tools, including Lighthouse. https://developer.chrome.com/docs/lighthouse/overview/
+
+12. W3C Markup Validation Service (https://validator.w3.org/index.html)
+
+13. W3C Jigsaw CSS Validation Service (https://jigsaw.w3.org/css-validator/)
+
+14. Colborn, R. Kyrnin, J. & Lemay, L. Sam's Teach Yourself HTML, CSS & JavaScript: Web Publishing in One Hour a Day. Pearson Education, Indiana (2016).
+
+15. Information about the history of female coders was from a range of sources, including the Encyclopaedia Britannica online (https://www.britannica.com/). I also watched the wonderful 2016 film, Hidden Figures, and took notes. Links to articles, YouTube videos and audio can be found on the timeline page of the site.
+
 
 
 
