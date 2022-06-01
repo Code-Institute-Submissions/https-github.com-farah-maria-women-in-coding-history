@@ -147,7 +147,7 @@ Timeline for tablets and smaller desktops with sky blue background (screenshot f
 Timeline for larger desktops with 'wallpaper' as background (screensize 1882 x 1317px in Chrome dev tools):
 
 <br>
-<center><img src="assets/images/desktimeline.png" alt="screenshot on Surface Go" width="50%"/></center>
+<center><img src="assets/images/desktimeline.png" alt="screenshot on Surface Go" width="80%"/></center>
 <br>   
 
 
@@ -156,7 +156,7 @@ Code for the timeline was borrowed from the following website: https://alvarotri
 
 All images for the timeline are open source, and from Wikimedia Commons (https://commons.wikimedia.org/wiki/Main_Page). 
 
-All links have an aria-label to help visually impaired users, and they are coded to open in a separate tab. 
+All links have an aria-label to help visually impaired users, and they open in a separate tab. 
 
 -_Feedback Form_-
 
