@@ -85,19 +85,23 @@ There is a hover effect for the options, to help the user see that the labels on
 
 -_Footer with Social Media Links_-
 
-The same footer design is used on all three pages with a hover effect to indicate interactivity. There are three icons for Facebook, Twitter and Youtube taken from the Font Awesome library. As with the navigation bar on the mobile version of the site, the feedback page has a border around the icons so that they clearly stand out on a small screen. The style and colour of the border is the same. The links on the footer do work, but I have yet to set up a social media presence for the WICH project. 
+The same footer design is used on all three pages with a hover effect to indicate interactivity. There are three icons for Facebook, Twitter and Youtube taken from the Font Awesome library. As with the navigation bar on the mobile version of the site, the feedback page has a border around the icons so that they clearly stand out on a small screen. The style and colour of the border is the same. Tablets also have a slightly tweaked design for the footer, which is a compromise between the full-size design for large desktops and the boxed footer for mobiles. It consists of the same background illustration that's used for desktops, but with the addition of a grey border to draw emphasis to the links on a smaller screen. The links on the footer do work, but I have yet to set up a social media presence for the WICH project. 
 
 -_Landing Page_-
 
-As shown at the start of this document, the landing page, or homepage, is simple, minamilist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
+As shown at the start of this document, the landing page, or homepage, is simple, minamilist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' at the top of the page also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
 
-The icon used for the logo is from the Font Awesome library (fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what would be viewed as 'feminine taste'.
+The icon used for the logo is from the Font Awesome library (fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what might be viewed as 'feminine taste'.
 
-All of the fonts are from Google Fonts (fonts.google.com), except for Courier, which is used on the landing page for smaller screens, as it is clearer to read and still in line with the themes of coding and history (i.e. typewriters).
+All of the fonts are from Google Fonts (fonts.google.com), except for Courier. Courier is used on the landing page for smaller screens, as it is clearer to read and still in line with the themes of coding and history (i.e. typewriters).
 
 The hero image is by @lum3n and can be downloaded free of charge from Unsplash (https://unsplash.com/photos/-RBuQ2PK_L8).
 
+The tree wallpaper design used as a background throghout the site as been edited to different sizes and hues by me, but the original can be downloaded from the Creative Tacos site, which has a beautiful colection of free design resources (look up 'digital papers' on creativetacos.com). 
+
 -_Timeline_-
+
+The timeline is the main focus of the website and it is where the most of the content is concentrated.  
 
 
 
