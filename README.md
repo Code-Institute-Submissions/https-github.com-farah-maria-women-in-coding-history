@@ -45,7 +45,9 @@ Simplicity is at the heart of the basic navigation structure: a homepage that in
 
 Image one  is the homepage, images two and three are of the timeline, image four is the feedback page and image five is a 'thank you' page that pops up to confirm successful submission of the form.
 
-A few minor aspects of design changed after the wireframing process. The hero image, for example, contains a lot of empty space in the middle, so it was better suited as a background image with what I called the 'blurb' going across the centre rather than underneath. I asked a friend to open the homepage on his computer with a large desktop, and he found that it was still very empty-looking after this change in design, so I veered away from my choice of the courier font (which evokes a historical sense of "typing" code using an old machine) for larger desktops. A more attractive, decorative font was employed just for bigger screens to address this issue. The "Homemade Apple" cursive font worked well with the handwritten-style header in suggesting a first draft of history that's still being written. It also softens the page, giving a more homely feel, which works as an idea given that women have been traditionally relegated to domestic life.
+A few minor aspects of design changed after the wireframing process. The hero image, for example, contains a lot of empty space in the middle, so it was better suited as a background image with what I called the 'blurb' going across the centre rather than underneath. I asked a friend to open the homepage on his computer with a large desktop, and he found that it was still very empty-looking after this change in design, so I veered away from my choice of the courier font (which evokes a historical sense of "typing" code using an old machine) for larger desktops. A more attractive, decorative font was employed just for bigger screens to address this issue. I chose "Homemade Apple" from Google Fonts as this worked well with the handwritten-style header (the font used for the header is "Permanent Marker", also from Google Fonts) in suggesting a first draft of history that's still being written. It also softens the page, giving a more homely feel, helping the user feel they are in their comfort zone despite being taught about a technical subject.
+
+The combination of "Open Sans" (also from Google Fonts) for small text on the site with "Permanent Marker" for the header is a pairing suggested by Canva [Canva website](canva.com/learn/best-google-font-combinations).
 
 The 'thank you' page that I planned, as confirmation to the user that their feedback form had been successfully submitted, fell away as the scope of the project became more limited given the time constraints. This is something I would like to add later. Instead, there is a standard Code Institute "form dump" confirmation message that pops us after data is successfully sent. 
 
@@ -91,13 +93,13 @@ The same footer design is used on all three pages with a hover effect to indicat
 
 As shown at the start of this document, the landing page, or homepage, is simple, minamilist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' at the top of the page also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
 
-The icon used for the logo is from the Font Awesome library (fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what might be viewed as 'feminine taste'.
+The icon used for the logo is from the Font Awesome library [Font Awesome website](fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what might be viewed as 'feminine taste'.
 
-All of the fonts are from Google Fonts (fonts.google.com), except for Courier. Courier is used on the landing page for smaller screens, as it is clearer to read and still in line with the themes of coding and history (i.e. typewriters).
+All of the fonts are from Google Fonts [Google Fonts website](fonts.google.com), except for Courier. Courier is used on the landing page for smaller screens, as it is clearer to read and still in line with the themes of coding and history (i.e. typewriters).
 
-The hero image is by @lum3n and can be downloaded free of charge from Unsplash (https://unsplash.com/photos/-RBuQ2PK_L8).
+The hero image is by @lum3n and can be downloaded free of charge from Unsplash [Unsplash web address](https://unsplash.com/photos/-RBuQ2PK_L8).
 
-The tree wallpaper design used as a background throghout the site as been edited to different sizes and hues by me, but the original can be downloaded from the Creative Tacos site, which has a beautiful colection of free design resources (look up 'digital papers' on creativetacos.com). 
+The tree wallpaper design used as a background throghout the site as been edited to different sizes and hues by me, but the original can be downloaded from the Creative Tacos site, which has a beautiful collection of free design resources [Creative Tacos website](look up 'digital papers' on creativetacos.com). 
 
 -_Timeline_-
 
