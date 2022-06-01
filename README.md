@@ -126,7 +126,7 @@ Every description is accompanied by an image, and most are accompanied by a link
 
 Every image has an 'alt' tag, for users with visual impairments.
 
-The timeline has a different background for phones, tablets, laptops and desktop PCs. The smaller the device, the simpler the design and the fewer colours used. Largers screens have media queries which add more design features. I did not want to crowd the page with information or barrage learners with too many colours in a small space, as this can affect concentration and learning.
+The timeline has a different background for phones, tablets, laptops and desktop PCs. The smaller the device, the simpler the design and the fewer colours used. Largers screens have media queries which add more design features. I did not want to crowd the page with information or barrage users with too many colours in a small space, as this can affect concentration and learning.
 
 
 

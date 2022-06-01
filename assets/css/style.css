@@ -1299,7 +1299,8 @@ and (min-height: 600px) {
 }
 
   #timeline-header {
-    border: solid 2px #A27C5B;
+    border: solid 2px gray;
+    border-radius: 5px;
   }
 
   span {
@@ -1340,9 +1341,17 @@ and (min-height: 600px) {
     border: none;
 }
 
-  #timeline-body {
+  #timeline-body {border-bottom: ;
     background-color: #889bae;
-    background-image: none;
+    background-image: url('../images/palewallpaper.jpg');
+    background-size: 10%;
+    background-repeat: repeat;
+}
+
+  #timeline-footer {
+    background-image: url('../images/wallpaper.jpg');
+    border-top: grey 2px solid;
+    border-bottom: grey 2px solid;
 }
 }
 /* end of media queries */
