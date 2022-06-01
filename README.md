@@ -83,9 +83,21 @@ The above screenshots were taken on my Huawei P20 lite phone. As you can see, th
 
 There is a hover effect for the options, to help the user see that the labels on the header are interactive and 'clickable', and also a colour effect to show if the page has already been visited by the same user. This is to help the reader understand the functionality of the navigation bar and to remind them of what they have already viewed, creating a clear sense of where they are on their journey through the site.
 
+-_Footer with Social Media Links_-
+
+The same footer design is used on all three pages with a hover effect to indicate interactivity. There are three icons for Facebook, Twitter and Youtube taken from the Font Awesome library. As with the navigation bar on the mobile version of the site, the feedback page has a border around the icons so that they clearly stand out on a small screen. The style and colour of the border is the same. The links on the footer do work, but I have yet to set up a social media presence for the WICH project. 
+
 -_Landing Page_-
 
 As shown at the start of this document, the landing page, or homepage, is simple, minamilist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
+
+The icon used for the logo is from the Font Awesome library and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what would be viewed as 'feminine taste'.
+
+-_Timeline_-
+
+
+
+
 
 
 
