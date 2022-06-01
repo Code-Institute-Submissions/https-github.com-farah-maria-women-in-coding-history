@@ -154,7 +154,33 @@ Timeline for larger desktops with 'wallpaper' as background (screensize 1882 x 1
 
 Code for the timeline was borrowed from the following website: https://alvarotrigo.com/blog/html-css-timelines. However, there were numerous bugs in the code, which I had to fix so that it worked on all sized screens. I'll discuss these later.
 
+All images for the timeline are open source, and from Wikimedia Commons (https://commons.wikimedia.org/wiki/Main_Page). 
+
 -_Feedback Form_-
+
+The feedback form is responsive and functional on all different devices from the size of an iphone 4 up. I already knew how to code forms from my HTML course material, however I taught myself how to make a fully responsive one from W3 schools "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp/.
+
+I have yet to make this form active beyond the data being sent to the Code Institute formdump address. To make this website a functioning site of current use, the main thing I need to do is to change this, so that I receive the data and am able to respond to the feedback in how I develop the project in future.
+
+When I learn JavaScript later in my diploma course, I will use this language to code a properly interactive form with a pop up page that says "Thank you for submitting your feedback!". 
+
+As the timeline project is at its inception stage, I deliberately wanted a feedback form with space for whatever views users have. This is why there is a large text box. I'm effectively gathering views as if I'm holding a market research event, with the first users giving a full account of their views, first impressions and feelings. Later, when the project gathers momentum and there is a social media presence for WICH, I will narrow the options down on the form to radio button answers to specific questions.  
+
+The email address box only accepts text that is recognisably in the format of a proper email address (a validated and required input field). The form is not submitted unless an email address is entered. The addresses will eventually be used, when this site is live and fully functioning, for updates and possibly a newsletter or blog.
+
+## **Testing**
+
+## **Bugs**
+
+## **Validator Testing**
+
+## **Accessibility & Lighthouse Report in Dev Tools**
+
+## **Deployment**
+
+## **Acknowledgements**
+
+
 
 
 
