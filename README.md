@@ -86,15 +86,15 @@ The style and font is the same for each of the three navigation bars, except on 
 
 Home & history pages, mobile screenshot:
 
-<center><img src="assets/images/mobhistorynav.jpg" alt="screenshot on Huawei P20 lite phone of navigation bar on history page" width="50%"/></center>     
+<center><img src="assets/images/mobhistorynav.jpg" alt="screenshot on Huawei P30 lite phone of navigation bar on history page" width="50%"/></center>     
 <br>
 Feedback page, mobile screenshot:
 
 <br>
-<center><img src="assets/images/mobformnav.jpg" alt="screenshot on Huawei P20 lite phone of navigation bar on feedback page" width="50%"/></center>
+<center><img src="assets/images/mobformnav.jpg" alt="screenshot on Huawei P30 lite phone of navigation bar on feedback page" width="50%"/></center>
 <br>     
  
-The above screenshots were taken on my Huawei P20 lite phone. As you can see, the navigation bar for both the desktop and mobile versions of the site are a little different because there are only two options: 'home' and 'timeline'. Initially, I did have all three but the inclusion of the navigation link for 'feedback' was confusing and made the page over-busy because there is already a title directly underneath it for the feedback form. The repetition of the words looked odd, and was unnecessary. The pared down navigation bar allows the user to visit or revisit pages they are not already on - which is the point of the navigation bar, anyway. If they need to reload the page, they can click on that option offered by their browser at the top of their screen.
+The above screenshots were taken on my Huawei P30 lite phone. As you can see, the navigation bar for both the desktop and mobile versions of the site are a little different because there are only two options: 'home' and 'timeline'. Initially, I did have all three but the inclusion of the navigation link for 'feedback' was confusing and made the page over-busy because there is already a title directly underneath it for the feedback form. The repetition of the words looked odd, and was unnecessary. The pared down navigation bar allows the user to visit or revisit pages they are not already on - which is the point of the navigation bar, anyway. If they need to reload the page, they can click on that option offered by their browser at the top of their screen.
 
 There is a hover effect for the options, to help the user see that the labels on the header are interactive and 'clickable', and also a colour effect to show if the page has already been visited by the same user. This is to help the reader understand the functionality of the navigation bar and to remind them of what they have already viewed, creating a clear sense of where they are on their journey through the site.
 
@@ -126,15 +126,35 @@ Every description is accompanied by an image, and most are accompanied by a link
 
 Every image has an 'alt' tag, for users with visual impairments.
 
-The timeline has a different background for phones, tablets, laptops and desktop PCs. The smaller the device, the simpler the design and the fewer colours used. Largers screens have media queries which add more design features. I did not want to crowd the page with information or barrage users with too many colours in a small space, as this can affect concentration and learning.
+The timeline has a different background for phones than for tablets and larger desktops. The smaller the device, the fewer colours used. I did not want to crowd the page with strong colours and contrasts for mobile phone screens, as this can affect concentration. The bigger desktops have background wallpaper for the timeline to add interest where the background might otherwise look too bare. 
+
+The wallpaper idea, also used for the headings and footers, was inspired by William Morris and the Arts and Crafts Movement. The movement roughly correlates with the period when machine readable code started being talked about. Morris began his apprenticeship as an embroiderer of textiles in the mid-1800s, when Ada Lovelace was working as a mathemetician in the same city (London). Both were associated with radical politics (Morris was a socialist and Ada Lovelace was the daughter of Lord Byron).
+
+Timeline for mobile phones with neutral background (screenshot from my Huawei P30 lite):
+
+<br>
+<center><img src="assets/images/mobtimeline.jpg" alt="screenshot on Huawei P30 lite phone of timeline" width="50%"/></center>
+<br>     
+
+Timeline for tablets and smaller desktops with sky blue background (screenshot from my Surface Go):
+
+
+<br>
+<center><img src="assets/images/tabtimeline.png" alt="screenshot on Surface Go" width="50%"/></center>
+<br>   
+
+
+Timeline for larger desktops with 'wallpaper' as background (screensize 1882 x 1317px in Chrome dev tools):
+
+<br>
+<center><img src="assets/images/desktimeline.png" alt="screenshot on Surface Go" width="50%"/></center>
+<br>   
 
 
 
+Code for the timeline was borrowed from the following website: https://alvarotrigo.com/blog/html-css-timelines. However, there were numerous bugs in the code, which I had to fix so that it worked on all sized screens. I'll discuss these later.
 
-
-
-
-
+-_Feedback Form_-
 
 
 
