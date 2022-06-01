@@ -156,6 +156,8 @@ Code for the timeline was borrowed from the following website: https://alvarotri
 
 All images for the timeline are open source, and from Wikimedia Commons (https://commons.wikimedia.org/wiki/Main_Page). 
 
+All links have an aria-label to help visually impaired users, and they are coded to open in a separate tab. 
+
 -_Feedback Form_-
 
 The feedback form is responsive and functional on all different devices from the size of an iphone 4 up. I already knew how to code forms from my HTML course material, however I taught myself how to make a fully responsive one from W3 schools "HOW TO - Responsive Form" at http://www.w3schools.com/howto/howto_css_responsive_form.asp/.
@@ -169,15 +171,10 @@ As the timeline project is at its inception stage, I deliberately wanted a feedb
 The email address box only accepts text that is recognisably in the format of a proper email address (a validated and required input field). The form is not submitted unless an email address is entered. The addresses will eventually be used, when this site is live and fully functioning, for updates and possibly a newsletter or blog.
 
 ## **Testing**
-
-## **Bugs**
-
 ## **Validator Testing**
-
+## **Bugs**
 ## **Accessibility & Lighthouse Report in Dev Tools**
-
 ## **Deployment**
-
 ## **Acknowledgements**
 
 
