@@ -53,6 +53,16 @@ The 'thank you' page that I planned, as confirmation to the user that their feed
 
 I wanted to include links to the educational curricula in Ireland and the UK for teachers using the site for class, ideally during the week of international women's day, but I decided early on in the wireframing process that the scope would have to exclude this due to time constraints. This can be added as the website develops, along with an easily-printable format for the timeline, so that the history page can be used as a hand-out for students. I kept the scope quite basic, with space for additional content. The focus is on simply informing the user of the history of women in coding... A basic but attractive educational site that is also suitable for general interest.
 
+## Design Responsivity, User Experience & Scope/ Strategy
+
+Design responsivity for different devices is essential for positive user experiences. According to a recent article  by the online magazine Design Rush (15 Screen Resolutions to Design For | DesignRush), 90% of website visitors bounce due to poor design. So, after creating an elaborate desktop design for the homepage (which didn’t work on smaller screens) I decided to start again from scratch with a mobile first approach, with the awareness that a majority of website visits in general happen via smart phone. 
+
+Accessibility is an important part of my website, as it is partly aimed at a non-tech-savvy audience who are less likely to have elaborate, expensive devices for viewing web pages. A young audience – especially the school student community - is also less likely to have the funds, as they do not control their own budget or income. So, I researched the most common screen sizes and set my scope for design responsivity around these. According to the Design Rush article already mentioned, which is based on statistics from StatCounter, the most common screen sizes for mobile phone are somewhere between 320 and 667 pixels wide and between 480 and 812 pixels tall. I tested the design of my site and created media queries with a focus on this in terms of mobile phone devices. However, these parameters only accounted for 45% of web surfers between March 2019 and March 2020, and there are now even more mobile phone sizes in use. Mobile phones clearly account for the most varied and unpredictable screen sizes in use, and so I did make sure that my media queries included sizes above and beyond the parameters discussed in Design Rush magazine…
+The website is fully responsive from the smallest screen size of an iphone 4.  Foldables and wearables were not included in the scope for the above reasons (they are less commonly used and RE associated with people with a higher level of tech-awareness and appreciation). 
+
+According to research (the same article), tablet sizes and desktop sizes (including laptops) are far more predictable, in terms of assessing what most people use, so I strongly focused on the most common screen sizes for these types of devices.
+
+
 ## Existing Features
 
 It is hard to completely separate the topics that need attention in this document, so there is some overlap, but I will avoid repeating descriptions.
@@ -99,7 +109,7 @@ All of the fonts are from Google Fonts [Google Fonts website](fonts.google.com),
 
 The hero image is by @lum3n and can be downloaded free of charge from Unsplash [Unsplash web address](https://unsplash.com/photos/-RBuQ2PK_L8).
 
-The tree wallpaper design used as a background throghout the site as been edited to different sizes and hues by me, but the original can be downloaded from the Creative Tacos site, which has a beautiful collection of free design resources [Creative Tacos website](look up 'digital papers' on creativetacos.com). 
+The tree wallpaper design used as a background throghout the site as been edited to different sizes and hues by me, but the original can be downloaded from the Creative Tacos site, which has a beautiful collection of free design resources. To find free background wallpaper options, look up 'digital papers' on https://creativetacos.com/ 
 
 -_Timeline_-
 
