@@ -91,7 +91,11 @@ The same footer design is used on all three pages with a hover effect to indicat
 
 As shown at the start of this document, the landing page, or homepage, is simple, minamilist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
 
-The icon used for the logo is from the Font Awesome library and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what would be viewed as 'feminine taste'.
+The icon used for the logo is from the Font Awesome library (fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what would be viewed as 'feminine taste'.
+
+All of the fonts are from Google Fonts (fonts.google.com), except for Courier, which is used on the landing page for smaller screens, as it is clearer to read and still in line with the themes of coding and history (i.e. typewriters).
+
+The hero image is by @lum3n and can be downloaded free of charge from Unsplash (https://unsplash.com/photos/-RBuQ2PK_L8).
 
 -_Timeline_-
 
