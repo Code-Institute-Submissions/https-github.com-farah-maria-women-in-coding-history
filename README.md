@@ -102,11 +102,13 @@ There is a hover effect for the options, to help the user see that the labels on
 
 The same footer design is used on all three pages with a hover effect to indicate interactivity. There are three icons for Facebook, Twitter and Youtube taken from the Font Awesome library. As with the navigation bar on the mobile version of the site, the feedback page has a border around the icons so that they clearly stand out on a small screen. The style and colour of the border is the same. Tablets also have a slightly tweaked design for the footer, which is a compromise between the full-size design for large desktops and the boxed footer for mobiles. It consists of the same background illustration that's used for desktops, but with the addition of a grey border to draw emphasis to the links on a smaller screen. The links on the footer do work, but I have yet to set up a social media presence for the WICH project. 
 
--_Landing Page_-
+-_Landing Page & WICH Logo_-
 
 As shown at the start of this document, the landing page, or homepage, is simple, minamilist but informative, with a natural and gentle colour palette. The words 'Women coders since the 1840...' informs the user of the content they should expect from the next page. The navigation label 'timeline' at the top of the page also introduces how this information is going to be presented. The hero image of a keyboard on a pink desk is attractive as well as functional in conveying the main themes of women at work in computer technology and coding. 
 
-The icon used for the logo is from the Font Awesome library [Font Awesome website](fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink used on the home page are wryly stereotypical of what might be viewed as 'feminine taste'.
+The icon used for the logo is from the Font Awesome library [Font Awesome website](fontawesome.com) and clearly indicates the subject matter of computing, while the shades of pink on the home page are a wry reference to what is stereotypically thought of as 'feminine taste'. The logo and title heading are repeated on all three pages.
+
+The WICH anacronism was fun to come up with, and obviously points to the word 'witch'. This is intended to evoke the history of confident, intelligent women being considered oddballs and outsiders. Women software developers are, after all, still a small minority.
 
 All of the fonts are from Google Fonts [Google Fonts website](fonts.google.com), except for Courier. Courier is used on the landing page for smaller screens, as it is clearer to read and still in line with the themes of coding and history (i.e. typewriters).
 
@@ -116,7 +118,18 @@ The tree wallpaper design used as a background throghout the site as been edited
 
 -_Timeline_-
 
-The timeline is the main focus of the website and it is where the most of the content is concentrated.  
+The timeline is the main focus of the website and it is where the most of the content is concentrated. Five women coders are described, from Ada Lovelace's annotations on machine coding in 1843 to Valerie Johnson's current work as an advocate for women and people of colour in the tech industry. Six women had to be left out due to time constraints, so I focused on making sure the timeline went from 1843 to today and that both white women and women of colour were included. I intend to add Ida Rhodes (1949),Margaret Hamilton (1961), Carol Shaw (1978), Karen Sparck Jones (1982), Radia Joy Perlman (1984) and Elizabeth Feinler (1989) to the timeline over the coming weeks.
+
+Descriptions of each figure are short and easy to understand with technical terms such as "compiler" fully explained, making the timeline a bit of an introduction to the world of computing in general.
+
+Every description is accompanied by an image, and most are accompanied by a link to audio or video material for users who want to know more. Most people, especially young peopole, learn through all of their senses, not just through sight, so it was important to include audio material as well as videos that provide a 'break' from pure text. 
+
+Every image has an 'alt' tag, for users with visual impairments.
+
+The timeline has a different background for phones, tablets, laptops and desktop PCs. The smaller the device, the simpler the design and the fewer colours used. Largers screens have media queries which add more design features. I did not want to crowd the page with information or barrage learners with too many colours in a small space, as this can affect concentration and learning.
+
+
+
 
 
 
