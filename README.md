@@ -91,12 +91,12 @@ Home & history pages, mobile screenshot:
 Feedback page, mobile screenshot:
 
 <br>
-<center><img src="assets/images/mobformnav.jpg" alt="screenshot on Huawei P30 lite phone of navigation bar on feedback page" width="50%"/></center>
+<center><img src="assets/images/mobformnav.png" alt="screenshot of nav bar on feedback page using Chrome dev tools to create dimensions for iphone4" width="50%"/></center>
 <br>     
  
-The above screenshots were taken on my Huawei P30 lite phone. As you can see, the navigation bar for both the desktop and mobile versions of the site are a little different because there are only two options: 'home' and 'timeline'. Initially, I did have all three but the inclusion of the navigation link for 'feedback' was confusing and made the page over-busy because there is already a title directly underneath it for the feedback form. The repetition of the words looked odd, and was unnecessary. The pared down navigation bar allows the user to visit or revisit pages they are not already on - which is the point of the navigation bar, anyway. If they need to reload the page, they can click on that option offered by their browser at the top of their screen.
+The top screenshot was taken on my Huawei P30 lite phone. The second is on the dimensions of an iphone 4, created using Chrome dev tools. 
 
-There is a hover effect for the options, to help the user see that the labels on the header are interactive and 'clickable', and also a colour effect to show if the page has already been visited by the same user. This is to help the reader understand the functionality of the navigation bar and to remind them of what they have already viewed, creating a clear sense of where they are on their journey through the site.
+There is a hover effect for the options on the navbars, to help the user see that the labels on the header are interactive and 'clickable', and also a colour effect to show if the page has already been visited. This is to help the reader understand the functionality of the navigation bar and to remind them of what they have already viewed, creating a clear sense of where they are on their journey through the site.
 
 -_Footer with Social Media Links_-
 
@@ -170,8 +170,9 @@ As the timeline project is at its inception stage, I deliberately wanted a feedb
 
 The email address box only accepts text that is recognisably in the format of a proper email address (a validated and required input field). The form is not submitted unless an email address is entered. The addresses will eventually be used, when this site is live and fully functioning, for updates and possibly a newsletter or blog.
 
-## **Testing**
-## **Validator Testing**
+## **Testing & Code Validation**
+
+
 ## **Bugs**
 ## **Accessibility & Lighthouse Report in Dev Tools**
 ## **Deployment**
