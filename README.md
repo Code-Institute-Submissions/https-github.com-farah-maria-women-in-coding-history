@@ -186,6 +186,8 @@ I noticed early on that Chrome dev tools do not show how a site looks like on a 
 
 The timeline code turned out to not work in its entirety on different devices after it had been amended by me to include images and different fonts/ colours. Specifically, there was a join in the timeline that was visibly out of alignment. I used Chrome dev tools to click on this, and discover which bit of code needed amending. A similar issue came up that related to the dots on the timeline. They were not on the actual timeline, but floating off away from the descriptions about each woman in history. I found the bug in the same way and created a series of media queries that fix this for different screen sizes.
 
+I tested all of the links on the history line to make sure they were up to date and functional when clicked on. 
+
  ## **Code Validation (and bugs!)**
 
  The HTML for the landing page, the timeline page and the feedback page all passed when I copied and pasted the code into the free w3 validator service online. The screenshots are below.  
