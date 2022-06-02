@@ -1005,7 +1005,6 @@ and (min-height: 600px) {
 }
 
 #form-header_wrapper > #navbar {
-  background-color: none;
   border: none;
   margin-right: 10px;
 }
@@ -1032,9 +1031,8 @@ and (min-height: 600px) {
   }
 
   #form-header_wrapper > #navbar {
-    border: none
+    border: none;
     padding: 10px;
-    background-color: none;
     margin-right: 30px;
 }
 
@@ -1344,7 +1342,7 @@ and (min-height: 600px) {
     border: none;
 }
 
-  #timeline-body {border-bottom: ;
+  #timeline-body {
     background-color: #889bae;
     background-image: url('../images/palewallpaper.jpg');
     background-size: 10%;
