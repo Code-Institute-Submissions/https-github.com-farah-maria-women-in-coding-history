@@ -259,22 +259,3 @@ I used GitHub pages to deploy my site. The process is simple. Click on 'settings
 18. Women's Stories, (2014) 'Who is Grace Hopper?', https://youtube.be/Fg82iV-L8ZY (video).
 
 19. STEM for Success, (2021) Valerie Thomas: Transmitting the Future, https://www.youtube.com/watch?v=EWBlW1xgAow. 
-
-20. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
