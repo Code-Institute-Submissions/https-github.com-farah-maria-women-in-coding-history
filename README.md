@@ -152,7 +152,7 @@ Code for the timeline was borrowed from the following website: https://alvarotri
 
 All images for the timeline are open source, and from Wikimedia Commons (https://commons.wikimedia.org/wiki/Main_Page). 
 
-All links have an aria-label to help visually impaired users, and they open in a separate tab. 
+All links have an aria-label to help visually impaired users, and they open in a separate tab. The links are coloured violet to set them apart from the non-interactive text. 
 
 -_Feedback Form_-
 
