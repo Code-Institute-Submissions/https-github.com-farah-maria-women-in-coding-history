@@ -193,7 +193,7 @@ I tested all of the links on the history line to make sure they were up to date 
  The HTML for the landing page, the timeline page and the feedback page all passed when I copied and pasted the code into the free w3 validator service online. The screenshots are below.  
 
 <br>
-<center><img src="assets/images/hmpg_validation.png" alt="screenshot of pass report for landing page from w3 HTML validator" width="80%"/></center>
+<center><img src="assets/images/hmpg_html_validation.png" alt="screenshot of pass report for landing page from w3 HTML validator" width="80%"/></center>
 <br>  
 
 <br>
@@ -260,4 +260,4 @@ I used GitHub pages to deploy my site. The process is simple. Click on 'settings
 
 18. Women's Stories, (2014) 'Who is Grace Hopper?', https://youtube.be/Fg82iV-L8ZY (video).
 
-19. STEM for Success, (2021) Valerie Thomas: Transmitting the Future, https://www.youtube.com/watch?v=EWBlW1xgAow. 
+19. STEM for Success, (2021) Valerie Thomas: Transmitting the Future, https://www.youtube.com/watch?v=EWBlW1xgAow. (video)
