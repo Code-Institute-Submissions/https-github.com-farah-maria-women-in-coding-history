@@ -118,7 +118,7 @@ The tree wallpaper design used as a background throughout the site as been edite
 
 -_Timeline_-
 
-The timeline is the main focus of the website and it is where the most of the content is concentrated. Five women coders are described, from Ada Lovelace's annotations on machine coding in 1843 to Valerie Johnson's current work as an advocate for women and people of colour in the tech industry. Six women had to be left out due to time constraints, so I focused on making sure the timeline went from 1843 to today and that both white women and women of colour were included. I intend to add Ida Rhodes (1949),Margaret Hamilton (1961), Carol Shaw (1978), Karen Sparck Jones (1982), Radia Joy Perlman (1984) and Elizabeth Feinler (1989) to the timeline over the coming weeks.
+The timeline is the main focus of the website and it is where the most of the content is concentrated. Fourteen women coders are described, from Ada Lovelace's annotations on machine coding in 1843 to Valerie Johnson's current work as an advocate for women and people of colour in the tech industry. 
 
 Descriptions of each figure are short and easy to understand with technical terms such as "compiler" fully explained, making the timeline a bit of an introduction to the world of computing in general.
 
