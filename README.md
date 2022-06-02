@@ -75,23 +75,23 @@ It is hard to completely separate the topics that need attention in this documen
 As suggested above, in the section on user experience and design, the header and navigation bar are on all three pages of the website. The navigation bar is part of the header and is fully responsive, containing links to the homepage, the history timeline and the feedback form. At no point does the user need to hit the ‘back’ button to access a page they were on previously, as each available option is clearly displayed in the same area of each page and is easily ‘clickable’. This is true regardless of whether the site is being accessed via mobile, tablet, laptop of desktop. I have tried to balance creativity with consistency. As the site focuses on new discoveries and breakthroughs made by innovative women, I wanted to avoid translating consistency as “sameness”, while recognizing that the user needs to know where they are on the navigation journey. Consistency is important, especially for the visually impaired, so they have a clear sense that they are on the same website even if they are on a different page. Here are the three headers, containing the nav bards, with the same main title and logo on each page...
 
 <br>
-<center>Homepage <img src="assets/images/homenav.png" alt="screenshot of homepage header with navigation bar" width="50%"/></center>
+<center>Homepage <br><img src="assets/images/homenav.png" alt="screenshot of homepage header with navigation bar" width="50%"/></center>
 <br>
-<center>Timeline page <img src="assets/images/timelinenav.png" alt="screenshot of navigation bar on history page" width="50%"/></center>     
+<center>Timeline page <br><img src="assets/images/timelinenav.png" alt="screenshot of navigation bar on history page" width="50%"/></center>     
 <br>
-<center>Feedback page <img src="assets/images/formnav.png" alt="screenshot of navigation bar on feedback page" width="50%"/></center>
+<center>Feedback page <br><img src="assets/images/formnav.png" alt="screenshot of navigation bar on feedback page" width="50%"/></center>
 <br>     
 
 The style and font is the same for each of the three navigation bars, except on small mobile devices where a border and background colour were added for the feedback page to improve visibility of the navigation options (the form necessitated a smaller font-size). The colours used are still from the same colour palette. I kept the header and navigation identical for the first two pages of the mobile version, with the understanding that a smaller screen gives less visual clues, making consistency in design even more important.
 
 Home & history pages, mobile screenshot:
 
-<center><img src="assets/images/mobhistorynav.jpg" alt="screenshot on Huawei P30 lite phone of navigation bar on history page" width="50%"/></center>     
+<center><img src="assets/images/mobhistorynav.jpg" alt="screenshot on Huawei P30 lite phone of navigation bar on history page" width="30%"/></center>     
 <br>
 Feedback page, mobile screenshot:
 
 <br>
-<center><img src="assets/images/mobformnav.png" alt="screenshot of nav bar on feedback page using Chrome dev tools to create dimensions for iphone4" width="50%"/></center>
+<center><img src="assets/images/mobformnav.png" alt="screenshot of nav bar on feedback page using Chrome dev tools to create dimensions for iphone4" width="30%"/></center>
 <br>     
  
 The top screenshot was taken on my Huawei P30 lite phone. The second is on the dimensions of an iPhone 4, created using Chrome dev tools. 
