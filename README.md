@@ -29,7 +29,7 @@ The imagery of nature and trees is used subtly throughout for the headings and f
 The site is not aimed at very young primary school aged children, where the use of bright colours and busy content would have been more appropriate. However, I used to be a Montessori teacher, and the site would be suitable for some elementary school aged children in such an educational setting (where over-busy decoration is discouraged, and natural colours are used more often).
 The colour palette of lilacs, blues, greens and soft brown is meant to reflect nature through use of the colours of flowers, grass, sky and trees. The surface level of the website is therefore entirely designed to put the eye, and the audience, at ease and to let the reader feel gently invited to the content.
 
-Simplicity is at the heart of the basic navigation structure: a homepage that introduces the subject area and content of the site in one line, and just two other navigation options… The timeline and a feedback page. Consistency of design is used throughout the site, in terms of the headers and footers and the location of these features. The site is easy and simple to follow. This was a priority right from the onset of designing the site, when I hand-drew a wireframe...
+Simplicity is at the heart of the basic navigation structure: a homepage that introduces the subject area and content of the site in one line, and just two other navigation options… The timeline and a feedback page. Consistency of design is used throughout the site, in terms of the headers and footers and the location of these features. The site is easy and simple to follow. This was a priority right from the onset of designing the site, when I hand-drew my wireframes...
 
 <br>
 <center>1. <img src="assets/images/frame-one.jpg" alt="wireframe drawing for homepage" width="30%"/></center>
@@ -82,7 +82,7 @@ As suggested above, in the section on user experience and design, the header and
 <center>Feedback page <img src="assets/images/formnav.png" alt="screenshot of navigation bar on feedback page" width="50%"/></center>
 <br>     
 
-The style and font is the same for each of the three navigation bars, except on small mobile devices where a border and background colour were added to improve visibility and accessibility. The colours used are still from the same colour palette. I kept the header and navigation identical for the first two pages of the mobile version, with the understanding that a smaller screen gives less visual clues, and therefore more consistency is useful to offer a clear message to a younger user or user with visual impairment.
+The style and font is the same for each of the three navigation bars, except on small mobile devices where a border and background colour were added for the feedback page to improve visibility of the navigation options (the form necessitated a smaller font-size). The colours used are still from the same colour palette. I kept the header and navigation identical for the first two pages of the mobile version, with the understanding that a smaller screen gives less visual clues, making consistency in design even more important.
 
 Home & history pages, mobile screenshot:
 
@@ -260,4 +260,4 @@ I used GitHub pages to deploy my site. The process is simple. Click on 'settings
 
 18. Women's Stories, (2014) 'Who is Grace Hopper?', https://youtube.be/Fg82iV-L8ZY (video).
 
-19. STEM for Success, (2021) Valerie Thomas: Transmitting the Future, https://www.youtube.com/watch?v=EWBlW1xgAow. (video)
+19. STEM for Success, (2021) Valerie Thomas: Transmitting the Future, https://www.youtube.com/watch?v=EWBlW1xgAow. 
