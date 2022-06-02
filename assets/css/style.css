@@ -436,6 +436,7 @@ img {
 .history-link > a {
   color: violet;
   font-weight: bold;
+  position: relative;
 }
 
 /* MEDIA QUERIES */
